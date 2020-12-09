@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="euc-kr">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ERROR</title>
+	<meta name="Description" content="안랩에서 만든 중소기업보안의 모든 것, SMB Place 공식 웹사이트입니다.">
+	<meta name="Keywords" content="SMB플레이스,안랩SMB플레이스,AhnlabSMBplace,SMBplace,안랩,Ahnlab,안철수연구소,중소기업보안,EPP,엔드포인트,안랩V3,바이러스,악성코드,랜섬웨어대응" />
+	<meta name="naver-site-verification" content="6a387a71a4a77634a5e95163f029473bfd060480" />
+	<meta name="msvalidate.01" content="44FE4F8DBA0B2DBEEC0419824C2A9F33" />
+	<meta property="og:title" content="안랩 SMB Place | AhnLab 중소기업 보안 솔루션 공식 웹사이트">
+	<meta property="og:description" content="안랩에서 만든 중소기업 보안의 모든 것, SMB Place 공식 웹사이트입니다.">
+	<meta property="og:url" content="https://smbplace.ahnlab.com/">
+	<link rel="stylesheet" href="/css/smb_m/smb.css" type="text/css">
+	<style>
+		.errorPage {
+			min-height: 100vh;
+		}
+
+		.errorWrap {
+			width: 83.3333vw;
+			margin: 0 auto;
+			padding: 100px 0;
+			text-align: center;
+		}
+
+		.errorWrap img {
+			width: 49.3056vw
+		}
+
+		.errorTitle {
+			padding-top: 3.8889vw;
+			font-size: 5.2556vw;
+			color: #344468;
+			text-align: center;
+			line-height: 7.7778vw;
+		}
+
+		.errorInfo {
+			padding-top: 3.8889vw;
+			font-size: 3.5111vw;
+			color: #455780;
+			text-align: center;
+			line-height: 6.1111vw;
+		}
+
+		.errorBtn {
+			padding-top: 13.8889vw;
+		}
+
+		.errorBtn a {
+			display: inline-block;
+			width: 37.5000vw;
+			height: 14.0278vw;
+			line-height: 14.0278vw;
+			border-radius: 7.7778vw;
+			border: 1px solid #3f3f3f;
+			font-size: 3.8889vw;
+			color: #3f3f3f;
+			font-weight: bold;
+			padding-left: 9.7222vw;
+			background: none;
+			position: relative;
+			margin-left: 2.7778vw;
+			box-sizing: border-box;
+		}
+
+		.errorBtn a:first-child {
+			margin-left: 0;
+		}
+
+		.errorBtn a.goMain::after {
+			content: '';
+			display: block;
+			position: absolute;
+			top: 50%;
+			left: 9vw;
+			margin-top: -6px;
+			width: 14px;
+			height: 12px;
+			background: url(/images/smb_m/common/common_bg.png) no-repeat -24px -66px;
+			background-size: 360px
+		}
+
+		.errorBtn a.goBack::after {
+			content: '';
+			display: block;
+			position: absolute;
+			top: 50%;
+			left: 7vw;
+			margin-top: -5px;
+			width: 25px;
+			height: 9px;
+			background: url(/images/smb_m/common/common_bg.png) no-repeat 0 -40px;
+			background-size: 360px
+		}
+
+		@media (orientation: landscape) {
+			.errorBtn a.goMain::after {
+				margin-top: -12px;
+				width: 28px;
+				height: 24px;
+				background: url(/images/smb_m/common/common_bg.png) no-repeat -48px -132px;
+				background-size: 720px
+			}
+
+			.errorBtn a.goBack::after {
+				margin-top: -8px;
+				width: 50px;
+				height: 18px;
+				background: url(/images/smb_m/common/common_bg.png) no-repeat 0 -80px;
+				background-size: 720px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<section class="errorPage">
+		<div class="errorWrap">
+			<img src="/images/smb_m/common/error.png" alt="404Error" />
+			<p class="errorTitle">죄송합니다.<br />요청하신 페이지를 처리할 수 없습니다.</p>
+			<div class="errorInfo">
+				요청하신 페이지를 처리하는 도중 예기치 못한 <br />에러가 발생했습니다. <br />
+				잠시 후 다시 시도해 주세요. <br />
+				서비스 이용에 불편을 드려 대단히 죄송합니다. <br />
+			</div>
+			<p class="errorBtn">
+				<a href="#" onclick="goBack()" class="goBack">이전</a>
+				<a href="index.html" class="goMain">메인으로</a>
+			</p>
+		</div>
+	</section>
+	<script>
+		function goBack() {
+			history.go(-1);
+			return false;
+		}
+	</script>
+</body></html>

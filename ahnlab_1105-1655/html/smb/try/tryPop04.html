@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="euc-kr">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>구매 견적 신청</title>
+	<link rel="stylesheet" href="/css/smb/smb.css" type="text/css">
+</head>
+<body>
+	<section class="popWrap">
+		<div class="popTitle experience">
+			<p class="title">구매 견적 신청</p>
+		</div>
+		<div class="popForm">
+			<div class="popItem">
+				<label for="cName">기업명</label>
+				<input type="text" id="cName" readonly />
+			</div>
+			<div class="popItem">
+				<label for="cNumber">사업자번호</label>
+				<input type="text" id="cNumber" readonly />
+			</div>
+			<div class="popItem">
+				<label for="uName">신청자 이름</label>
+				<input type="text" id="uName" />
+			</div>
+			<div class="popItem">
+				<label for="eAddress">메일 주소</label>
+				<input type="text" id="eAddress" />
+			</div>
+			<div class="popItem">
+				<label for="uPhone">연락처</label>
+				<select name="selectBox" id="uPhone" class="selectBox">
+					<option value="010">010</option>
+					<option value="011">011</option>
+					<option value="01">01</option>
+				</select>
+				<input type="text" id="uPhone02" class="phone" />
+				<input type="text" id="uPhone03" class="phone" />
+			</div>
+			<div class="popItem">
+				<label class="itemNameBrake" for="uPartner">추천 파트너<br /><span>(선택)</span></label>
+				<input type="text" id="uPartner" />
+			</div>
+			<input type="hidden" id="p1Number" />
+			<input type="hidden" id="p2Number" />
+			<input type="hidden" id="p3Number" />
+		</div>
+		<div class="popInfo">
+			<ul>
+				<li>오프라인 파트너를 통해 제품을 구매하셨거나 구매 예정인 고객은 파트너사를 꼭 작성해 주세요.</li>
+				<li>추천 파트너사를 선택할 경우, 파트너사로부터 연락이 갈 수 있습니다.</li>
+			</ul>
+		</div>
+		<div class="popAgree">
+			<p class="agreeCheck">
+				<input type="checkbox" name="" id="pAgree" />
+				<label for="pAgree">이벤트 참여 및 마케팅 제공을 위한 개인정보 수집 및 이용 동의 (필수)</label>
+			</p>
+			<div class="agreeBox">
+				<div class="agreeBoxItem">
+					<p>이벤트 참여 및 <span>제품 홍보 안내</span> 위해 아래와 같이 개인정보를 수집 및 이용합니다.</p>
+					<p>개인정보 수집 및 이용 동의에 거부할 수 있습니다.</p>
+					<p>단, 거부하실 경우 이벤트 참여가 불가능 합니다.</p>
+				</div>
+				<ul class="agreeBoxItem">
+					<li>개인정보 수집 항목: 기업명, 이름, 메일주소, 연락처</li>   
+					<li>수집 및 이용 목적: 체험 번호 발급 및 발송, <span>제품 홍보</span></li>
+					<li>이용 및 보유기간: <span>활용에 동의한 날로부터 1년간</span><br />(고객 동의 철회 요청 시 지체없이 파기)</li>
+				</ul>
+				<div class="agreeBoxItem">
+					<p class="starPoint">이벤트 참여 및 <span>제품 홍보 안내 </span> 위해 개인정보를 수집 및 이용에 동의합니다.</p>
+				</div>
+				<div class="agreeBoxItem">
+					<p>[개인정보 위탁]</p>
+					<p>당첨자 경품 배송을 위해 아래 업체에 개인정보를 제공합니다.</p>
+				</div>
+				<ul class="agreeBoxItem">
+					<li>업체명 : 쿠프마케팅</li>
+					<li>제공되는 항목 : 이름, 연락처, 주소(당첨자에 한해 수집)</li>
+				</ul>
+			</div>
+		</div>
+		<div class="popAgree smsAgree">
+			<p class="agreeCheck">
+				<input type="checkbox" name="" id="pAgree3" />
+				<label for="pAgree3">안랩닷컴 세미나/제품/이벤트 안내 [이메일] / [SMS] 동의 </label>
+			</p>
+		</div>
+		<div class="popAgree partnersAgree">
+			<p class="agreeCheck">
+				<input type="checkbox" name="" id="pAgree2" />
+				<label for="pAgree2">파트너사 제3자 제공(선택)</label>
+			</p>
+			<div class="agreeBox">
+				<div class="agreeBoxItem">
+					<p><span>제품 홍보 안내</span> 위해 아래와 같이 파트너사에게 개인정보가 제공됩니다.</p>
+					<p><span>해당 개인정보 제3자 제공 동의에 거부하여도, 체험권 발급이 가능합니다.</span></p>
+				</div>
+				<ul class="agreeBoxItem">
+					<li>제공받는 자 : <span class="aggPartnerName"></span></li>   
+					<li>개인정보 수집 항목 : 기업명, 이름, 메일주소, 연락처</li>
+					<li>수집 및 이용 목적 : <span>체험 행사 안내 및 제품 홍보, 도입 안내</span></li>
+					<li>이용 및 보유기간:  <span>활용에 동의한 날로부터 1년간</span><br />(고객 동의 철회 요청 시 지체없이 파기)</li>
+				</ul>
+				<div class="agreeBoxItem">
+					<p class="starPoint">이벤트 참여 및 <span>제품 홍보</span> 안내 위해 파트너사에 개인정보를 제공하는 것에 동의합니다.</p>
+				</div>
+			</div>
+		</div>
+		<div class="btnWrap"><button class="btnConfirm btnType02" type="button">확인</button></div>
+	</section>
+	<script src="/js/smb/jquery-1.11.3.min.js"></script>
+	<script src="/js/smb/common.js"></script>
+	<script>
+		function getParameterByName(name) {
+				name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+				var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+								results = regex.exec(location.search);
+				return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+		}
+		var patP1Num = getParameterByName('p1Number');
+		var patP2Num = getParameterByName('p2Number');
+		var patP3Num = getParameterByName('p3Number');
+		$('#p1Number').val(patP1Num);
+		$('#p2Number').val(patP2Num);
+		$('#p3Number').val(patP3Num);
+	</script>
+</body>
+</html>

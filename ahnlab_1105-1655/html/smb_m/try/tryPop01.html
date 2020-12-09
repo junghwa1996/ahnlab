@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="EUC-KR">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Office Security 무료 체험 신청 비회원용</title>
+	<link rel="stylesheet" href="/css/smb_m/smb.css" type="text/css">
+</head>
+<body>
+	<section class="popWrap">
+		<div class="popTitle experience">
+			<p class="title">체험권 신청</p>
+			<p class="exp">체험 제품 : <span>V3 Office Security</span></p>
+		</div>
+		<div class="popForm">
+			<div class="popItem">
+				<label for="pNum">신청 수량</label>
+				<input type="text" id="pNum" />
+			</div>
+			<div class="popItem">
+				<label for="cName">기업명</label>
+				<input type="text" id="cName" />
+			</div>
+			<div class="popItem">
+				<label for="uName">신청자 이름</label>
+				<input type="text" id="uName" />
+			</div>
+			<div class="popItem">
+				<label for="eAddress">메일 주소</label>
+				<input type="text" id="eAddress" />
+			</div>
+			<div class="popItem">
+				<label for="uPhone">연락처</label>
+				<select name="selectBox" id="uPhone" class="selectBox">
+					<option value="010">010</option>
+					<option value="011">011</option>
+					<option value="01">01</option>
+				</select>
+				<input type="number" id="uPhone02" class="phone" />
+				<input type="number" id="uPhone03" class="phone" />
+			</div>
+			<div class="popItem">
+				<label class="itemNameBrake" for="uPartner">추천 파트너<br /><span>(선택)</span></label>
+				<input type="text" id="uPartner" />
+			</div>
+		</div>
+		<div class="popInfo">
+			<ul>
+				<li>추천 파트너사를 선택할 경우, 파트너사로부터 연락이 갈 수 있습니다.</li>
+				<li>체험번호가 입력된 이메일과 연락처로 발송됩니다.</li>
+			</ul>
+		</div>
+		<div class="popAgree">
+			<p class="agreeCheck">
+				<input type="checkbox" name="" id="pAgree" />
+				<label for="pAgree">마케팅 제공을 위한 개인정보 수집 및 이용 동의(필수)</label>
+			</p>
+			<div class="agreeBox">
+				<div class="agreeBoxItem">
+					<p>체험 번호 발급 및 <span>제품 홍보 안내</span> 위해 아래와 같이 개인정보를 수집 및 이용합니다.</p>
+					<p>개인정보 수집 및 이용 동의에 거부할 수 있습니다.</p>
+					<p>단, 거부하실 경우 체험권 발급이 불가능 합니다.</p>
+				</div>
+				<ul class="agreeBoxItem">
+					<li>개인정보 수집 항목: 기업명, 이름, 메일주소, 연락처</li>
+					<li>수집 및 이용 목적: 체험 번호 발급 및 발송, <span>제품 홍보</span></li>
+					<li>이용 및 보유기간: <span>활용에 동의한 날로부터 1년간</span><br />(고객 동의 철회 요청 시 지체없이 파기)</li>
+				</ul>
+				<div class="agreeBoxItem">
+					<p class="starPoint">체험권 발급 및 <span>제품 홍보 안내 </span> 위해 개인정보를 수집 및 이용에 동의합니다.</p>
+				</div>
+			</div>
+		</div>
+		<div class="popAgree partnersAgree">
+			<p class="agreeCheck">
+				<input type="checkbox" name="" id="pAgree2" />
+				<label for="pAgree2">파트너사 제3자 제공(선택)</label>
+			</p>
+			<div class="agreeBox">
+				<div class="agreeBoxItem">
+					<p><span>제품 홍보 안내</span> 위해 아래와 같이 파트너사에게 개인정보가 제공됩니다.</p>
+					<p><span>해당 개인정보 제3자 제공 동의에 거부하여도, 체험권 발급이 가능합니다.</span></p>
+				</div>
+				<ul class="agreeBoxItem">
+					<li>제공받는 자 : <span class="aggPartnerName"></span></li>
+					<li>개인정보 수집 항목 : 기업명, 이름, 메일주소, 연락처</li>
+					<li>수집 및 이용 목적 : <span>제품 홍보</span></li>
+					<li>이용 및 보유기간: <span>활용에 동의한 날로부터 1년간</span><br />(고객 동의 철회 요청 시 지체없이 파기)</li>
+				</ul>
+				<div class="agreeBoxItem">
+					<p class="starPoint">체험권 발급 및 <span>제품 홍보</span> 안내 위해 파트너사에 개인정보를 제공하는 것에 동의합니다.</p>
+				</div>
+			</div>
+		</div>
+		<div class="btnWrap"><button class="btnConfirm btnType02" type="button">체험 신청 완료</button></div>
+	</section>
+	<script src="/js/smb_m/jquery-1.11.3.min.js"></script>
+	<script src="/js/smb_m/common.js"></script>
+	<script>
+		function getParameterByName(name) {
+			name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+			var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+				results = regex.exec(location.search);
+			return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+		}
+		var patNum = getParameterByName('pNumber');
+		var patNname = getParameterByName('pName');
+		$('#pNum').val(patNum)
+		$('.experience .exp span').text(patNname)
+	</script>
+</body>
+</html>
