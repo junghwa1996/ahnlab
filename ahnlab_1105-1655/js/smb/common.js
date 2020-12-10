@@ -90,4 +90,13 @@ $(document).ready(function() {
 		$('.modal').removeClass('on');
 		$('.modal_container').removeClass('on');
 	});
+	//fullpage.js
+	$('#fullpage').fullpage({
+		//options here
+		licenseKey: 'OPEN-SOURCE-GPLV3-LICENSE',
+		autoScrolling:true,
+		scrollHorizontally: true
+	});
+	//methods
+	$.fn.fullpage.setAllowScrolling(false);
 });

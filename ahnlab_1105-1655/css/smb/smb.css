@@ -900,3 +900,10 @@ text-align: left; }
 .modal-container .modalWrap1.product02 {height:828px;}
 .modal-container .modalWrap1.product02 .visualSwiper{height:582px;margin:37.5px 30px;}
 .modal-container .swiperSlide.imgResize img{width:552px;height:582px;display:block;margin:0 auto;}
+
+/* about */
+.blind{position:absolute!important;clip:rect(0 0 0 0);width:1px;height:1px;margin:-1px;overflow:hidden;}
+
+.about .section:first-child{background-image: url(/images/smb/ahnlabSMB/bg_main.png);text-align:center;}
+.about .section:first-child h3{font-size: 80px; color: #fff; font-weight: 800;margin:240px 0;}
+.scroll-icon{background: url(/images/smb/ahnlabSMB/icon_mouse_scroll.svg)no-repeat center center/28px 55px;padding:20px;}
