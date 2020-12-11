@@ -903,10 +903,9 @@ text-align: left; }
 
 /* about */
 .blind{position:absolute!important;clip:rect(0 0 0 0);width:1px;height:1px;margin:-1px;overflow:hidden;}
-.about .contentWrap .content{width: 1194px; padding:0;}
-.about .section01{background-image: url(/images/smb/ahnlabSMB/bg_main.png);text-align:center;}
-.about .section01 h3{font-size: 80px; color: #fff; font-weight: 800;margin:240px 0;}
+.about .contentWrap .content{width: 1194px;}
 .scroll-icon{background: url(/images/smb/ahnlabSMB/icon_mouse_scroll.svg)no-repeat center center/28px 55px;padding:20px;}
+.about .section{position: relative;}
 .about .section .LongTitle{margin-bottom:50px;}
 .about .section .LongTitle > h2{margin-bottom: 35px;font-size: 52px; color: #00aff0; border-bottom: 1px solid #00aff0; width: 300px;}
 .about .section .LongTitle > p{font-size: 38px; font-weight: bold;}
@@ -929,6 +928,9 @@ text-align: left; }
 .about .section .contentBox .productWrap .product01 .btnWrap > a{background: linear-gradient(to left, #198dfe, #22a0ff);}
 .about .section .contentBox .productWrap .product02 .btnWrap > a{background: linear-gradient(to left, #4161ac, #4373d6);}
 .about .section .contentBox .productWrap .product03 .btnWrap > a{background: linear-gradient(to left, #2cc6b1, #4dd49c);}
+.about .section01{background-image: url(/images/smb/ahnlabSMB/bg_main.png);text-align:center;}
+.about .section01 h3{font-size: 80px; color: #fff; font-weight: 800;margin:240px 0;}
+.about .section02 .content{padding:0;}
 .about .section03{background-color: #fcfcfc;}
 .about .section03 .contentBox ul{display: flex; flex-wrap:wrap; justify-content: space-between; position: relative; height:1600px;}
 .about .section03 .contentBox ul li{padding: 50px 0 0 50px; box-sizing: border-box;}
@@ -941,6 +943,26 @@ text-align: left; }
 .about .section03 .contentBox ul li:nth-child(3){background: url(/images/smb/ahnlabSMB/about_img03.png) no-repeat center center; width: 500px; height: 500px; position: absolute; left:60px; top:500px;}
 .about .section03 .contentBox ul li:nth-child(4){background: url(/images/smb/ahnlabSMB/about_img04.png) no-repeat center center; width:537px; height:740px; position: absolute; right:0; top:740px;}
 .about .section03 .contentBox ul li:nth-child(5){background: url(/images/smb/ahnlabSMB/about_img05.png) no-repeat center center; width: 500px; height: 500px; position: absolute; left:0; bottom:0;}
+.about .section04 .content{padding:0 ;}
+
+.about .section.active .LongTitle{animation: fadeInUp 1s ease-in forwards;}
+.about .section02.active .contentBox{animation: fadeIn .5s 1s ease-in forwards;}
+.about .section02 .LongTitle,
+.about .section02 .contentBox,
+.about .section03 .contentBox ul li,
+.about .section04 .contentBox .product01,
+.about .section04 .contentBox .product02,
+.about .section04 .contentBox .product03{opacity: 0; transition: all .5s ease-out;}
+.about .section04.active .contentBox .product01{animation: fadeIn .5s 1s ease-in forwards;}
+.about .section04.active .contentBox .product02{animation: fadeIn .5s 1.5s ease-in forwards;}
+.about .section04.active .contentBox .product03{animation: fadeIn .5s 2s ease-in forwards;}
+.about .section03.active .contentBox ul li:nth-child(1){animation: fadeInLeft .5s 1s ease-in forwards;}
+.about .section03.active .contentBox ul li:nth-child(2){animation: fadeInRight .5s 1s ease-in forwards;}
+.about .section03.active .contentBox ul li:nth-child(3){animation: fadeInLeft .5s 1s ease-in forwards;}
+.about .section03.active .contentBox ul li:nth-child(4){animation: fadeInRight .5s 3s ease-in forwards;}
+.about .section03.active .contentBox ul li:nth-child(5){animation: fadeInLeft .5s 3s ease-in forwards;}
+
+
 
 /* store */
 .store p{font-family: 'NanumBarunGothic';}
@@ -964,7 +986,7 @@ text-align: left; }
 .store .subContent > div:nth-child(2) ul li:nth-child(3) div{background: url(/images/smb/store/icon_hands.png)no-repeat right -20px bottom -10px;height:100%;}
 .store .subContent > div:nth-child(2) ol li p{font-size: 20px; line-height: 30px; background: url(/images/smb/store/icon_checkList.png) no-repeat left center / 13px 12px; padding-left: 25px;}
 .store .subContent > div:nth-child(2) ol li span{font-size: 18px; color:#777777; font-weight: 300; padding-left:25px;}
-.store .subContent > div:nth-child(3){padding:100px 85px; display: flex;justify-content: space-between; align-items: center; background-color: #fcfcfc;}
+.store .subContent > div:nth-child(3){padding:100px 85px; display: flex;justify-content: space-between; align-items: center;}
 .store .subContent > div:nth-child(3) > div:nth-child(1) > h3{font-size: 28px; font-weight: bold; margin-bottom: 10px;}
 .store .subContent > div:nth-child(3) > div:nth-child(1) ul li{font-size: 20px; color:#777777; line-height: 30px;}
 .store .subContent > div:nth-child(3) > div:nth-child(2) button{width:230px; height:56px; border:1px solid #0bb3e0; border-radius: 30px; background-color: #fff; font-size: 18px; color: #0bb3e0; font-weight: bold;}

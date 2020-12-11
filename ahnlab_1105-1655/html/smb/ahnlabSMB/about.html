@@ -324,16 +324,21 @@
 		randomText();
 
 			//fullpage.js
-		$(document).ready(function(){
-			$('#fullpage').fullpage({
-				//options here
-				licenseKey: '',
-				autoScrolling:true,
-				scrollHorizontally: true
-			});
+		new fullpage('#fullpage', {
+			anchors: ['firstPage', 'secondPage', 'thirdPage', 'lastPage'],
+			scrollOverflow: true,
+			// scrollOverflowReset: true,
+			// 'verticalCentered': false,
+			// parallax : true,
+			// 'css3': true,
+			afterLoad: function(anchorLink, index){
+				if(index == 2){
+					$('.about .section02 > div > .LongTitle').toggleClass('active');
+				}
+			}
 		});
-
 		new WOW (). init ();
+
 
 	</script>
 </body>
