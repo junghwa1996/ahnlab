@@ -904,26 +904,39 @@ text-align: left; }
 /* about */
 .blind{position:absolute!important;clip:rect(0 0 0 0);width:1px;height:1px;margin:-1px;overflow:hidden;}
 .about .contentWrap .content{width: 1194px; padding:0;}
-.about .section:first-child{background-image: url(/images/smb/ahnlabSMB/bg_main.png);text-align:center;}
-.about .section:first-child h3{font-size: 80px; color: #fff; font-weight: 800;margin:240px 0;}
+.about .section01{background-image: url(/images/smb/ahnlabSMB/bg_main.png);text-align:center;}
+.about .section01 h3{font-size: 80px; color: #fff; font-weight: 800;margin:240px 0;}
 .scroll-icon{background: url(/images/smb/ahnlabSMB/icon_mouse_scroll.svg)no-repeat center center/28px 55px;padding:20px;}
-.about .section .LongTitle{margin-bottom:80px;}
-.about .section .LongTitle > h2{margin-bottom: 60px;font-size: 52px; color: #00aff0; border-bottom: 1px solid #00aff0; width: 300px;}
+.about .section .LongTitle{margin-bottom:50px;}
+.about .section .LongTitle > h2{margin-bottom: 35px;font-size: 52px; color: #00aff0; border-bottom: 1px solid #00aff0; width: 300px;}
 .about .section .LongTitle > p{font-size: 38px; font-weight: bold;}
 .about .section .LongTitle > ul li{font-size: 20px; line-height: 40px; font-weight: 500;}
-.about .section .LongTitle .btnWrap{width: 300px; position: relative;margin-top:50px;}
+.about .section .LongTitle .btnWrap{width: 300px; position: relative;margin-top:35px;}
 .about .section .LongTitle .btnWrap > a{width:270px;height:55px;line-height: 55px; border-radius: 40px; padding-right:30px;font-size: 18px;}
 .about .section .LongTitle .btnWrap > a:after{content: '';display: block;position: absolute;top: 23px;right: 35px;width: 32px;height: 12px;background: url(/images/smb/common/common_bg.png) no-repeat -15px -15px;}
 .about .section .contentBox .contentImg{width: 1016px; margin:0 auto;}
 .about .section .contentBox .contentImg > img{width: 100%;}
 .about .section .contentBox .productWrap{padding:0; display: flex; justify-content: space-between;}
-.about .section .contentBox .productWrap .product{height:450px; box-shadow: 0px 0px 20px #eeeeee;border-radius: 20px; width: 31%;}
+.about .section .contentBox .productWrap .product{height:430px; box-shadow: 0px 0px 20px #eeeeee;border-radius: 20px; width: 30%;}
 .about .section .contentBox .productWrap .product .productName{font-size: 34px; font-weight: bold;}
+.about .section .contentBox .productWrap .product .productInfo{font-size: 20px; line-height: 27px;}
+.about .section .contentBox .productWrap .product .productDetail{font-size: 18px;}
 .about .section .contentBox .productWrap .product .btnWrap{padding-top:80px;}
 .about .section .contentBox .productWrap .product .btnWrap > a{width: 225px; height: 55px;}
-.about .section .contentBox .productWrap .product01{background: url(/images/smb/product/product_v3office.png) no-repeat 140px 200px; }
-.about .section .contentBox .productWrap .product02{background: url(/images/smb/product/product_v3officeserver.png) no-repeat 140px 200px; }
-.about .section .contentBox .productWrap .product03{background: url(/images/smb/product/product_asessment.png) no-repeat 140px 200px; }
+.about .section .contentBox .productWrap .product01{background: url(/images/smb/product/product_v3office.png) no-repeat right -108px bottom -27px / 80%; }
+.about .section .contentBox .productWrap .product02{background: url(/images/smb/product/product_v3officeserver.png) no-repeat right -108px bottom -27px / 80%; }
+.about .section .contentBox .productWrap .product03{background: url(/images/smb/product/product_asessment.png) no-repeat right -108px bottom -27px / 80%; }
 .about .section .contentBox .productWrap .product01 .btnWrap > a{background: linear-gradient(to left, #198dfe, #22a0ff);}
 .about .section .contentBox .productWrap .product02 .btnWrap > a{background: linear-gradient(to left, #4161ac, #4373d6);}
 .about .section .contentBox .productWrap .product03 .btnWrap > a{background: linear-gradient(to left, #2cc6b1, #4dd49c);}
+.about .section03 .contentBox ul{display: flex; flex-wrap:wrap; justify-content: space-between; position: relative; height:1600px;}
+.about .section03 .contentBox ul li{padding: 50px 0 0 50px; box-sizing: border-box;}
+.about .section03 .contentBox ul li dl{color:#fff;}
+.about .section03 .contentBox ul li dl dt{margin-bottom: 30px;;}
+.about .section03 .contentBox ul li dl dt > p{font-size: 34px; font-weight: bold; line-height: 40px;}
+.about .section03 .contentBox ul li dl dd > p{font-size: 20px}
+.about .section03 .contentBox ul li:nth-child(1){background: url(/images/smb/ahnlabSMB/about_img01.png) no-repeat center center; width: 582px; height: 400px;}
+.about .section03 .contentBox ul li:nth-child(2){background: url(/images/smb/ahnlabSMB/about_img02.png) no-repeat center center; width: 500px; height: 500px; position: absolute; right:0; top:150px;}
+.about .section03 .contentBox ul li:nth-child(3){background: url(/images/smb/ahnlabSMB/about_img03.png) no-repeat center center; width: 500px; height: 500px; position: absolute; left:60px; top:500px;}
+.about .section03 .contentBox ul li:nth-child(4){background: url(/images/smb/ahnlabSMB/about_img04.png) no-repeat center center; width:537px; height:740px; position: absolute; right:0; top:740px;}
+.about .section03 .contentBox ul li:nth-child(5){background: url(/images/smb/ahnlabSMB/about_img05.png) no-repeat center center; width: 500px; height: 500px; position: absolute; left:0; bottom:0;}
