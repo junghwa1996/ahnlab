@@ -945,6 +945,8 @@ text-align: left; }
 .about .section03 .contentBox ul li:nth-child(5){background: url(/images/smb/ahnlabSMB/about_img05.png) no-repeat center center; width: 500px; height: 500px; position: absolute; left:0; bottom:0;}
 .about .section04 .content{padding:0 ;}
 
+
+/* fullpage 애니메이션 */
 .about .section.active .LongTitle{animation: fadeInUp 1s ease-in forwards;}
 .about .section02.active .contentBox{animation: fadeIn .5s 1s ease-in forwards;}
 .about .section02 .LongTitle,
