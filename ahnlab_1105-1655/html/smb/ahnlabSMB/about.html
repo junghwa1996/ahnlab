@@ -76,7 +76,7 @@
 	<section class="container">
 		<div class="indexContent">
 			<div id="fullpage" class="about">
-				<div class="section section01">
+				<div class="section section01" data-menuanchor="page1">
 					<div class="location">
 						<span><img src="/images/smb/common/ico_home02.png" alt="홈"></span>
 						<span>ahnlabSMB</span>
@@ -93,7 +93,7 @@
 						</i>
 					</span>
 				</div>
-				<div class="contentWrap section section02">
+				<div class="contentWrap section section02" data-menuanchor="page2">
 					<div class="content">
 						<div class="LongTitle">
 							<h2>SMBPlace는</h2>
@@ -119,7 +119,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="contentWrap section section03">
+				<div class="contentWrap section section03 fp-auto-height" data-menuanchor="page3">
 					<div class="content fp-scroller">
 						<div class="LongTitle">
 							<h2>SMBPlace는</h2>
@@ -184,7 +184,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="contentWrap section section04">
+				<div class="contentWrap section section04" data-menuanchor="page4">
 					<div class="content">
 						<div class="LongTitle">
 							<h2>SMBPlace는</h2>
@@ -257,8 +257,8 @@
 	</footer>
 	<!-- //footer -->
 	<script src="/js/smb/jquery-1.11.3.min.js"></script>
-	<script src="/js/smb/fullpage.js"></script>
 	<script src="/js/smb/scrolloverflow.min.js"></script>
+	<script src="/js/smb/fullpage.js"></script>
 	<script src="/js/smb/swiper.js"></script>
 	<script src="/js/smb/wow.min.js"></script>
 	<script src="/js/smb/common.js"></script>
@@ -322,22 +322,29 @@
 			});
 		}
 		randomText();
+		new WOW (). init ();
 
 			//fullpage.js
 		new fullpage('#fullpage', {
-			anchors: ['firstPage', 'secondPage', 'thirdPage', 'lastPage'],
+			anchors: ['page1', 'page2', 'page3', 'page4'],
 			scrollOverflow: true,
+			autoScrolling:true,
+			scrollHorizontally: true,
 			// scrollOverflowReset: true,
 			// 'verticalCentered': false,
 			// parallax : true,
 			// 'css3': true,
-			afterLoad: function(anchorLink, index){
-				if(index == 2){
-					$('.about .section02 > div > .LongTitle').toggleClass('active');
-				}
-			}
-		});
-		new WOW (). init ();
+
+			// afterLoad: function(origin){
+			// 		//앵커링크 사용
+			// 		if(origin.anchor === 'page4'){
+			// 			alert("페이지4입니다");
+			// 		}
+			// 	}
+			});
+		// fullpage_api.setAllowScrolling(true);
+
+	
 
 
 	</script>
