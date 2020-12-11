@@ -947,7 +947,7 @@ text-align: left; }
 
 
 /* fullpage 애니메이션 */
-.about .section.active .LongTitle{animation: fadeInUp 1s ease-in forwards;}
+/* .about .section.active .LongTitle{animation: fadeInUp 1s ease-in forwards;}
 .about .section02.active .contentBox{animation: fadeIn .5s 1s ease-in forwards;}
 .about .section02 .LongTitle,
 .about .section02 .contentBox,
@@ -962,7 +962,7 @@ text-align: left; }
 .about .section03.active .contentBox ul li:nth-child(2){animation: fadeInRight .5s 1s ease-in forwards;}
 .about .section03.active .contentBox ul li:nth-child(3){animation: fadeInLeft .5s 1s ease-in forwards;}
 .about .section03.active .contentBox ul li:nth-child(4){animation: fadeInRight .5s 3s ease-in forwards;}
-.about .section03.active .contentBox ul li:nth-child(5){animation: fadeInLeft .5s 3s ease-in forwards;}
+.about .section03.active .contentBox ul li:nth-child(5){animation: fadeInLeft .5s 3s ease-in forwards;} */
 
 .fullpageAbout .smbWrap.active{background: rgba(0,0,0,0.7);}
 

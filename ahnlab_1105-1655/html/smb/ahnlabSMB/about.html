@@ -96,7 +96,7 @@
 				</div>
 				<div class="contentWrap section section02" data-menuanchor="page2">
 					<div class="content">
-						<div class="LongTitle">
+						<div class="LongTitle op">
 							<h2>SMBPlace는</h2>
 							<ul>
 								<li>작은 기업들과 함께 성장해온 안랩의 모든 보안 역량을 모아, 중소 기업들을 위한 “보안”으로 그려 나가고자 합니다.</li>
@@ -105,7 +105,7 @@
 								<li>다양한 산업 분야에서 성장중인 기업들을 위한 서비스로 만들어가겠습니다.</li>
 							</ul>
 						</div>
-						<div class="contentBox">
+						<div class="contentBox op">
 							<div class="contentImg">
 								<img src="/images/smb/ahnlabSMB/bg_about02Ctn.png" alt="SMBPlace의 장점">
 								<ul class="blind">
@@ -122,14 +122,14 @@
 				</div>
 				<div class="contentWrap section section03 fp-auto-height" data-menuanchor="page3">
 					<div class="content fp-scroller">
-						<div class="LongTitle">
+						<div class="LongTitle op">
 							<h2>SMBPlace는</h2>
 							<p>각 산업군에 적합한 보안과 IT 서비스를 제공합니다.</p>
 							<p>꼭 맞는, 꼭 필요한 서비스들을 만들어 나가겠습니다.</p>
 						</div>
 						<div class="contentBox">
 							<ul>
-								<li>
+								<li class="op">
 									<dl>
 										<dt>
 											<p>Game Media</p>
@@ -141,7 +141,7 @@
 										</dd>
 									</dl>
 								</li>
-								<li>
+								<li class="op">
 									<dl>
 										<dt>
 											<p>Ecommerce</p>
@@ -150,7 +150,7 @@
 										<dd><p>업무효율을 높이면서 고객정보 유출 차단</p></dd>
 									</dl>
 								</li>
-								<li>
+								<li class="op">
 									<dl>
 										<dt>
 											<p>Education</p>
@@ -162,7 +162,7 @@
 										</dd>
 									</dl>
 								</li>
-								<li>
+								<li class="op">
 									<dl>
 										<dt>
 											<p>WorkPlace</p>
@@ -172,7 +172,7 @@
 										<dd><p>언제 어디서든 자유로운 업무 환경</p></dd>
 									</dl>
 								</li>
-								<li>
+								<li class="op">
 									<dl>
 										<dt>
 											<p>소상공</p>
@@ -187,7 +187,7 @@
 				</div>
 				<div class="contentWrap section section04" data-menuanchor="page4">
 					<div class="content">
-						<div class="LongTitle">
+						<div class="LongTitle op">
 							<h2>SMBPlace는</h2>
 							<p>언제나 든든한 보안 파트너로서</p>
 							<p>여러분의 곁을 지킬 것을 약속 드립니다</p>
@@ -197,7 +197,7 @@
 						</div>
 						<div class="contentBox">
 							<div class="productWrap">
-								<div class="product product01">
+								<div class="product product01 op">
 									<p class="productName">V3 Office<br>Security</p>
 									<p class="productInfo">엔터프라이즈급 악성코드<br>검사/치료 및 사전 방어</p>
 									<p class="productDetail"><a href="/html/smb/product/productV3Office.html" onclick="gtag('event','’product 01')">자세히 보기</a></p>
@@ -207,7 +207,7 @@
 										</a>
 									</div>
 								</div>
-								<div class="product product02">
+								<div class="product product02 op">
 									<p class="productName">V3 Office Server Security</p>
 									<p class="productInfo">파일 및 서비스, 다목적 서버까지<br>랜섬웨어/악성코드 위협으로부터<br>비즈니스 연속성 보호</p>
 									<p class="productDetail"><a href="/html/smb/product/productV3OfficeServer.html" onclick="gtag('event','’product 02')">자세히 보기</a></p>
@@ -217,7 +217,7 @@
 										</a>
 									</div>
 								</div>
-								<div class="product product03">
+								<div class="product product03 op">
 									<p class="productName">Office Security Assessment</p>
 									<p class="productInfo">더하면 완벽해지는<br>원클릭 PC 보안 취약점 관리</p>
 									<p class="productDetail"><a href="/html/smb/product/productOfficeAsessment.html" onclick="gtag('event','’product 03')">자세히 보기</a></p>
@@ -327,22 +327,45 @@
 
 			//fullpage.js
 		new fullpage('#fullpage', {
-			anchors: ['page0','page1', 'page2', 'page3', 'page4'],
-			scrollOverflow: true,
-			autoScrolling:true,
-			scrollHorizontally: true,
-			onLeave: function(origin, destination, direction){
-				var leavingSection = this;
+				anchors: ['page0','page1', 'page2', 'page3', 'page4'],
+				scrollOverflow: true,
+				autoScrolling:true,
+				scrollHorizontally: true,
+				onLeave: function(origin, destination, direction){
+					var leavingSection = this;
 
-				//섹션1을 떠날때 nav bg 생김
-				if(origin.index == 0 && direction =='down'){
-					$('.smbWrap').addClass('active');
-				}
-				if(origin.index == 1 && direction =='up'){
-					$('.smbWrap').removeClass('active');
-				}
-		
-			}
+					//섹션1을 떠날때 nav bg 생김
+					if(origin.index == 0 && direction =='down'){
+						$('.smbWrap').addClass('active');
+					}
+					if(origin.index == 1 && direction =='up'){
+						$('.smbWrap').removeClass('active');
+				}		
+			},
+			afterLoad: function(origin, destination, direction){
+					$longtitle02 = $('.section02 .LongTitle');
+					$longtitle03 = $('.section03 .LongTitle');
+					$longtitle04 = $('.section04 .LongTitle');
+				
+          if(destination.index == 1){
+            $longtitle02.addClass('move fadeInUp');
+            $('.section02 .contentBox').addClass('move fadeIn d-0s');
+
+          }
+          else if(destination.index == 2){
+						$longtitle03.addClass('move fadeInUp');
+						$('.section03 .contentBox li').eq(0).addClass('move fadeInLeft d-0s');
+						$('.section03 .contentBox li').eq(1).addClass('move fadeInRight d-1s');
+						$('.section03 .contentBox li').eq(2).addClass('move fadeInLeft d-2s');
+						$('.section03 .contentBox li').eq(3).addClass('move fadeInRight d-3s');
+						$('.section03 .contentBox li').eq(4).addClass('move fadeInLeft d-4s');
+						
+          }
+          else if(destination.index == 3){
+						$longtitle04.addClass('move fadeInUp');
+						$('.product').addClass('move fadeIn d-0s');
+          }        
+        }
 		});
 		// fullpage_api.setAllowScrolling(true);
 	</script>
