@@ -24,7 +24,7 @@
 		gtag('config', 'UA-177397863-1');
 	</script>
 </head>
-<body>
+<body class="fullpageAbout">
 	<!-- header -->
 	<section class="gnbWrap">
 		<div class="gnb">
@@ -331,23 +331,22 @@
 			scrollOverflow: true,
 			autoScrolling:true,
 			scrollHorizontally: true,
-			// scrollOverflowReset: true,
-			// 'verticalCentered': false,
-			// parallax : true,
-			// 'css3': true,
+			onLeave: function(origin, destination, direction){
+				var leavingSection = this;
 
-			// afterLoad: function(origin){
-			// 		//앵커링크 사용
-			// 		if(origin.anchor === 'page4'){
-			// 			alert("페이지4입니다");
-			// 		}
-			// 	}
-			});
+				//섹션1을 떠날때 nav bg 생김
+				if(origin.index == 0 && direction =='down'){
+					$('.smbWrap').addClass('active');
+				}
+				if(origin.index == 1 && direction =='up'){
+					$('.smbWrap').removeClass('active');
+				}
+					
+
+
+			}
+		});
 		// fullpage_api.setAllowScrolling(true);
-
-	
-
-
 	</script>
 </body>
 </html>

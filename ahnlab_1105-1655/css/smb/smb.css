@@ -965,6 +965,9 @@ text-align: left; }
 .about .section03.active .contentBox ul li:nth-child(5){animation: fadeInLeft .5s 3s ease-in forwards;}
 
 
+.fullpageAbout .smbWrap.active{background: rgba(0,0,0,0.7);}
+
+
 
 /* store */
 .store p{font-family: 'NanumBarunGothic';}
