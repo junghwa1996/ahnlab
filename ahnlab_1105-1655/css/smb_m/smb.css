@@ -1293,3 +1293,31 @@ text-align: left;}
 .modalWrap1, .modalWrap2{display:none;}
 .modal-container .visualSwiper{    width: 94.4444vw;    height: 133.3333vw;}
 .on{display:block;}
+/* store */
+header{background-color: #2c3239;}
+.store{width: 720px; margin: 0 auto;}
+.store p{font-family: 'NanumBarunGothic';}
+.store .subVisual{background: url(/images/smb/store/bg_storeMain.png)no-repeat center center; width: 720px; height:560px; position: relative;}
+.store .subVisual > h2{font-size: 86px; color:#fff;font-family: 'Noto Sans KR', sans-serif; text-align: center; margin-top: 140px;}
+.subContent{width: 620px;margin: 0 auto;}
+.subContent h3{font-size: 44px;text-align: center;}
+.subContent ul{display: flex;flex-direction: column;height: 780px;justify-content: space-around;}
+.subContent ul>li{background-color: #3ec9ee;height: 220px;border-radius: 30px;padding: 50px 0 0 50px;box-sizing: border-box;}
+.subContent ul>li p{font-size: 32px;color: #fff;font-weight: bold;}
+.subContent ul li:nth-child(1) div{background: url(/images/smb_m/store/icon_cloud.png)no-repeat right -20px bottom -2px;height:100%;}
+.subContent ul li:nth-child(2) div{background: url(/images/smb_m/store/icon_threePeople.png)no-repeat right bottom -3px;height:100%;}
+.subContent ul li:nth-child(3) div{background: url(/images/smb_m/store/icon_hands.png)no-repeat right -7px bottom -18px;height:100%;}
+.subContent ol>li{position: relative;padding: 0 30px;}
+.subContent ol>li::after{content:''; background: url(/images/smb/store/icon_checkList.png)no-repeat; width: 19px; height: 16px; position: absolute; left:0; top:5px;}
+.subContent ol>li>p{font-size: 26px;}
+
+.store .email{background-color: #fcfcfc;}
+.store .emailWrap{padding:100px 85px;}
+.store .emailWrap > div:nth-child(1) > h3{font-size: 28px; font-weight: bold; margin-bottom: 10px;}
+.store .emailWrap > div:nth-child(1) ul li{font-size: 20px; color:#777777; line-height: 30px;}
+.store .emailWrap > div:nth-child(2) button{width:230px; height:56px; border:1px solid #0bb3e0; border-radius: 30px; background-color: #fff; font-size: 18px; color: #0bb3e0; font-weight: bold;}
+.store .emailWrap{width: 1194px;margin: 0 auto;}
+#copytxt{position: absolute; top:-9999px; left:-9999px;}
+
+
+
