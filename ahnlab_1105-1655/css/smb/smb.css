@@ -945,25 +945,6 @@ text-align: left; }
 .about .section03 .contentBox ul li:nth-child(5){background: url(/images/smb/ahnlabSMB/about_img05.png) no-repeat center center; width: 500px; height: 500px; position: absolute; left:0; bottom:0;}
 .about .section04 .content{padding:0 ;}
 
-
-/* fullpage 애니메이션 */
-/* .about .section.active .LongTitle{animation: fadeInUp 1s ease-in forwards;}
-.about .section02.active .contentBox{animation: fadeIn .5s 1s ease-in forwards;}
-.about .section02 .LongTitle,
-.about .section02 .contentBox,
-.about .section03 .contentBox ul li,
-.about .section04 .contentBox .product01,
-.about .section04 .contentBox .product02,
-.about .section04 .contentBox .product03{opacity: 0; transition: all .5s ease-out;}
-.about .section04.active .contentBox .product01{animation: fadeIn .5s 1s ease-in forwards;}
-.about .section04.active .contentBox .product02{animation: fadeIn .5s 1.5s ease-in forwards;}
-.about .section04.active .contentBox .product03{animation: fadeIn .5s 2s ease-in forwards;}
-.about .section03.active .contentBox ul li:nth-child(1){animation: fadeInLeft .5s 1s ease-in forwards;}
-.about .section03.active .contentBox ul li:nth-child(2){animation: fadeInRight .5s 1s ease-in forwards;}
-.about .section03.active .contentBox ul li:nth-child(3){animation: fadeInLeft .5s 1s ease-in forwards;}
-.about .section03.active .contentBox ul li:nth-child(4){animation: fadeInRight .5s 3s ease-in forwards;}
-.about .section03.active .contentBox ul li:nth-child(5){animation: fadeInLeft .5s 3s ease-in forwards;} */
-
 .fullpageAbout .smbWrap.active{background: rgba(0,0,0,0.7);}
 
 
