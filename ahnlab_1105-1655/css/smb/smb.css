@@ -972,8 +972,10 @@ text-align: left; }
 .store .subContent > div:nth-child(2) ul li:nth-child(3) div{background: url(/images/smb/store/icon_hands.png)no-repeat right -20px bottom -10px;height:100%;}
 .store .subContent > div:nth-child(2) ol li p{font-size: 20px; line-height: 30px; background: url(/images/smb/store/icon_checkList.png) no-repeat left center / 13px 12px; padding-left: 25px;}
 .store .subContent > div:nth-child(2) ol li span{font-size: 18px; color:#777777; font-weight: 300; padding-left:25px;}
-.store .subContent > div:nth-child(3){padding:100px 85px; display: flex;justify-content: space-between; align-items: center;}
-.store .subContent > div:nth-child(3) > div:nth-child(1) > h3{font-size: 28px; font-weight: bold; margin-bottom: 10px;}
-.store .subContent > div:nth-child(3) > div:nth-child(1) ul li{font-size: 20px; color:#777777; line-height: 30px;}
-.store .subContent > div:nth-child(3) > div:nth-child(2) button{width:230px; height:56px; border:1px solid #0bb3e0; border-radius: 30px; background-color: #fff; font-size: 18px; color: #0bb3e0; font-weight: bold;}
+.store .email{background-color: #fcfcfc;}
+.store .emailWrap{padding:100px 85px; display: flex;justify-content: space-between; align-items: center;}
+.store .emailWrap > div:nth-child(1) > h3{font-size: 28px; font-weight: bold; margin-bottom: 10px;}
+.store .emailWrap > div:nth-child(1) ul li{font-size: 20px; color:#777777; line-height: 30px;}
+.store .emailWrap > div:nth-child(2) button{width:230px; height:56px; border:1px solid #0bb3e0; border-radius: 30px; background-color: #fff; font-size: 18px; color: #0bb3e0; font-weight: bold;}
+.store .emailWrap{width: 1194px;margin: 0 auto;}
 #copytxt{position: absolute; top:-9999px; left:-9999px;}
