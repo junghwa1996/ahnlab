@@ -1373,7 +1373,7 @@ text-align: left;}
 .about .contentBox>ul>li>p{position: relative;font-size: 4.2105vw;font-weight: bold;}
 .about .contentBox>ul>li>p::after{position: absolute;right: 5.2632vw;top: 50%;transform:translateY(-50%);content: "";background: url(/images/smb_m/ahnlabSMB/con_img02.png)no-repeat center center;background-size: cover; width:2.1053vw;height:1.0526vw;}
 .about .contentBox>ul>li.active{padding-bottom:0;background:#ebf5f9;border:none;}
-.about .contentBox>ul>li.active>p::after{background: url(/images/smb_m/ahnlabSMB/con_img03.png)no-repeat center center;}
+.about .contentBox>ul>li.active>p::after{background: url(/images/smb_m/ahnlabSMB/con_img03.png)no-repeat center center;background-size: cover; width:2.1053vw;height:1.0526vw;}
 .about .contentBox>ul>li.active>.listWrap{display: block;}
 .about .listWrap{display: none;}
 .about .listWrap>p{font-size: 3.6111vw;line-height: 5vw;padding-top: 5.8333vw;}
