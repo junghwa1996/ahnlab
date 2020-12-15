@@ -205,7 +205,7 @@ select{vertical-align:middle;background:#e7f3fb;border:1px solid #b3d3e9;color:#
 .menuWrap .menu .depthTwo p a{font-size:16px;font-weight:bold;color:#fff;text-decoration:none;white-space:nowrap;}
 .menuWrap .menu .depthTwo p a:hover,.menuWrap .menu .depthTwo p a:focus{color:#0ce0fd;}
 .menuWrap .osc {float:left;border:2px solid #fff;border-radius: 30px;height:32px;line-height:32px;}
-.menuWrap .osc a{font-size:16px;color:#fff;font-weight:bold;text-decoration:none;padding:0 35px 0 15px;position:relative;}
+.menuWrap .osc a{font-size:16px;color:#fff;font-weight:bold;text-decoration:none;padding:7px 35px 7px 15px;position:relative;}
 .menuWrap .osc a::after{content:'';display:block;position:absolute;;width:13px;height:10px;right:13px;top:50%;transform:translateY(-50%);background:url(/images/smb/common/common_bg.png) no-repeat -15px -32px;}
 .menuWrap .hambuger {float:left;}
 
@@ -605,17 +605,17 @@ select{vertical-align:middle;background:#e7f3fb;border:1px solid #b3d3e9;color:#
 .quickMenu p.quick03 a::before{content:'';display:block;position:absolute;top:25px;left:50%;margin-left:-12px;width:24px;height:29px;background:url(/images/smb/common/common_bg.png) no-repeat -118px -83px;}
 .quickMenu p.quick04 a::before{content:'';display:block;position:absolute;top:25px;left:50%;margin-left:-13px;width:26px;height:27px;background:url(/images/smb/common/common_bg.png) no-repeat -118px -117px;}
 
-footer{background:#222;}
-footer .footerWrap{width:1440px;height:290px;margin:0 auto;padding:80px 70px;background: #222;box-sizing:border-box;}
-.footerLogo{float:left;padding-top:57px;}
-.footerContent{float:left;padding-left:115px;width:940px;}
+footer{background-color:#222;padding: 80px 0; width: 100%;}
+footer .footerWrap{width:1440px;margin:0 auto;box-sizing:border-box;display: flex;justify-content: space-between;}
+.footerLogo{display: flex;align-items: center;}
+.footerContent{width:940px;}
 .footerMenu{overflow:hidden;}
 .footerMenu p{float:left;padding-left:50px;}
 .footerMenu p a{font-size:16px;color:#fff;text-decoration:none;}
 .footerMenu p:first-child{padding-left:0;}
 .footerInfo{padding-top:40px;font-size:14px;color:#bbb;word-break: keep-all;}
 .copyright{padding-top:19px;font-size:14px;color:#bbb;}
-footer .onlineLink{float:right;}
+footer .onlineLink{}
 footer .onlineLink a{font-size:16px;color:#33ffd2;text-decoration:none;padding-right:25px;position:relative;}
 footer .onlineLink a::after{content:'';display:block;position:absolute;width:15px;height:15px;right:0;top:50%;transform:translateY(-50%);background:url(/images/smb/common/common_bg.png) no-repeat -126px -201px;}
 
@@ -851,12 +851,11 @@ text-align: left; }
 
 /* 1202 add */
 
-.howtosection{background:url(/images/smb/product/howto_bg.png) no-repeat center center;width:1920px;height:378px;color:#fff;}
-.howtoWrap{position:relative;padding-left:320px;padding-top:90px;}
+.howtosection{background:url(/images/smb/product/howto_bg.png) no-repeat center center;width:100%;height:378px;color:#fff;display: flex;align-items: center;}
+.howtoWrap{min-width: 1440px;margin: 0 auto;}
 .howtoWrap > .title{font-size:32px;}
 .howtoWrap .title span{font-weight:900;}
 .howtoWrap .btnWrap{display:flex;margin-top:40px;}
-.howtoWrap .btnWrap{margin-left: -25px;}
 .howtoWrap .howto1, .howtoWrap .howto2{height:72px;line-height:72px;color:#fff;font-size:22px;border-radius:50px;cursor:pointer;}
 .product01 .howtoWrap .howto1,.product01 .howtoWrap .howto2{background:#2baeea;}
 .product02 .howtoWrap .howto1,.product02 .howtoWrap .howto2{background:#57c29d;}
