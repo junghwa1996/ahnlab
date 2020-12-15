@@ -116,43 +116,80 @@
 						<p>각 산업군에 적합한 보안과 IT 서비스를<br>제공합니다.꼭 맞는, 꼭 필요한<br>서비스들을 만들어 나가겠습니다.</p>
 					</div>
 					<div class="contentBox">
-						<ul>
-							<li class="list">
-								<p>Game Media IT Work</p>
-								<div class="listWrap">
-									<p>업무 PC를 방해하지 않으면서,<br>강력한 위협 차단</p>
-									<img src="/images/smb_m/ahnlabSMB/list01.png" alt="">
-								</div>
-							</li>
-							<li class="list">
-								<p>Ecommerce Healthcare</p>
-								<div class="listWrap">
-									<p>업무효율을 높이면서<br>고객정보 유출 차단</p>
-									<img src="/images/smb_m/ahnlabSMB/list02.png" alt="">
-								</div>
-							</li>
-							<li class="list">
-								<p>Education IT Work</p>
-								<div class="listWrap">
-									<p>온라인 소통 공간의<br>다양한 침해/위협 차단</p>
-									<img src="/images/smb_m/ahnlabSMB/list03.png" alt="">
-								</div>
-							</li>
-							<li class="list">
-								<p>WorkPlace Home Office Remote</p>
-								<div class="listWrap">
-									<p>언제 어디서든<br>자유로운 업무 환경</p>
-									<img src="/images/smb_m/ahnlabSMB/list04.png" alt="">
-								</div>
-							</li>
-							<li class="list">
-								<p>소상공 Startup</p>
-								<div class="listWrap">
-									<p>내일을 위한 스마트한 보안</p>
-									<img src="/images/smb_m/ahnlabSMB/list05.png" alt="">
-								</div>
-							</li>
-						</ul>
+						<div class="accordian">
+							<ul>
+								<li class="list">
+									<div class="listTitle">
+										<p>Game Media IT Work</p>
+										<span class="drwpDownIcon"></span>
+									</div>
+									<div class="listWrap">
+										<div class="lisrWrapTitle">
+											<p>업무 PC를 방해하지 않으면서,<br>강력한 위협 차단</p>
+										</div>
+										<div class="listWrapImg">
+											<img src="/images/smb_m/ahnlabSMB/list01.png" alt="">
+										</div>
+									</div>
+								</li>
+								<li class="list">
+									<div class="listTitle">
+										<p>Ecommerce Healthcare</p>
+										<span class="drwpDownIcon"></span>
+									</div>
+									<div class="listWrap">
+										<div class="lisrWrapTitle">
+											<p>업무효율을 높이면서<br>고객정보 유출 차단</p>
+										</div>
+										<div class="listWrapImg">
+											<img src="/images/smb_m/ahnlabSMB/list02.png" alt="">
+										</div>
+									</div>
+								</li>
+								<li class="list">
+									<div class="listTitle">
+										<p>Education IT Work</p>
+										<span class="drwpDownIcon"></span>
+									</div>
+									<div class="listWrap">
+										<div class="lisrWrapTitle">
+											<p>온라인 소통 공간의<br>다양한 침해/위협 차단</p>
+										</div>
+										<div class="listWrapImg">
+											<img src="/images/smb_m/ahnlabSMB/list03.png" alt="">
+										</div>
+									</div>
+								</li>
+								<li class="list">
+									<div class="listTitle">
+										<p>WorkPlace Home Office? Remote</p>
+										<span class="drwpDownIcon"></span>
+									</div>
+									<div class="listWrap">
+										<div class="lisrWrapTitle">
+											<p>언제 어디서든<br>자유로운 업무 환경</p>
+										</div>
+										<div class="listWrapImg">
+											<img src="/images/smb_m/ahnlabSMB/list04.png" alt="">
+										</div>
+									</div>
+								</li>
+								<li class="list">
+									<div class="listTitle">
+										<p>소상공 Startup</p>
+										<span class="drwpDownIcon"></span>
+									</div>
+									<div class="listWrap">
+										<div class="lisrWrapTitle">
+											<p>내일을 위한 스마트한 보안</p>
+										</div>
+										<div class="listWrapImg">
+											<img src="/images/smb_m/ahnlabSMB/list05.png" alt="">
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -194,20 +231,31 @@
 		</footer><!-- //footer -->
 		<script src="/js/smb_m/jquery-1.11.3.min.js"></script>
 		<script src="/js/smb_m/swiper.js"></script>
-		<script src="/js/smb_m/wow.min.js"></script>
+		<!-- <script src="/js/smb_m/wow.min.js"></script> -->
 		<script src="/js/smb_m/common.js"></script>
 		<script>
-			new WOW({
-				offset: 100
-			}).init();
+			// new WOW({
+			// 	offset: 100
+			// }).init();
 			
-			$(function(){
-				$('.list').click(function(){
-					$(this).toggleClass('active');
-				})
-			})
+			// $(function(){
+			// 	$('.list').click(function(){
+			// 		$(this).toggleClass('active');
+			// 	})
+			// })
 
-			randomText();
+			$(function(){
+				/** 링크에 대한 클릭 이벤트 처리 */
+				$(".accordian .listTitle").click(function() {			
+					var target = $(this).toggleClass("active");
+					var other = $(".accordian .listTitle").not(this).removeClass("active"); 
+
+					// 애니메이션으로 열고 닫기 처리
+					target.slideToggle(300);
+					other.slideUp(300);
+					return false;
+				});
+			});
 			
 		</script>
 	</section><!--//moContainer-->
