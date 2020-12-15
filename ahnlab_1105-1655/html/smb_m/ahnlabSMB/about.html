@@ -231,12 +231,12 @@
 		</footer><!-- //footer -->
 		<script src="/js/smb_m/jquery-1.11.3.min.js"></script>
 		<script src="/js/smb_m/swiper.js"></script>
-		<!-- <script src="/js/smb_m/wow.min.js"></script> -->
+		<script src="/js/smb_m/wow.min.js"></script>
 		<script src="/js/smb_m/common.js"></script>
 		<script>
-			// new WOW({
-			// 	offset: 100
-			// }).init();
+			new WOW({
+				offset: 100
+			}).init();
 			
 			// $(function(){
 			// 	$('.list').click(function(){
@@ -245,15 +245,17 @@
 			// })
 
 			$(function(){
-				/** 링크에 대한 클릭 이벤트 처리 */
-				$(".accordian .listTitle").click(function() {			
-					var target = $(this).toggleClass("active");
-					var other = $(".accordian .listTitle").not(this).removeClass("active"); 
-
-					// 애니메이션으로 열고 닫기 처리
-					target.slideToggle(300);
-					other.slideUp(300);
-					return false;
+				$(".listWrap").hide();
+				$(".listTitle").click(function(){
+						if( $(this).next().css("display")=="none"){
+								$(this).next().slideDown("fast");
+								$(this).addClass("active");
+								$(this).parent().addClass("active");
+						}else{
+							$(this).next().slideUp("fast");
+							$(this).removeClass("active");
+							$(this).parent().removeClass("active");
+						}
 				});
 			});
 			
