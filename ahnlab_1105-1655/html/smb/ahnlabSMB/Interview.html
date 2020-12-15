@@ -152,12 +152,15 @@
 										<dd>
 											<p class="affiliation">¤·¤·¤·¤·È¸»ç</p>
 											<p class="writer">È«Xµ¿ ´ÔÀÇ ¸®ºä</p>
-											<span class="star"></span>
+											<span class="star">¡Ú ¡Ú ¡Ú ¡Ú ¡Ú</span>
 										</dd>
 									</dl>
 									<div class="btnWrap">
 										<a href="">ÀÚ¼¼È÷ º¸±â</a>
 									</div>
+								</div>
+								<div class="faceImage">
+									<img src="/images/smb/ahnlabSMB/Interview_card_img01.png" alt="ÀÎÅÍºä Âü°¡ÀÚ">
 								</div>
 							</div>
 							<div class="swiper-slide card02">
@@ -173,7 +176,7 @@
 										<dd>
 											<p class="affiliation">¤·¤·¤·¤·È¸»ç</p>
 											<p class="writer">È«Xµ¿ ´ÔÀÇ ¸®ºä</p>
-											<span class="star"></span>
+											<span class="star">¡Ú ¡Ú ¡Ú ¡Ú ¡Ú</span>
 										</dd>
 									</dl>
 									<div class="btnWrap">
@@ -197,7 +200,7 @@
 										<dd>
 											<p class="affiliation">¤·¤·¤·¤·È¸»ç</p>
 											<p class="writer">È«Xµ¿ ´ÔÀÇ ¸®ºä</p>
-											<span class="star"></span>
+											<span class="star">¡Ú ¡Ú ¡Ú ¡Ú ¡Ú</span>
 										</dd>
 									</dl>
 									<div class="btnWrap">
@@ -221,7 +224,7 @@
 										<dd>
 											<p class="affiliation">¤·¤·¤·¤·È¸»ç</p>
 											<p class="writer">È«Xµ¿ ´ÔÀÇ ¸®ºä</p>
-											<span class="star"></span>
+											<span class="star">¡Ú ¡Ú ¡Ú ¡Ú ¡Ú</span>
 										</dd>
 									</dl>
 									<div class="btnWrap">
@@ -245,7 +248,7 @@
 										<dd>
 											<p class="affiliation">¤·¤·¤·¤·È¸»ç</p>
 											<p class="writer">È«Xµ¿ ´ÔÀÇ ¸®ºä</p>
-											<span class="star"></span>
+											<span class="star">¡Ú ¡Ú ¡Ú ¡Ú ¡Ú</span>
 										</dd>
 									</dl>
 									<div class="btnWrap">
@@ -269,7 +272,7 @@
 										<dd>
 											<p class="affiliation">¤·¤·¤·¤·È¸»ç</p>
 											<p class="writer">È«Xµ¿ ´ÔÀÇ ¸®ºä</p>
-											<span class="star"></span>
+											<span class="star">¡Ú ¡Ú ¡Ú ¡Ú ¡Ú</span>
 										</dd>
 									</dl>
 									<div class="btnWrap">
@@ -315,44 +318,22 @@
 	<script src="/js/smb/jquery-1.11.3.min.js"></script>
 	<script src="/js/smb/swiper.js"></script>
 	<script src="/js/smb/common.js"></script>
-	<script>
-    var swiper = new Swiper('.swiperVideo', {
-      spaceBetween: 30,
-      centeredSlides: true,
-      autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-      },
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-		});
-		
+	<script>	
 
 		new Swiper('.swiperCard', {
 			direction: 'vertical',
+			autoplay: {
+        delay: 250,
+        disableOnInteraction: false,
+      },
 			loop: true,
-
-			// If we need pagination
-			pagination: {
-				el: '.swiper-pagination',
-			},
-
-			// Navigation arrows
-			navigation: {
-				nextEl: '.swiper-button-next',
-				prevEl: '.swiper-button-prev',
-			},
-
-			// And if we need scrollbar
-			scrollbar: {
-				el: '.swiper-scrollbar',
-			},
+      slidesPerView: 3,
+      spaceBetween: 30,
+      freeMode: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      }
 		});
 	</script>
 </body>
