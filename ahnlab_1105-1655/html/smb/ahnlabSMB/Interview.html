@@ -123,8 +123,8 @@
 							</div>
 						</div>
 						<!-- Add Pagination -->
-						<div class="swiperButtonNext"></div>
-						<div class="swiperButtonPrev"></div>
+						<div class="swiper-button-next"></div>
+						<div class="swiper-button-prev"></div>
 						<div class="swiper-pagination"></div>
 						<!-- Add Arrows -->
 					</div>
@@ -157,7 +157,7 @@
 										</dd>
 									</dl>
 									<div class="btnWrap">
-										<a href="">자세히 보기</a>
+										<a onclick="modalOpen('.popup01')">자세히 보기</a>
 									</div>
 								</div>
 								<div class="faceImage">
@@ -181,7 +181,7 @@
 										</dd>
 									</dl>
 									<div class="btnWrap">
-										<a href="">자세히 보기</a>
+										<a onclick="modalOpen('.popup02')">자세히 보기</a>
 									</div>
 								</div>
 								<div class="faceImage">
@@ -205,7 +205,7 @@
 										</dd>
 									</dl>
 									<div class="btnWrap">
-										<a href="">자세히 보기</a>
+										<a onclick="modalOpen('.popup03')">자세히 보기</a>
 									</div>
 								</div>
 								<div class="faceImage">
@@ -229,55 +229,7 @@
 										</dd>
 									</dl>
 									<div class="btnWrap">
-										<a href="">자세히 보기</a>
-									</div>
-								</div>
-								<div class="faceImage">
-									<img src="/images/smb/ahnlabSMB/Interview_card_img01.png" alt="인터뷰 참가자">
-								</div>
-							</div>
-							<div class="swiper-slide card05">
-								<div class="cardWrap">
-									<dl>
-										<dt>
-											전문 지식이 없어서<br>
-											걱정했는데,<br>
-											프로그램 하나로 간편하게<br>
-											다 처리 할 수 있어서<br>
-											좋은 것 같아요.
-										</dt>
-										<dd>
-											<p class="affiliation">ㅇㅇㅇㅇ회사</p>
-											<p class="writer">홍X동 님의 리뷰</p>
-											<span class="star">★ ★ ★ ★ ★</span>
-										</dd>
-									</dl>
-									<div class="btnWrap">
-										<a href="">자세히 보기</a>
-									</div>
-								</div>
-								<div class="faceImage">
-									<img src="/images/smb/ahnlabSMB/Interview_card_img01.png" alt="인터뷰 참가자">
-								</div>
-							</div>
-							<div class="swiper-slide card06">
-								<div class="cardWrap">
-									<dl>
-										<dt>
-											전문 지식이 없어서<br>
-											걱정했는데,<br>
-											프로그램 하나로 간편하게<br>
-											다 처리 할 수 있어서<br>
-											좋은 것 같아요.
-										</dt>
-										<dd>
-											<p class="affiliation">ㅇㅇㅇㅇ회사</p>
-											<p class="writer">홍X동 님의 리뷰</p>
-											<span class="star">★ ★ ★ ★ ★</span>
-										</dd>
-									</dl>
-									<div class="btnWrap">
-										<a href="">자세히 보기</a>
+										<a onclick="modalOpen('.popup04')">자세히 보기</a>
 									</div>
 								</div>
 								<div class="faceImage">
@@ -290,11 +242,15 @@
 				</div>
 			</section>
 		</div>
-		<!-- pop/ -->
-		<div class="interviewPopup">
-			<!-- pop01 -->
-			<div class="popupWrap popup01">
-				<span class="popupCloseBtn"><img src="/images/smb/ahnlabSMB/conCross.png" alt="close"></span>
+	</section>
+	<!-- //container -->
+
+	<!-- pop/ -->
+	<div class="interviewPopup">
+		<!-- pop01 -->
+		<div class="popupWrap popup01">
+			<div>
+				<span class="popupCloseBtn" onclick="modalClose()"><img src="/images/smb/ahnlabSMB/conCross.png" alt="close"></span>
 				<p>AhnLab SMB 제품 도입사례 인터뷰 스크립트</p>
 				<div class="qaWrap">
 					<div class="questions">
@@ -353,8 +309,10 @@
 					<p>AhnLab Office Security, 절대 후회하지 않으실 겁니다.</p>
 				</div>
 			</div>
-			<!-- pop02 -->
-			<div class="popupWrap popup02">
+		</div>
+		<!-- pop02 -->
+		<div class="popupWrap popup02">
+			<div>
 				<span class="popupCloseBtn"><img src="/images/smb/ahnlabSMB/conCross.png" alt="close"></span>
 				<p>AhnLab SMB 제품 도입사례 인터뷰 스크립트</p>
 				<div class="qaWrap">
@@ -407,8 +365,10 @@
 					<p>현재 진행 중인 이벤트로 V3 프로그램을 1년이라도 가벼운 가격으로 도입해보십시오. 신세계를 만난 느낌이 드실 겁니다. 일하기 딱 좋은 분위기, 느껴보시면 좋겠습니다.</p>
 				</div>
 			</div>
-			<!-- pop03 -->
-			<div class="popupWrap popup03">
+		</div>
+		<!-- pop03 -->
+		<div class="popupWrap popup03">
+			<div>
 				<span class="popupCloseBtn"><img src="/images/smb/ahnlabSMB/conCross.png" alt="close"></span>
 				<p>AhnLab SMB 제품 도입사례 인터뷰 스크립트</p>
 				<div class="qaWrap">
@@ -461,8 +421,10 @@
 					<p>설치 부분에서 메일로 액티베이션 코드가 발급되는 프로세스는, 각 계정마다 따로 관리해야 하기 때문에 포맷이 잦은 기업에서는 약간 귀찮을 수 있어 일부 개선이 필요하다고 생각합니다. 그러나 Ahnlab Office Security Center의 대쉬보드는 정말 너무나 마음에 드네요! 이후 해당 제품을 도입하는 것을 적극 검토 중입니다.</p>
 				</div>
 			</div>
-			<!-- pop04 -->
-			<div class="popupWrap popup04">
+		</div>
+		<!-- pop04 -->
+		<div class="popupWrap popup04">
+			<div>
 				<span class="popupCloseBtn"><img src="/images/smb/ahnlabSMB/conCross.png" alt="close"></span>
 				<p>AhnLab SMB 제품 도입사례 인터뷰 스크립트</p>
 				<div class="qaWrap">
@@ -523,8 +485,8 @@
 				</div>
 			</div>
 		</div>
-	</section>
-	<!-- //container -->
+	</div>
+
 	<!-- footer -->
 	<footer>
 		<section class="footerWrap">
@@ -562,12 +524,15 @@
 					clickable: true,
 				},
 				disableOnInteraction: false,
+				navigation: {
+					nextEl: '.swiper-button-next',
+					prevEl: '.swiper-button-prev',
+				},
 			});
 
 
 		new Swiper('.swiperCard', {
 				direction: 'horizontal',
-				grabCursor: true,
 				autoplay: {
 					delay: 3500,
 					disableOnInteraction: false,
@@ -580,11 +545,30 @@
 				},
 			});
 
-			// $(function(){
-				$('.popupCloseBtn').click(function(){
-					$('.interviewPopup').css('display','none');
-				});
-			// })
+			// // $(function(){
+			// 	$('.popupCloseBtn').click(function(){
+			// 		$('.interviewPopup').css('display','none');
+			// 	});
+			// // })
+
+				function modalOpen(modal){
+					modalClose();
+					document.getElementsByTagName('body')[0].style.overflow = 'hidden';
+					document.querySelector(".interviewPopup").classList.add("active");
+					document.querySelector(modal).classList.add("active");
+				}
+
+				function modalClose(){
+					document.getElementsByTagName('body')[0].style.overflow = 'unset';
+					document.querySelector(".interviewPopup").classList.remove("active");
+					let modalContent = document.querySelectorAll(".interviewPopup > div");
+
+					for(let i=0; i<modalContent.length; i++){
+						modalContent[i].classList.remove("active");
+					}
+				}
+
+
 	</script>
 </body>
 </html>
