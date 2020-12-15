@@ -1350,9 +1350,12 @@ text-align: left;}
 .about p ,.about li{font-family: 'NanumBarunGothic';}
 .about .kv{background:url(/images/smb_m/ahnlabSMB/bg_aboutMo.png)no-repeat center center;background-size:cover;width:100vw;height:122.2222vw;}
 .about .kv .location{padding-top: 26.3158vw;}
+.about .kv h2{margin-bottom: 220px;}
 .about .kv li{color:#fff;text-align: center;padding-top: 23.6842vw;}
 .about .kv li:nth-child(1){font-size: 8.8889vw;}
 .about .kv li:nth-child(2){font-size: 11.9444vw;padding:3.7500vw 0 0;}
+.about .kv>p{text-align: center;}
+.about .kv>p .scroll-icon{background: url(/images/smb/ahnlabSMB/icon_mouse_scroll.svg)no-repeat center center/28px 55px;padding: 20px;}
 .about .content{width: 86.1111vw;margin: 0 auto;}
 .about .LongTitle{padding: 20.1389vw 0 0;}
 .about .LongTitle>h3{width: 40.9167vw; font-size: 7.2222vw;font-weight: bold; color: #00aff0;border-bottom: 1px solid #00aff0;}
