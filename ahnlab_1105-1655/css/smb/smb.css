@@ -958,8 +958,8 @@ text-align: left; }
 .store .subContent{width: 1194px;}
 .store .subContent > div:nth-child(1){padding:0 115px;}
 .store .subContent > div:nth-child(1) p{font-size: 25px; color:#3ec9ee; font-weight: bold;position: relative; line-height: 35px; display: inline;}
-.store .subContent > div:nth-child(1) p:first-child:before{content:''; background: url(/images/smb/store/text_quotation_left.png)no-repeat; width: 19px; height: 16px; position: absolute; left:-25px; top:-5px;}
-.store .subContent > div:nth-child(1) p:first-child:after{content:''; background: url(/images/smb/store/text_quotation_right.png)no-repeat; width: 19px; height: 16px; position: absolute; right:-25px; bottom:0;}
+.store .subContent > div:nth-child(1) p:first-child:before{content:''; background: url(/images/smb/store/text_quotation_left.png)no-repeat; width: 19px; height: 16px; position: absolute; left:-25px; top:-5px; opacity: .4;}
+.store .subContent > div:nth-child(1) p:first-child:after{content:''; background: url(/images/smb/store/text_quotation_right.png)no-repeat; width: 19px; height: 16px; position: absolute; right:-25px; bottom:0; opacity: .4;}
 .store .subContent > div:nth-child(1) > div:nth-child(1){margin-bottom: 50px;}
 .store .subContent > div:nth-child(1) > div:nth-child(2){text-align: right;}
 .store .subContent > div:nth-child(2){padding:130px 85px;}
@@ -979,3 +979,43 @@ text-align: left; }
 .store .emailWrap > div:nth-child(2) button{width:230px; height:56px; border:1px solid #0bb3e0; border-radius: 30px; background-color: #fff; font-size: 18px; color: #0bb3e0; font-weight: bold;}
 .store .emailWrap{width: 1194px;margin: 0 auto;}
 #copytxt{position: absolute; top:-9999px; left:-9999px;}
+
+/* inlterview */
+
+.interview .subVisual{background: url(/images/smb/ahnlabSMB/Interview_title_bg.png)no-repeat center center;width: 100%;height: 540px;}
+.interview .subVisual h3{color:#fff; padding-top: 100px;}
+.interview .subVisual h3 p:nth-child(1){font-size: 46px;}
+.interview .subVisual h3 p:nth-child(2){font-size: 80px;}
+.interview .boxWrap{width: 1194px; margin:0 auto;}
+.questionVideoBox .questionTitle{margin-bottom: 60px;}
+.questionVideoBox .questionTitle .quotation{margin-bottom: 55px;}
+.questionVideoBox .questionTitle .quotation dl{padding:0 25px; display: inline-block; border-bottom: 1px solid #00aff0;}
+.questionVideoBox .questionTitle .quotation dt{font-size: 44px; color: #00aff0; font-weight: bold; position: relative; display: inline-block;}
+.questionVideoBox .questionTitle .quotation dt::before{content: '';background: url(/images/smb/store/text_quotation_left.png)no-repeat;width: 19px;height: 16px;position: absolute;left: -25px;top: 8px;}
+.questionVideoBox .questionTitle .quotation dt::after{content: '';background: url(/images/smb/store/text_quotation_right.png)no-repeat;width: 19px;height: 16px;position: absolute;right: -25px;top: 10px;}
+.questionVideoBox .questionTitle .quotation dd{ margin-bottom:15px;}
+.questionVideoBox .questionTitle .quotation dd,
+.questionVideoBox .questionTitle .QandA p{font-size: 22px; color: #666666;line-height: 35px;}
+.questionVideoBox .questionTitle .QandA dt{margin-bottom:25px;}
+.questionVideoBox .questionTitle .quotation dd strong,
+.questionVideoBox .questionTitle .QandA dt p{font-weight: bold; color: #333333;}
+
+.swiperVideo .swiper-wrapper{height: 673px; width: 100%; display: flex;}
+
+
+.answerCard{margin:140px 0;}
+.answerCard .answerCardTitle{margin-bottom: 80px;;}
+.answerCard .answerCardTitle p{font-size: 44px; text-align: center;}
+.swiperCard .swiper-wrapper{display: flex;}
+.swiperCard .swiper-wrapper .swiper-slide{margin-right: 20px; position: relative; height: 625px;}
+.cardWrap{background-color: #00aff0;width: 320px; height: 515px; border-radius: 20px; padding: 60px 0 0 60px;}
+.cardWrap dl{margin-bottom: 50px;}
+.cardWrap dl dt{font-size: 24px; color: #fff;margin-bottom: 37px; line-height: 35px; font-weight: 400;}
+.cardWrap dl dd p{font-size: 22px; color:#333333;}
+.cardWrap dl dd span{font-size: 18px; color:#4affff; line-height: 50px;}
+.cardWrap dl dd .writer{font-weight: bold;}
+.cardWrap .btnWrap{display: inline-block;}
+.cardWrap .btnWrap a{width: 190px;height: 55px;line-height: 55px;border-radius: 40px;padding-right: 30px;font-size: 18px;border: 1px solid #fff;color: #fff;position: relative;}
+.cardWrap .btnWrap a:after{content: '';display: block;position: absolute;top: 23px;right: 35px;width: 36px;height: 12px;background: url(/images/smb/common/common_bg.png) no-repeat -13px -48px;}
+.faceImage{width: 150px; height: 150px; overflow: hidden; position: absolute; right: -10px; bottom:0;}
+.faceImage img{width: 100%;}
