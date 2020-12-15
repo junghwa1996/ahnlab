@@ -1020,15 +1020,14 @@ text-align: left; }
 .faceImage{width: 150px; height: 150px; overflow: hidden; position: absolute; right: 0px; bottom:0;}
 .faceImage img{width: 100%;}
 
-
-.test{display: none;}
-.testWrap{background: #555;width: 904.99px;margin: 0 auto;border-radius: 26px;padding: 40px 72px 40px 60px;}
-.testWrap>p{font-size: 36px;text-align: center;}
-.testWrap>ul{margin-top: 40px;}
-.testWrap>ul>li{font-size: 22px;}
-.testWrap>ul>.question{display: flex;align-items: center;}
-.testWrap>ul>.question>p::before{content: "Q";display: inline-block; margin:0 20px 0 50px; font-size: 46px;font-weight: bold;text-align: center;line-height: 72px;color: #fff; width: 72px;height: 72px;border-radius: 50%; background-color: #00aae8;}
-.testWrap>ul>.question>p{font-size: 22px;}
-.testWrap>ul>li:nth-child(1){background: #e5f7fd;border-radius:30px;}
-.testWrap>ul>li:nth-child(2){margin-top: 40px; background: #e5f7fd;padding: 30px 60px 30px 50px;border-radius:30px;position: relative;}
-.testWrap>ul>li:nth-child(2)::after{content: '';display: block;background: url(/images/smb/ahnlabSMB/shape.png);width: 44px;height: 20px;position: absolute;left: 180px;top: -20px;}
+.interviewPopup{background: rgba(0, 0, 0, 0.8);width: 100%; height: 2940px;position: absolute;left: 0;top: 51px;z-index: 9999;display: none;}
+.popupWrap{background: #fff;width: 904.99px;margin: 0 auto;border-radius: 26px;padding: 40px 72px 40px 60px;margin-top: 490px;}
+.popupWrap>span{float: right;}
+.popupWrap>p{font-size: 36px;text-align: center;margin-top: 65px;}
+.popupWrap .qaWrap{margin-top: 40px;}
+.popupWrap .questions{display: flex;align-items: center;}
+.popupWrap .questions>span{margin:0 20px 0 50px; font-size: 46px;font-weight: bold;text-align: center;line-height: 72px;color: #fff; width: 72px;height: 72px;border-radius: 50%; background-color: #00aae8;}
+.popupWrap .qaWrap p{font-size: 22px;line-height: 34px;display: inline-block;}
+.popupWrap .qaWrap>p:nth-child(1){background: #e5f7fd;border-radius:30px;}
+.popupWrap .qaWrap>p:nth-child(2){margin-top: 40px; background: #e5f7fd;padding: 30px 60px 30px 50px;border-radius:30px;position: relative;}
+.popupWrap .qaWrap>p:nth-child(2)::after{content: '';display: block;background: url(/images/smb/ahnlabSMB/shape.png);width: 44px;height: 20px;position: absolute;left: 180px;top: -20px;}
