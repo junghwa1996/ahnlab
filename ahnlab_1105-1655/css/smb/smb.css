@@ -1019,3 +1019,16 @@ text-align: left; }
 .cardWrap .btnWrap a:after{content: '';display: block;position: absolute;top: 23px;right: 35px;width: 36px;height: 12px;background: url(/images/smb/common/common_bg.png) no-repeat -13px -48px;}
 .faceImage{width: 150px; height: 150px; overflow: hidden; position: absolute; right: 0px; bottom:0;}
 .faceImage img{width: 100%;}
+
+
+.test{display: none;}
+.testWrap{background: #555;width: 904.99px;margin: 0 auto;border-radius: 26px;padding: 40px 72px 40px 60px;}
+.testWrap>p{font-size: 36px;text-align: center;}
+.testWrap>ul{margin-top: 40px;}
+.testWrap>ul>li{font-size: 22px;}
+.testWrap>ul>.question{display: flex;align-items: center;}
+.testWrap>ul>.question>p::before{content: "Q";display: inline-block; margin:0 20px 0 50px; font-size: 46px;font-weight: bold;text-align: center;line-height: 72px;color: #fff; width: 72px;height: 72px;border-radius: 50%; background-color: #00aae8;}
+.testWrap>ul>.question>p{font-size: 22px;}
+.testWrap>ul>li:nth-child(1){background: #e5f7fd;border-radius:30px;}
+.testWrap>ul>li:nth-child(2){margin-top: 40px; background: #e5f7fd;padding: 30px 60px 30px 50px;border-radius:30px;position: relative;}
+.testWrap>ul>li:nth-child(2)::after{content: '';display: block;background: url(/images/smb/ahnlabSMB/shape.png);width: 44px;height: 20px;position: absolute;left: 180px;top: -20px;}
