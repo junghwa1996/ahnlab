@@ -228,6 +228,20 @@
 				});
 			}
 			randomText();
+
+			function copyBtnClick(){
+			var copytxt = $("#copytxt");
+			copytxt.select();
+			document.execCommand("Copy");
+			}
+
+			var tagBtn = $("#copy");
+			
+
+			tagBtn.click(function(){
+					copyBtnClick();
+					alert("메일 주소가 복사되었습니다.");
+			});
 		</script>
 	</section><!--//moContainer-->
 </body>
