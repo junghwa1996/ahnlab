@@ -11,7 +11,8 @@
 	<meta property="og:title" content="안랩 SMB Place | AhnLab 중소기업 보안 솔루션 공식 웹사이트">
 	<meta property="og:description" content="안랩에서 만든 중소기업 보안의 모든 것, SMB Place 공식 웹사이트입니다.">
 	<meta property="og:url" content="https://smbplace.ahnlab.com/">
-	<link rel="stylesheet" href="/css/smb/swiper.min.css" type="text/css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 	<link rel="stylesheet" href="/css/smb/smb.css" type="text/css">
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-177397863-1"></script>
@@ -124,8 +125,6 @@
 						<!-- Add Pagination -->
 						<div class="swiper-pagination"></div>
 						<!-- Add Arrows -->
-						<div class="swiper-button-next"></div>
-						<div class="swiper-button-prev"></div>
 					</div>
 				</div>
 			</section>
@@ -147,7 +146,7 @@
 											걱정했는데,<br>
 											프로그램 하나로 간편하게<br>
 											다 처리 할 수 있어서<br>
-											좋은 것 같아요.?
+											좋은 것 같아요.
 										</dt>
 										<dd>
 											<p class="affiliation">ㅇㅇㅇㅇ회사</p>
@@ -171,7 +170,7 @@
 											걱정했는데,<br>
 											프로그램 하나로 간편하게<br>
 											다 처리 할 수 있어서<br>
-											좋은 것 같아요.?
+											좋은 것 같아요.
 										</dt>
 										<dd>
 											<p class="affiliation">ㅇㅇㅇㅇ회사</p>
@@ -195,7 +194,7 @@
 											걱정했는데,<br>
 											프로그램 하나로 간편하게<br>
 											다 처리 할 수 있어서<br>
-											좋은 것 같아요.?
+											좋은 것 같아요.
 										</dt>
 										<dd>
 											<p class="affiliation">ㅇㅇㅇㅇ회사</p>
@@ -219,7 +218,7 @@
 											걱정했는데,<br>
 											프로그램 하나로 간편하게<br>
 											다 처리 할 수 있어서<br>
-											좋은 것 같아요.?
+											좋은 것 같아요.
 										</dt>
 										<dd>
 											<p class="affiliation">ㅇㅇㅇㅇ회사</p>
@@ -243,7 +242,7 @@
 											걱정했는데,<br>
 											프로그램 하나로 간편하게<br>
 											다 처리 할 수 있어서<br>
-											좋은 것 같아요.?
+											좋은 것 같아요.
 										</dt>
 										<dd>
 											<p class="affiliation">ㅇㅇㅇㅇ회사</p>
@@ -267,7 +266,7 @@
 											걱정했는데,<br>
 											프로그램 하나로 간편하게<br>
 											다 처리 할 수 있어서<br>
-											좋은 것 같아요.?
+											좋은 것 같아요.
 										</dt>
 										<dd>
 											<p class="affiliation">ㅇㅇㅇㅇ회사</p>
@@ -285,9 +284,6 @@
 							</div>
 						</div>
 						<div class="swiper-pagination"></div>
-						<!-- Add Arrows -->
-						<div class="swiper-button-next"></div>
-						<div class="swiper-button-prev"></div>
 					</div>
 				</div>
 			</section>
@@ -316,25 +312,38 @@
 	</footer>
 	<!-- //footer -->
 	<script src="/js/smb/jquery-1.11.3.min.js"></script>
-	<script src="/js/smb/swiper.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 	<script src="/js/smb/common.js"></script>
 	<script>	
+			new Swiper('.swiperVideo', {
+				direction: 'horizontal',
+				autoplay: {
+					delay: 4000,
+					disableOnInteraction: false,
+				},
+				pagination: {
+					el: '.swiper-pagination',
+					clickable: true,
+				},
+				disableOnInteraction: false,
+			});
+
 
 		new Swiper('.swiperCard', {
-			direction: 'vertical',
-			autoplay: {
-        delay: 250,
-        disableOnInteraction: false,
-      },
-			loop: true,
-      slidesPerView: 3,
-      spaceBetween: 30,
-      freeMode: true,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      }
-		});
+				direction: 'horizontal',
+				grabCursor: true,
+				autoplay: {
+					delay: 3500,
+					disableOnInteraction: false,
+				},
+				slidesPerView: 3,
+				spaceBetween: 20,
+				pagination: {
+					el: '.swiper-pagination',
+					clickable: true,
+				},
+			});
 	</script>
 </body>
 </html>

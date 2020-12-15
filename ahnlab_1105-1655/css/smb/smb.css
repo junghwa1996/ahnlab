@@ -1000,15 +1000,16 @@ text-align: left; }
 .questionVideoBox .questionTitle .quotation dd strong,
 .questionVideoBox .questionTitle .QandA dt p{font-weight: bold; color: #333333;}
 
-.swiperVideo .swiper-wrapper{height: 673px; width: 100%; display: flex;}
+.swiperVideo .swiper-wrapper{height: 760px; width: 100%;}
 
 
 .answerCard{margin:140px 0;}
 .answerCard .answerCardTitle{margin-bottom: 80px;;}
 .answerCard .answerCardTitle p{font-size: 44px; text-align: center;}
+.swiperCard{height: 655px;}
 .swiperCard .swiper-wrapper{display: flex;}
-.swiperCard .swiper-wrapper .swiper-slide{margin-right: 20px; position: relative; height: 625px;}
-.cardWrap{background-color: #00aff0;width: 320px; height: 515px; border-radius: 20px; padding: 60px 0 0 60px;}
+.swiperCard .swiper-wrapper .swiper-slide{position: relative; height: 625px;}
+.cardWrap{background-color: #00aff0;width: 300px; height: 515px; border-radius: 20px; padding: 60px 0 0 60px;}
 .cardWrap dl{margin-bottom: 50px;}
 .cardWrap dl dt{font-size: 24px; color: #fff;margin-bottom: 37px; line-height: 35px; font-weight: 400;}
 .cardWrap dl dd p{font-size: 22px; color:#333333;}
@@ -1017,5 +1018,5 @@ text-align: left; }
 .cardWrap .btnWrap{display: inline-block;}
 .cardWrap .btnWrap a{width: 190px;height: 55px;line-height: 55px;border-radius: 40px;padding-right: 30px;font-size: 18px;border: 1px solid #fff;color: #fff;position: relative;}
 .cardWrap .btnWrap a:after{content: '';display: block;position: absolute;top: 23px;right: 35px;width: 36px;height: 12px;background: url(/images/smb/common/common_bg.png) no-repeat -13px -48px;}
-.faceImage{width: 150px; height: 150px; overflow: hidden; position: absolute; right: -10px; bottom:0;}
+.faceImage{width: 150px; height: 150px; overflow: hidden; position: absolute; right: 0px; bottom:0;}
 .faceImage img{width: 100%;}
