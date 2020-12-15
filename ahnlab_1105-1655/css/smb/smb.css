@@ -1008,7 +1008,7 @@ text-align: left; }
 .answerCard .answerCardTitle p{font-size: 44px; text-align: center;}
 .swiperCard .swiper-wrapper{display: flex;}
 .swiperCard .swiper-wrapper .swiper-slide{margin-right: 20px; position: relative; height: 625px;}
-.cardWrap{background-color: #00aff0;width: 324px; height: 515px; border-radius: 20px; padding: 60px 0 0 60px;}
+.cardWrap{background-color: #00aff0;width: 320px; height: 515px; border-radius: 20px; padding: 60px 0 0 60px;}
 .cardWrap dl{margin-bottom: 50px;}
 .cardWrap dl dt{font-size: 24px; color: #fff;margin-bottom: 37px; line-height: 35px; font-weight: 400;}
 .cardWrap dl dd p{font-size: 22px; color:#333333;}
