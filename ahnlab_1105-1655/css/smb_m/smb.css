@@ -1320,6 +1320,31 @@ text-align: left;}
 .store .emailWrap > div:nth-child(1) ul li::before{content: "*";position:absolute;left:0;top:4.7222vw;}
 .store .emailWrap > div:nth-child(2) button{width:44.4444vw;height:13.8889vw;border:1px solid #0bb3e0;border-radius:9.1667vw;background-color:#fff;font-size: 3.8889vw;color:#0bb3e0;font-weight:bold;margin:8.3333vw 0 0;letter-spacing: -0.2vw;}
 #copytxt{position: absolute;top:-9999px;left:-9999px;}
+@media ( min-width: 720px ){
+.store .subVisual{padding:120px 0 0; height: 560px;}
+.store .subVisual .location{padding:77px 0 0;}
+.store .subVisual h2{font-size:68px; max-width: 720px; line-height: 94px; margin: 0 auto; padding-top: 80px;}
+.store .subVisual > div{height:560px;}
+.store .subContent{max-width:720px;margin: 0 auto;}
+.store .subContent h3{font-size:44px;}
+
+.store .subContent ul{height:780px;padding:80px 0 0;}
+.store .subContent ul>li{height:220px;border-radius:30px;padding:50px 0 0 50px;}
+.store .subContent ul>li p{font-size:32px;}
+.store .subContent ul li:nth-child(1) img{width:223px;height:156px;right:-10px;bottom:-10px;}
+.store .subContent ul li:nth-child(2) img{width:181px;height:156px;right:0;bottom:-10px;}
+.store .subContent ul li:nth-child(3) img{width:195px;height:171px;right:-15px;bottom:-25px;}
+.store .subContent ol{padding:80px 0 140px;}
+.store .subContent ol>li{padding:0 30px 30px;}
+.store .subContent ol>li::after{width:19px;height:16px;left:0;top:5px;}
+.store .subContent ol>li>p{font-size:26px;line-height: 37px;}
+.store .subContent ol>li>span{font-size:20px;}
+.store .emailWrap{width:620px;margin: 0 auto;padding:140px 0;}
+.store .emailWrap > div:nth-child(1) > h3{font-size:28px;}
+.store .emailWrap > div:nth-child(1) ul li{font-size:26px;line-height:36px;padding:30px 0 0 15px;letter-spacing: -1px;}
+.store .emailWrap > div:nth-child(1) ul li::before{content: "*";left:0;top:34px;}
+.store .emailWrap > div:nth-child(2) button{width:320px;height:100px;border:1px solid #0bb3e0;border-radius:66px;font-size: 28px;margin:60px 0 0;letter-spacing: -1px;}
+}
 
 
 
