@@ -1403,3 +1403,34 @@ text-align: left;}
 .about .btnWrap>a{ padding-left: 57px; font-size: 28px;line-height: 100px; width: 450px;height:100px;border-radius: 50px;}
 .about .btnWrap>a::after{right: 40px;width:49px;height:18px;}
 }
+
+/* interview*/
+
+.interview .moVisual{background:url(/images/smb_m/ahnlabSMB/bg_interview.png)no-repeat center center;background-size:cover;width:100vw;height:94.4444vw;}
+.interview .moVisual .location{padding: 27.7778vw 0 16.6667vw;}
+.interview .moVisual h3>p{color: #fff;text-align: center;}
+.interview .moVisual h3>p:nth-child(1){font-size: 4.4444vw;padding-bottom: 4.8611vw;}
+.interview .moVisual h3>p:nth-child(2){font-size: 7.5vw;font-weight: bold;}
+.interview .questionTitle{margin-bottom: 6.9444vw;}
+.interview .questionVideoBox{width: 86.1111vw;margin: 0 auto 22.2222vw;}
+.interview .quotation{border-bottom: 1px solid #00aff0;margin-bottom: 6.9444vw;padding-bottom: 3.9474vw;}
+.interview .quotation dt{font-size: 6.1111vw;font-weight: bold;color: #00aff0;}
+.interview .quotation dd{font-size: 3.6111vw;color: #888;}
+.interview .quotation dd>strong{font-weight: bold;color: #333;}
+.interview .QandA p{font-size:3.6111vw;}
+.interview .QandA dt>p{font-weight: bold;color: #333;padding-bottom: 4.1667vw;}
+.interview .QandA dd>p{color: #888;}
+
+.swiperVideo .swiper-wrapper{height: 52.6316vw; width: 100%;}
+.swiperCard .swiper-wrapper .swiper-slide{position: relative; height: 79.1667vw;}
+
+.interview .answerCardTitle p{font-size: 6.1111vw;text-align: center;color: #333;margin-bottom: 6.9444vw;}
+.interview .boxWrap{width: 86.1111vw;margin: 0 auto;}
+.interview .cardWrap{height: 59.8614vw;padding: 8.3333vw 0 0 6.9444vw; background-color: #00aff0;border-radius: 3.6111vw;}
+.interview .cardWrap dt{overflow: hidden;width: 71.3889vw;height: 22.2222vw;font-size: 3.8889vw;line-height: 5.8333vw; color: #fff;}
+.interview .cardWrap dd>p{font-size: 3.6111vw;color: #333;}
+.interview .cardWrap dd>p>strong{font-weight: bolder;}
+.interview .cardWrap .star{font-size: 2.7778vw;color:#4affff;line-height: 5vw;}
+.interview .cardWrap .btnWrap a{margin-top: 6.9444vw;width: 34.1667vw;height: 13.8889vw;padding-right: 10vw;border-radius: 6.9444vw;border: 1px solid #fff;font-size: 3.8889vw;line-height: 13.8889vw;color: #fff;cursor: pointer;position: relative;float: left;}
+.interview .cardWrap .btnWrap a:after{content: '';display: block;position: absolute;top: 50%;right: 8.3333vw;transform: translateY(-50%); width: 6.8056vw;height: 2.6389vw;background: url(/images/smb_m/ahnlabSMB/arr_img01.png) no-repeat center center;}
+.interview .faceImage{width: 23.2292vw;height: 23.2292vw;position: absolute;right: 4.1667vw;bottom: 6.9444vw;}
