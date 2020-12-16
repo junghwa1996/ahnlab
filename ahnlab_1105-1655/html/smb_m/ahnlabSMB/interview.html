@@ -589,14 +589,20 @@
 
       new Swiper('.swiperCard', {
             direction: 'vertical',
-            slidesPerView: 1,
-            // spaceBetween: 30,
-            mousewheel: true,
+            mousewheel: false,
+            autoplay: {
+              delay: 3500,
+              disableOnInteraction: false,
+            },
+            // slidesPerView: 3,
+            // spaceBetween: 200,
             pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
+              el: '.swiper-pagination',
+              clickable: true,
             },
         });
+
+
       function modalOpen(modal){
             modalClose();
             document.getElementsByTagName('body')[0].style.overflow = 'hidden';

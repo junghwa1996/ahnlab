@@ -1430,8 +1430,11 @@ text-align: left;}
 .swiperVideo .swiper-wrapper .swiper-slide{position: relative;}
 .swiperVideo .swiper-wrapper .swiper-slide iframe {position: absolute;top: 0;left: 0;width: 100%;height: 100%;} 
 
-.interview .answerCardTitle p{font-size: 6.1111vw;text-align: center;color: #333;margin-bottom: 6.9444vw;}
+.interview .answerCard{padding-bottom: 20vw;}
+.interview .answerCard .answerCardTitle{margin-bottom: 6.9444vw;}
+.interview .answerCard .answerCardTitle p{font-size: 6.1111vw;text-align: center;color: #333;}
 .interview .boxWrap{width: 86.1111vw;margin: 0 auto;}
+.interview .boxWrap > div{height: 74.5056vw;}
 .interview .cardWrap{height: 59.8614vw;padding: 8.3333vw 0 0 6.9444vw; background-color: #00aff0;border-radius: 3.6111vw;position: relative;}
 .interview .cardWrap::after{content: "";width: 0px;height: 0px;border-bottom: 13.0789vw solid transparent;border-left: 13.0789vw solid #00aff0;position: absolute;left: 0;bottom: -6.2368vw;}
 .interview .cardWrap dt{overflow: hidden;width: 71.3889vw;height: 22.2222vw;font-size: 3.8889vw;line-height: 5.8333vw; color: #fff;}
