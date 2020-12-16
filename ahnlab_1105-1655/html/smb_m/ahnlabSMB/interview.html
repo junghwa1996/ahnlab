@@ -586,6 +586,19 @@
 				},
 			});
 
+      new Swiper('.swiperCard', {
+				direction: 'horizontal',
+				autoplay: {
+					delay: 3500,
+					disableOnInteraction: false,
+				},
+				spaceBetween: 20,
+				pagination: {
+					el: '.swiper-pagination',
+					clickable: true,
+				},
+			});
+
       function modalOpen(modal){
             modalClose();
             document.getElementsByTagName('body')[0].style.overflow = 'hidden';
