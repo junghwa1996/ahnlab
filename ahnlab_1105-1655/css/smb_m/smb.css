@@ -1427,7 +1427,7 @@ text-align: left;}
 .interview .answerCardTitle p{font-size: 6.1111vw;text-align: center;color: #333;margin-bottom: 6.9444vw;}
 .interview .boxWrap{width: 86.1111vw;margin: 0 auto;}
 .interview .cardWrap{height: 59.8614vw;padding: 8.3333vw 0 0 6.9444vw; background-color: #00aff0;border-radius: 3.6111vw;position: relative;}
-.interview .cardWrap::after{content: "";display: block;background: url(/images/smb_m/ahnlabSMB/bg_ballon.png)no-repeat center center;position: absolute;left: -0.2632vw;bottom: -4.9211vw;width:8.1579vw;height:7.8947vw;}
+.interview .cardWrap::after{content: "";width: 0px;height: 0px;border-bottom: 13.0789vw solid transparent;border-left: 13.0789vw solid #00aff0;position: absolute;left: 0;bottom: -6.2368vw;}
 .interview .cardWrap dt{overflow: hidden;width: 71.3889vw;height: 22.2222vw;font-size: 3.8889vw;line-height: 5.8333vw; color: #fff;}
 .interview .cardWrap dd>p{font-size: 3.6111vw;color: #333;}
 .interview .cardWrap dd>p>strong{font-weight: bolder;}
