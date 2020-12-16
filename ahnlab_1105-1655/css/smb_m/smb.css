@@ -1387,6 +1387,7 @@ text-align: left;}
 .about .kv li{padding-top: 171px;}
 .about .kv li:nth-child(1){font-size: 64px;}
 .about .kv li:nth-child(2){font-size: 86px;padding:27px 0 0;}
+.about .kv>p .scroll-icon{background: url(/images/smb/ahnlabSMB/icon_mouse_scroll.svg)no-repeat center center/28px 55px;padding: 20px;}
 .about .content{width: 620px;margin: 0 auto; padding: 120px 0;}
 .about .LongTitle>h3{width: 295px; font-size: 52px; border-bottom: 1px solid #00aff0;}
 .about .LongTitle>p{font-size: 36px;line-height: 48px;padding: 50px 0;}
@@ -1432,7 +1433,7 @@ text-align: left;}
 
 .interview .answerCard{padding-bottom: 20.0000vw;}
 .interview .answerCard .answerCardTitle{margin-bottom: 6.9444vw;}
-.interview .answerCard .answerCardTitle p{font-size: 6.1111vw;text-align: center;color: #333;}
+.interview .answerCard .answerCardTitle p{font-size: 5.3111vw;text-align: center;color: #333;}
 .interview .answerCard .boxWrap{width: 100.0000vw;margin: 0 auto;}
 .interview .answerCard .boxWrap > div{height: 74.3056vw;}
 .interview .answerCard .boxWrap .swiper-slide{width: 100%;}
@@ -1443,7 +1444,7 @@ text-align: left;}
 .interview .cardWrap dd>p>strong{font-weight: bolder;}
 .interview .cardWrap .star{font-size: 2.7778vw;color:#4affff;line-height: 5.0000vw;}
 .interview .cardWrap .btnWrap a{margin-top: 3.4722vw;width: 34.1667vw;height: 13.8889vw;padding-right: 10.0000vw;border-radius: 6.9444vw;border: 0.1389vw solid #fff;font-size: 3.8889vw;line-height: 13.8889vw;color: #fff;cursor: pointer;position: relative;float: left;}
-.interview .cardWrap .btnWrap a:after{content: '';display: block;position: absolute;top: 50%;right: 8.3333vw;transform: translateY(-50%); width: 6.8056vw;height: 2.6389vw;background: url(/images/smb_m/ahnlabSMB/arr_img01.png) no-repeat center center;}
+.interview .cardWrap .btnWrap a:after{content: '';display: block;position: absolute;top: 50%;right: 8.3333vw;transform: translateY(-50%); width: 6.8056vw;height: 2.6389vw;background: url(/images/smb_m/ahnlabSMB/arr_img01.png) no-repeat right center;}
 .interview .faceImage{width: 23.1944vw;height: 23.1944vw;position: absolute;right: 7.3611vw;bottom: 8.3333vw;}
 
 .interviewPopup{background: rgba(0, 0, 0, 0.8);width: 100%;position: fixed;left: 0;top: 0;z-index: 9999;display: none;}
@@ -1496,7 +1497,7 @@ text-align: left;}
 
 .interview .answerCard{padding-bottom: 144px;}
 .interview .answerCard .answerCardTitle{margin-bottom: 50px;}
-.interview .answerCard .answerCardTitle p{font-size: 44px;text-align: center;}
+.interview .answerCard .answerCardTitle p{font-size: 38px;text-align: center;}
 .interview .answerCard .boxWrap{width: 720px;margin: 0 auto;}
 .interview .answerCard .boxWrap > div{height: 535px;}
 .interview .answerCard .boxWrap .swiper-slide{width: 100%;}
@@ -1507,7 +1508,7 @@ text-align: left;}
 .interview .cardWrap dd>p>strong{font-weight: bolder;}
 .interview .cardWrap .star{font-size: 20px;color:#4affff;line-height: 36px;}
 .interview .cardWrap .btnWrap a{margin-top: 25px;width: 246px;height: 100px;padding-right: 72px;border-radius: 50px;border: 1px solid #fff;font-size: 28px;line-height: 100px;color: #fff;cursor: pointer;position: relative;float: left;}
-.interview .cardWrap .btnWrap a:after{content: '';display: block;position: absolute;top: 50%;right: 60px;transform: translateY(-50%); width: 49px;height: 19px;background: url(/images/smb_m/ahnlabSMB/arr_img01.png) no-repeat center center;}
+.interview .cardWrap .btnWrap a:after{content: '';display: block;position: absolute;top: 50%;right: 60px;transform: translateY(-50%); width: 49px;height: 19px;background: url(/images/smb_m/ahnlabSMB/arr_img01.png) no-repeat right center;}
 .interview .faceImage{width: 167px;height: 167px;position: absolute;right: 53px;bottom: 60px;}
 
 .interviewPopup{background: rgba(0, 0, 0, 0.8);width: 100%;position: fixed;left: 0;top: 0;z-index: 9999;display: none;}
