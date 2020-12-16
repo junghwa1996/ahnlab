@@ -1033,7 +1033,7 @@ text-align: left; }
 .popupWrap .qaWrap p{font-size: 22px;line-height: 34px;display: inline-block;}
 .popupWrap .qaWrap>p:nth-child(1){background: #e5f7fd;border-radius:30px;}
 .popupWrap .qaWrap>p:nth-child(2){margin-top: 40px; background: #e5f7fd;padding: 30px 60px 30px 50px;border-radius:30px;position: relative;}
-.popupWrap .qaWrap>p:nth-child(2)::after{content: '';display: block;background: url(/images/smb/ahnlabSMB/shape.png);width: 44px;height: 20px;position: absolute;left: 180px;top: -20px;}
+.popupWrap .qaWrap>p:nth-child(2)::after{content: '';display: block;background: url(/images/smb/ahnlabSMB/bg_interview.png);width: 44px;height: 20px;position: absolute;left: 180px;top: -20px;}
 
 
 .swiperVideo .swiper-button-next,

@@ -1348,7 +1348,7 @@ text-align: left;}
 
 /* about */
 .about p ,.about li{font-family: 'NanumBarunGothic';}
-.about .kv{background:url(/images/smb_m/ahnlabSMB/bg_aboutMo.png)no-repeat center center;background-size:cover;width:100vw;height:122.2222vw;}
+.about .kv{background:url(/images/smb_m/ahnlabSMB/bg_about_mo.png)no-repeat center center;background-size:cover;width:100vw;height:122.2222vw;}
 .about .kv .location{padding-top: 26.3158vw;}
 .about .kv h2{margin-bottom: 30.5556vw;}
 .about .kv li{color:#fff;text-align: center;padding-top: 23.6842vw;}
@@ -1372,14 +1372,14 @@ text-align: left;}
 .accordian .list .listWrap .lisrWrapTitle p{font-size: 3.6111vw;line-height: 4.8611vw;}
 .accordian .list .listWrap .listWrapImg img{width: 100%;}
 .accordian .list .listTitle p{font-size: 4.1667vw;  font-weight: bold; line-height: 14.5833vw;}
-.drwpDownIcon{width: 2.2222vw;height: 1.1111vw;background: url(/images/smb_m/ahnlabSMB/con_img02.png)no-repeat center center/contain;}
+.drwpDownIcon{width: 2.2222vw;height: 1.1111vw;background: url(/images/smb_m/ahnlabSMB/arr_move.png)no-repeat center center/contain;}
 .accordian .list.active{border: none;}
 .accordian .list .listTitle.active{background-color: #ebf5f9;}
 .accordian .list .listTitle.active + .listWrap .lisrWrapTitle{background-color: #ebf5f9;}
 .accordian .list .listTitle.active .drwpDownIcon{transform: rotate(180deg);}
 .about .btnWrap{text-align: left;}
 .about .btnWrap>a{box-sizing: border-box; position: relative;padding-left: 7.8947vw; font-size: 3.8889vw;line-height: 13.8889vw; width: 62.5000vw;height:13.8889vw;border-radius: 6.9444vw;}
-.about .btnWrap>a::after{position: absolute;right: 5.5789vw;top: 50%;transform:translateY(-50%); content: "";display:block;background: url(/images/smb_m/ahnlabSMB/con_img01.png)no-repeat center center;background-size: cover; width:6.8056vw;height:2.5vw;}
+.about .btnWrap>a::after{position: absolute;right: 5.5789vw;top: 50%;transform:translateY(-50%); content: "";display:block;background: url(/images/smb_m/ahnlabSMB/arr_link.png)no-repeat center center;background-size: cover; width:6.8056vw;height:2.5vw;}
 @media ( min-width: 720px ){
 .about .kv{height:880px;}
 .about .kv .location{padding-top: 189px;}
