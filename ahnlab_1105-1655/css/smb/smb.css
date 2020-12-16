@@ -999,7 +999,7 @@ text-align: left; }
 .questionVideoBox .questionTitle .quotation dd strong,
 .questionVideoBox .questionTitle .QandA dt p{font-weight: bold; color: #333333;}
 
-.swiperVideo .swiper-wrapper{height: 760px; width: 100%;}
+/* .swiperVideo .swiper-wrapper{height: 760px; width: 100%;} */
 
 
 .answerCard{margin:140px 0;}
