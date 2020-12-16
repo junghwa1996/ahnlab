@@ -259,21 +259,21 @@
               <span>Q</span>
               <p>AhnLab Office Security를 경험(체험)하게 된 가장 강력한 계기는 무엇인가요?</p>
             </div>
-              <p>자주 방문하여 정보를 얻는 IT 관련 카페 모임에서 강력한 추천이 있었고, 기존 V3 제품을 사용하고 있어 Office Security에 익숙함을 느끼게 된 것이 제품에 끌리게 된 가장 큰 계기였습니다.</p>
+            <p>자주 방문하여 정보를 얻는 IT 관련 카페 모임에서 강력한 추천이 있었고, 기존 V3 제품을 사용하고 있어 Office Security에 익숙함을 느끼게 된 것이 제품에 끌리게 된 가장 큰 계기였습니다.</p>
           </div>
           <div class="qaWrap">
             <div class="questions">
               <span>Q</span>
               <p>수많은 보안 제품 중, 이거다! 하고 AhnLab Office Security를<br>선택하게 될만한 요소를 알려주세요.</p>
             </div>
-              <p>사실 다른 보안 제품들과 비교해보면 기능과 가격 차이는 눈에 띄게 있지는 않았던 것으로 생각됩니다. 다만 임직원들의 안랩이라는 브랜드, 그리고 V3라는 제품에 대한 인지도와 믿음이 최종 선택에 큰 영향을 끼쳤습니다.</p>
+            <p>사실 다른 보안 제품들과 비교해보면 기능과 가격 차이는 눈에 띄게 있지는 않았던 것으로 생각됩니다. 다만 임직원들의 안랩이라는 브랜드, 그리고 V3라는 제품에 대한 인지도와 믿음이 최종 선택에 큰 영향을 끼쳤습니다.</p>
           </div>
           <div class="qaWrap">
             <div class="questions">
               <span>Q</span>
               <p>중소기업 현장에서 실제로 제품을 사용해보니 어떠셨나요?</p>
             </div>
-              <p>기존에 사용하고 있던 제품의 UI와 크게 달라진 부분이 없어, 새로운 제품을 사용할 때 굉장히 익숙한 기분이 들었습니다. 빠른 시간 안에 제품에 적응하게 되었고, 각 기능을 사용하는 것에도 전혀 불편을 느끼지 않았습니다. </p>
+            <p>기존에 사용하고 있던 제품의 UI와 크게 달라진 부분이 없어, 새로운 제품을 사용할 때 굉장히 익숙한 기분이 들었습니다. 빠른 시간 안에 제품에 적응하게 되었고, 각 기능을 사용하는 것에도 전혀 불편을 느끼지 않았습니다. </p>
           </div>
           <div class="qaWrap">
             <div class="questions">
@@ -472,6 +472,7 @@
             <p>앞으로도 안랩이 이렇게 좋은 제품으로 국내 보안시장을 잘 이끌어 주길 바랍니다. 감사합니다.</p>
           </div>
         </div>
+      </div>
         <!-- pop05 -->
       <div class="popupWrap popup05">
         <div>
@@ -561,10 +562,28 @@
 				<p class="onlineLink"><a href="https://shop.ahnlab.com/jump/jsp/fp/main.jsp? utm_source=SMBplace_site&utm_medium=home-bottom&utm_campaign=SMBPlace" onclick="gtag('event','ahnlabmall')" target="_blank" title="새창열림">온라인 구매</a></p>
 			</section>
 		</footer><!-- //footer -->
-		<script src="/js/smb_m/jquery-1.11.3.min.js"></script>
-		<script src="/js/smb_m/swiper.js"></script>
+    <script src="/js/smb_m/jquery-1.11.3.min.js"></script>
+	  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+	  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 		<script src="/js/smb_m/common.js"></script>
 		<script>
+      	new Swiper('.swiperVideo', {
+				direction: 'horizontal',
+				autoplay: {
+					delay: 4000,
+					disableOnInteraction: false,
+				},
+				pagination: {
+					el: '.swiper-pagination',
+					clickable: true,
+				},
+				disableOnInteraction: false,
+				navigation: {
+					nextEl: '.swiper-button-next',
+					prevEl: '.swiper-button-prev',
+				},
+			});
+
       function modalOpen(modal){
             modalClose();
             document.getElementsByTagName('body')[0].style.overflow = 'hidden';

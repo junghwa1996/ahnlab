@@ -1405,23 +1405,30 @@ text-align: left;}
 }
 
 /* interview*/
-
+.interview .p{font-family: 'NanumBarunGothic';}
 .interview .moVisual{background:url(/images/smb_m/ahnlabSMB/bg_interview.png)no-repeat center center;background-size:cover;width:100vw;height:94.4444vw;}
 .interview .moVisual .location{padding: 27.7778vw 0 16.6667vw;}
 .interview .moVisual h3>p{color: #fff;text-align: center;}
 .interview .moVisual h3>p:nth-child(1){font-size: 4.4444vw;padding-bottom: 4.8611vw;}
 .interview .moVisual h3>p:nth-child(2){font-size: 7.5vw;font-weight: bold;}
 .interview .questionTitle{margin-bottom: 6.9444vw;}
-.interview .questionVideoBox{width: 86.1111vw;margin: 0 auto 22.2222vw;}
-.interview .quotation{border-bottom: 1px solid #00aff0;margin-bottom: 6.9444vw;padding-bottom: 3.9474vw;}
-.interview .quotation dt{font-size: 6.1111vw;font-weight: bold;color: #00aff0;}
+.interview .questionVideoBox{margin-bottom:22.2222vw;}
+.interview .questionVideoBox .boxWrap{width: 91.6667vw;margin: 0 auto;}
+.interview .quotation{width: 86.1111vw;margin: 0 auto;}
+.interview .quotation>dl{border-bottom: 1px solid #00aff0;margin-bottom: 6.9444vw;padding:0 0 3.9474vw 3.2895vw;}
+.interview .quotation dt{font-size: 6.1111vw;font-weight: bold;color: #00aff0;position: relative;}
+.interview .quotation dt::before{content: '';background: url(/images/smb_m/ahnlabSMB/text_quotation_left.png)no-repeat;width: 2.6389vw;height: 2.2222vw;position: absolute;left: -3.4722vw;top: 1.3889vw;}
+.interview .quotation dt::after{content: '';background: url(/images/smb_m/ahnlabSMB/text_quotation_right.png)no-repeat;width: 2.6389vw;height: 2.2222vw;position: absolute;right: 1.1111vw;top: 1.3889vw;}
 .interview .quotation dd{font-size: 3.6111vw;color: #888;}
 .interview .quotation dd>strong{font-weight: bold;color: #333;}
+.interview .QandA{padding-left: 2.7778vw;}
 .interview .QandA p{font-size:3.6111vw;}
 .interview .QandA dt>p{font-weight: bold;color: #333;padding-bottom: 4.1667vw;}
 .interview .QandA dd>p{color: #888;}
 
-.swiperVideo .swiper-wrapper{height: 52.6316vw; width: 100%;}
+.swiperVideo .swiper-wrapper{height: 51.5278vw; width: 100%;}
+.swiperVideo .swiper-wrapper .swiper-slide{position: relative;padding-bottom: 56.25%;}
+.swiperVideo .swiper-wrapper .swiper-slide iframe {position: absolute;top: 0;left: 0;width: 100%;height: 100%;} 
 .swiperCard .swiper-wrapper .swiper-slide{position: relative; height: 79.1667vw;}
 
 .interview .answerCardTitle p{font-size: 6.1111vw;text-align: center;color: #333;margin-bottom: 6.9444vw;}
@@ -1451,3 +1458,9 @@ text-align: left;}
 .popupWrap .qaWrap>p:nth-child(1){background: #e5f7fd;border-radius:3.9474vw;}
 .popupWrap .qaWrap>p:nth-child(2){margin-top: 5.2632vw; background: #e5f7fd;padding: 3.9474vw;border-radius:3.9474vw;position: relative;}
 .popupWrap .qaWrap>p:nth-child(2)::after{content: '';display: block;background: url(/images/smb_m/ahnlabSMB/bg_interview_ballon.png)no-repeat center center;width: 5.9211vw;height: 2.6316vw;position: absolute;left: 23.6842vw;top: -2.6316vw;}
+
+.swiperVideo .swiper-button-next,
+.swiperVideo .swiper-button-prev{width: 80px; height: 80px;}
+.swiperVideo .swiper-button-next.swiper-button-disabled, .swiperVideo .swiper-button-prev.swiper-button-disabled{opacity: 0;}
+.swiperVideo .swiper-button-next:after{content:'';width: 80px;height: 80px;background: url(/images/smb/ahnlabSMB/btn_prev.png) no-repeat center center/contain;}
+.swiperVideo .swiper-button-prev:after{content:'';width: 80px;height: 80px;background: url(/images/smb/ahnlabSMB/btn_next.png) no-repeat center center/contain;}
