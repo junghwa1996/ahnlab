@@ -1000,7 +1000,7 @@ text-align: left;}
   .quickMenu p.quick04 a::before{width:31px;height:30px;background-position:-332px 0;background-size:720px;top:35px;}
   .quickMenu .close_quick{width:86px;height:92px;top:-65px;right:-26px;}
   /* footer */
-  footer{background:#222;padding:105px 50px;}
+  footer{background:rgb(92, 90, 90);padding:105px 50px;}
   footer .footerWrap{background: #222;}
   .footerLogo{width:120px;}
   .footerMenu{padding-top:70px;}
