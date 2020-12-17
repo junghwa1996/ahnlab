@@ -605,7 +605,7 @@ select{vertical-align:middle;background:#e7f3fb;border:1px solid #b3d3e9;color:#
 .quickMenu p.quick03 a::before{content:'';display:block;position:absolute;top:25px;left:50%;margin-left:-12px;width:24px;height:29px;background:url(/images/smb/common/common_bg.png) no-repeat -118px -83px;}
 .quickMenu p.quick04 a::before{content:'';display:block;position:absolute;top:25px;left:50%;margin-left:-13px;width:26px;height:27px;background:url(/images/smb/common/common_bg.png) no-repeat -118px -117px;}
 
-footer{background-color:#222;padding: 80px 0; width: 100%;}
+footer{background-color:#222;padding: 80px 0;width: 100%;min-width: 1440px;}
 footer .footerWrap{width:1440px;margin:0 auto;box-sizing:border-box;display: flex;justify-content: space-between;}
 .footerLogo{display: flex;align-items: center;}
 .footerContent{width:940px;}
@@ -999,7 +999,7 @@ text-align: left; }
 .questionVideoBox .questionTitle .quotation dd strong,
 .questionVideoBox .questionTitle .QandA dt p{font-weight: bold; color: #333333;}
 
-/* .swiperVideo .swiper-wrapper{height: 760px; width: 100%;} */
+.swiperVideo .swiper-wrapper{height: 760px; width: 100%;}
 
 
 .answerCard{margin:140px 0;}
@@ -1009,8 +1009,8 @@ text-align: left; }
 .swiperCard .swiper-wrapper{display: flex;}
 .swiperCard .swiper-wrapper .swiper-slide{position: relative; height: 625px;}
 .cardWrap{background-color: #00aff0;width: 300px; height: 515px; border-radius: 20px; padding: 60px 0 0 60px;position: relative;}
-.cardWrap::after{content: "";width: 0px;height: 0px;border-bottom: 125px solid transparent;border-left: 165px solid #00aff0;position: absolute;left: 0;bottom: -55px;}
-/* .cardWrap dl{margin-bottom: 50px;} */
+.cardWrap::after{content: "";width: 0px;height: 0px;border-bottom: 125px solid transparent;border-left: 165px solid #00aff0;position: absolute;left: 0;bottom: -72px;}
+.cardWrap dl{margin-bottom: 50px;}
 .cardWrap dl dt{height: 210px;overflow: hidden; font-size: 24px; color: #fff;margin-bottom: 37px; line-height: 35px; font-weight: 400;}
 .cardWrap dl dd p{font-size: 22px; color:#333333;}
 .cardWrap dl dd span{font-size: 18px; color:#4affff; line-height: 50px;}
