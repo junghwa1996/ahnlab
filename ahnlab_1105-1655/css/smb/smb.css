@@ -851,7 +851,7 @@ text-align: left; }
 
 /* 1202 add */
 
-.howtosection{background:url(/images/smb/product/howto_bg.png) no-repeat center center;width:100%;height:378px;color:#fff;display: flex;align-items: center;}
+.howtosection{background:url(/images/smb/product/howto_bg.png) no-repeat center center;width:100%;height:378px;color:#fff;display: flex;align-items: center;min-width: 1440px;}
 .howtoWrap{min-width: 1440px;margin: 0 auto;}
 .howtoWrap > .title{font-size:32px;}
 .howtoWrap .title span{font-weight:900;}
@@ -886,7 +886,7 @@ text-align: left; }
 .modal-container .modalWrap .btnWrap4{height:111.8px;}
 .modal-container .swiperButtonNext, .modal-container .swiperButtonPrev{width:30px;height:58.2px;background:url(/images/smb/product/btn_arrow01.png) no-repeat center center;background-size:contain;right:0;}
 .modal-container .swiperButtonNext{transform:rotateY(180deg)}
-.modal-container .slideNumber{font-size:18px;margin:0 45px;line-height:45px;font-family:'DM Sans';}
+.modal-container .slideNumber{font-size:18px;margin:0 25px;width: 70px;text-align: center; line-height:45px;font-family:'DM Sans';}
 .modal-container .btnWrap4{display:flex;position:relative;padding-top:40px;}
 .modal-container .btnWrap4 .swiperButtonNext, .modal-container .btnWrap4 .swiperButtonPrev{top:0;background:url(/images/smb/product/btn_arrow02.png) no-repeat center center;background-size:contain;width:45px;height:45px;position:relative;}
 .modal-container .btnWrap4 .btnLast, .modal-container .btnWrap4 .btnFirst{top:0;left:0;background:url(/images/smb/product/btn_arrow03.png) no-repeat center center;background-size:contain;width:45px;height:45px;cursor:pointer;}
