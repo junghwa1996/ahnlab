@@ -116,7 +116,7 @@
 			</div>
 			<div class="experienceWrap experienceServer">
 				<div class="experience">
-					<p class="title"><span>한 달 동안 강력한</span> V3 Office Server Security를<br /> 경험하세요</p>
+					<p class="title"><span>50일 동안 강력한</span> V3 Office Server Security를<br /> 경험하세요</p>
 					<div class="btnWrap">
 						<a style="cursor: pointer;" onclick="gtag('event','trial 02'); openTryPop('product', 'V3 Office Server Security');">
 							무료 체험 신청
@@ -250,7 +250,7 @@
 				</div>
 			</div>
 			<!-- //videoTab -->
-				<div class="modal-container"><!-- modal-container -->
+				<div class="modalContainer"><!-- modalContainer -->
 			<div class="modalWrap1">
 				<div class="visualSwiper">
 					<div class="swiperWrapper">
@@ -296,9 +296,8 @@
 						<div class="swiperSlide"><img src="/images/smb_m/product/center_01_s04.png" alt="제품 라이선스 관리도 어렵지 않아요! 구매한 제품의 전체 라이선스를 바로 확인할 수 있으며, 각 라이선스가 설치된 PC까지 간편하게 볼 수 있습니다. 갱신형 상품의 결제 일자도 안내합니다." /></div>
 						<div class="swiperSlide"><img src="/images/smb_m/product/center_01_s05.png" alt="즉각적으로 파악되는 보안 위협! 현재까지 누적된 보안 위협을 주, 월, 연도별로 시각화 해 관리자에게 정보를 제공합니다." /></div>
 						<div class="swiperSlide"><img src="/images/smb_m/product/center_01_s06.png" alt="전체 기기를 효율적으로 관리! 등록된 기기를 그룹에 따라 분류하여 관리가 가능합니다. 악성코드 감염 현황 및 보안 점검 현황이 확인 가능합니다." /></div>
-						<div class="swiperSlide"><img src="/images/smb_m/product/center_01_s06.png" alt="개별 기기 관리도 철저하게! 개별 기기에 설치된 제품의 현재 상태를 상세히 요약한 화면을 제공합니다. 이슈가 있을 경우 바로 대응이 가능합니다." /></div>
-						<div class="swiperSlide"><img src="/images/smb_m/product/center_01_s07.png" alt="V3 Office Security 정보 및 보안 확인! 개별 기기에 설치된 V3 Office Security의 제품 정보 및 정책, 보안 정보를 간략히 확인할 수 있습니다." /></div>
-						<div class="swiperSlide"><img src="/images/smb_m/product/center_01_s08.png" alt="Office Security Assessment 정보 및 보안 확인! 개별 기기에 설치된 V3 Office Security의 제품 정보 및 정책, 보안 정보를 간략히 확인할 수 있습니다." /></div>
+						<div class="swiperSlide"><img src="/images/smb_m/product/center_01_s07.png" alt="개별 기기 관리도 철저하게! 개별 기기에 설치된 제품의 현재 상태를 상세히 요약한 화면을 제공합니다. 이슈가 있을 경우 바로 대응이 가능합니다." /></div>
+						<div class="swiperSlide"><img src="/images/smb_m/product/center_01_s08.png" alt="V3 Office Security 정보 및 보안 확인! 개별 기기에 설치된 V3 Office Security의 제품 정보 및 정책, 보안 정보를 간략히 확인할 수 있습니다." /></div>
 						<div class="swiperSlide"><img src="/images/smb_m/product/center_01_s09.png" alt="Office Security Assessment 정보 및 보안 확인! 개별 기기에 설치된 V3 Office Security의 제품 정보 및 정책, 보안 정보를 간략히 확인할 수 있습니다." /></div>
 						<div class="swiperSlide"><img src="/images/smb_m/product/center_01_s10.png" alt="악성코드 감염 현황도 기록! 전체 관리 기기 중, 랜섬웨어 및 악성코드 감염되었던 기기에 대한 리스트와, 탐지된 악성코드의 리스트를 확인하여 엑셀 파일로 내보낼 수 있습니다." /></div>
 						<div class="swiperSlide"><img src="/images/smb_m/product/center_01_s11.png" alt="우리 회사 보안 점검 현황 확인! 보안 취약 기기와 보안 취약 항목을 확인하여 엑셀 파일로 내보낼 수 있습니다." /></div>
@@ -375,18 +374,18 @@
 			btnWindow.addEventListener("click", function() {pSlide01.slideTo(1);});
 			$(document).ready(function() {
 				$(".howtoWrap .howto1").on('click', function() {
-					$('.modal-container').addClass('on');
+					$('.modalContainer').addClass('on');
 					$(".modalWrap1").addClass("on")
 					pSlide01.update();
 				});
 
 				$(".howtoWrap .howto2").on('click', function() {
-					$('.modal-container').addClass('on');
+					$('.modalContainer').addClass('on');
 					$(".modalWrap2").addClass("on")
 					pSlide02.update();
 				});
-				$(".modal-container .modalCloseBtn").on('click', function() {
-					$('.modal-container').removeClass('on');
+				$(".modalContainer .modalCloseBtn").on('click', function() {
+					$('.modalContainer').removeClass('on');
 					$(".modalWrap1, .modalWrap2").removeClass("on");
 				});
 			});
