@@ -867,7 +867,7 @@ text-align: left; }
 .howtoWrap .howto1{width:339.99px;height:72px; margin-right:20px;}
 .howtoWrap .howto2{width:243px;height:72px;}
 
-.modalContainer{top:0;left:0;bottom:0;right:0;position:fixed;background:rgba(0, 0, 0, 0.8);z-index:99;display:none;}
+.modalContainer{top:0;left:0;bottom:0;right:0;position:fixed;background:rgba(0, 0, 0, 0.8);z-index:99;display:none;overflow: auto;}
 .modalWrap1, .modalWrap2{display:none;}
 .modalContainer .modalWrap1, .modalContainer .modalWrap2 {width:798px;height:828px;background:#fff;margin:0 auto;margin-top:60px;position:relative;}
 .modalContainer .modalWrap2{height:788px;}
@@ -1047,3 +1047,8 @@ text-align: left; }
 .swiperVideo .swiper-button-next:after{content:'';width: 80px;height: 80px;background: url(/images/smb/ahnlabSMB/btn_prev.png) no-repeat center center/contain;}
 .swiperVideo .swiper-button-prev:after{content:'';width: 80px;height: 80px;background: url(/images/smb/ahnlabSMB/btn_next.png) no-repeat center center/contain;}
 
+
+.layer-open{overflow:hidden;}
+  
+  
+  
