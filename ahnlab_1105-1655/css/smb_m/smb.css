@@ -1118,13 +1118,7 @@ text-align: left;}
   .eventFooterWrap .eventNnotice li{padding-left:15px;font-size:20px;line-height:36px;background:url(/images/smb_m/common/ico_liststyle03.png) no-repeat left 14px;}
   .eventFooterWrap .eventNnotice li::after{width:8px;height:8px;border-radius:4px;top:14px;} 
 }
-@media ( max-width: 320px ) {
-  .agreeBoxItem p span {font-size:3.7500vw;}
-  .contactNumber .time {padding-right:23.1667vw;}
-  .footerMenu p {padding-left: 5.3333vw;}
-  .footerMenu p::after {left: 2.1667vw; top: 51%;}
-  .footerInfo{font-size:3.7500vw;}
-}
+
 
 @media (orientation: landscape) {
   .quickMenu{top:calc(120% + 120px);}
@@ -1295,6 +1289,10 @@ text-align: left;}
 .modalWrap1, .modalWrap2{display:none;}
 .modalContainer .visualSwiper{    width: 94.4444vw;    height: 133.3333vw;}
 .on{display:block;}
+@media(min-width:720px){
+  .modalContainer .visualSwiper{margin-top: 0;}
+  .gnb .onlineLink a::after{left: 232px;}
+}
 
 /* store */
 .store p{font-family: 'NanumBarunGothic';}
@@ -1540,3 +1538,21 @@ text-align: left;}
 .swiperVideo .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets{bottom:0;}
 }
 
+@media ( max-width: 320px ) {
+  .agreeBoxItem p span {font-size:3.7500vw;}
+  .contactNumber .time {padding-right:23.1667vw;}
+  .footerMenu p {padding-left: 5.3333vw;}
+  .footerMenu p::after {left: 2.1667vw; top: 51%;}
+  /* .footerInfo{font-size:3.7500vw;}
+  .about .LongTitle>ul>li{font-size:3.7500vw;}
+  .location span{font-size:3.7500vw;}
+  .interview .quotation dd{font-size:3.7500vw;}
+  .subVisual .subTitle{font-size:3.7500vw;}
+  .advantages > div .infoText{font-size:3.7500vw;}
+  .productIntroduce .btnWrap a, .productIntroduce .btnWrap button{font-size:3.7500vw;}
+  .experienceWrap .experience .btnWrap a{font-size:3.7500vw;}
+  .officeList .officeName {font-size:3.7500vw;}
+  .tabItem .itemInfo .text{font-size:3.7500vw;}
+  .store .emailWrap > div:nth-child(1) ul li,.store .subContent ol>li>p{font-size:3.7500vw;} */
+
+}
