@@ -5,6 +5,10 @@
 
 html, body{height:100%}
 body{width:100%;line-height:12px;color:#505050;background:#fff;-webkit-print-color-adjust: exact;print-color-adjust:exact;margin:0 auto;}
+/* 12/21 팝업 오픈 시 body 잠금 */
+body.active{overflow: hidden;}
+body.active *{touch-action: none;}
+
 body,tr,td, th,h1,h2,h3,h4,h5,h6,select,textarea,input,dt,dd,dl,div,p,form,table,thead,tbody,fieldset,legend,label,section{margin:0;padding:0;font-family:'DM Sans','NanumBarunGothic', sans-serif;font-size:12px;line-height:inherit}
 fieldset{border:0}
 img{border:0;vertical-align:middle}
@@ -1046,4 +1050,6 @@ text-align: left; }
 .swiperVideo .swiper-button-next.swiper-button-disabled, .swiperVideo .swiper-button-prev.swiper-button-disabled{opacity: 0;}
 .swiperVideo .swiper-button-next:after{content:'';width: 80px;height: 80px;background: url(/images/smb/ahnlabSMB/btn_prev.png) no-repeat center center/contain;}
 .swiperVideo .swiper-button-prev:after{content:'';width: 80px;height: 80px;background: url(/images/smb/ahnlabSMB/btn_next.png) no-repeat center center/contain;}
+
+
 

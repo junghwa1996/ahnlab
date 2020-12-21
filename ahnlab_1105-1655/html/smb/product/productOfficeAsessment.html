@@ -383,6 +383,7 @@
 
 		$(document).ready(function() {
 			$(".howtoWrap .howto1").on('click', function() {
+				$('body').addClass('active'); //body스크롤 잠금
 				$('.modalContainer').addClass('on');
 				$(".modalWrap1").addClass("on")
 				pSlide01.update();
@@ -394,6 +395,7 @@
 			});
 			$(".modalContainer .modal-close").on('click', function() {
 				// $(".currentSlide").text('1')
+				$('body').removeClass('active'); //body스크롤 잠금 해제
 				$('.modalContainer').removeClass('on');
 				$(".modalWrap1, .modalWrap2").removeClass("on");
 			});
