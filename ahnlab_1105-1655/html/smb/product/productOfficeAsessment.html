@@ -383,19 +383,38 @@
 
 		$(document).ready(function() {
 			$(".howtoWrap .howto1").on('click', function() {
-				$('body').addClass('active'); //body스크롤 잠금
+				scrollHeight = $("body").scrollTop();
+				$("body").addClass('layer-open');
+				$(".modalContainer").css({
+					"position" : "fixed",
+					"top" : -scrollHeight
+				});
 				$('.modalContainer').addClass('on');
 				$(".modalWrap1").addClass("on")
 				pSlide01.update();
 			});
 			$(".howtoWrap .howto2").on('click', function() {
+				scrollHeight = $("body").scrollTop();
+				$("body").addClass('layer-open');
+				$(".modalContainer").css({
+					"position" : "fixed",
+					"top" : -scrollHeight
+				});
 				$('.modalContainer').addClass('on');
 				$(".modalWrap2").addClass("on");
 				pSlide02.update();
 			});
 			$(".modalContainer .modal-close").on('click', function() {
+<<<<<<< HEAD
 				// $(".currentSlide").text('1')
 				$('body').removeClass('active'); //body스크롤 잠금 해제
+=======
+				$("body").removeClass('layer-open');
+				$(".modalContainer").css({
+					"position" : "relative",
+					"top" : 0
+				});
+>>>>>>> 02b87eae7f727eafd1bc3117d806472f4a3bb90e
 				$('.modalContainer').removeClass('on');
 				$(".modalWrap1, .modalWrap2").removeClass("on");
 			});

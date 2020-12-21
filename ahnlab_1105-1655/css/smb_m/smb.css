@@ -1287,7 +1287,7 @@ text-align: left;}
 .modalContainer .btnWrap2 .swiper-button-next, .modalContainer .btnWrap3 .swiper-button-next{margin-right:24.0556vw;}
 .modalContainer .modalCloseBtn{width:10vw;height:10vw;position:absolute;top:0vw;right:8vw;z-index:99;cursor:pointer;}
 .modalWrap1, .modalWrap2{display:none;}
-.modalContainer .visualSwiper{    width: 94.4444vw;    height: 133.3333vw;}
+.modalContainer .visualSwiper{width: 94.4444vw;height: 133.3333vw;}
 .on{display:block;}
 @media(min-width:720px){
   .modalContainer .visualSwiper{margin-top: 0;}
