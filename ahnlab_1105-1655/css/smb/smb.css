@@ -466,7 +466,7 @@ select{vertical-align:middle;background:#e7f3fb;border:1px solid #b3d3e9;color:#
 .serverTab .tabBtn.on button{color:#7db7ff}
 .asessmentTab .tabBtn.on button{color:#3ee1a9}
 
-.tabContent .tabItem .tabImage::after{content:'';display:block;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:97px;height:97px;background:url(/images/smb/product/product_bg.png) no-repeat -38px 0;}
+.tabContent .tabItem .tabImage::after{content:'';display:block;position:absolute;margin-top:50px;margin-left:50px;transform:translate(-50%,-50%);width:97px;height:97px;background:url(/images/smb/product/product_bg.png) no-repeat -38px 0;}
 .tabContent01 .tabItem02 .tabImage::after{background-position:-38px -125px;width:100px;height:93px;}
 .tabContent01 .tabItem03 .tabImage::after{background-position:-38px -250px;width:106px;height:103px;}
 .tabContent01 .tabItem04 .tabImage::after{background-position:-38px -388px;width:105px;height:96px;}
