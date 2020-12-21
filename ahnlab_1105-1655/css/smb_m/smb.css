@@ -1122,8 +1122,10 @@ text-align: left;}
   .agreeBoxItem p span {font-size:3.7500vw;}
   .contactNumber .time {padding-right:23.1667vw;}
   .footerMenu p {padding-left: 5.3333vw;}
-  .footerMenu p::after {left: 2.1667vw; top: 51%;}   
+  .footerMenu p::after {left: 2.1667vw; top: 51%;}
+  .footerInfo{font-size:3.7500vw;}
 }
+
 @media (orientation: landscape) {
   .quickMenu{top:calc(120% + 120px);}
   .quickMenu p a::before{background:url(/images/smb_m/common/common_bg.png) no-repeat -431px 0;width:29px;height:32px;background-size:720px;}
@@ -1537,3 +1539,4 @@ text-align: left;}
 .swiperVideo .swiper-button-prev:after{content:'';width: 60px;height: 60px;background: url(/images/smb/ahnlabSMB/btn_next.png) no-repeat center center/contain; margin-bottom: 50px;}
 .swiperVideo .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets{bottom:0;}
 }
+

@@ -385,7 +385,7 @@ select{vertical-align:middle;background:#e7f3fb;border:1px solid #b3d3e9;color:#
 /* Office Security Assessment */
 .product02 .productIntroduce{padding-left:400px;position: relative;background: none;}
 .product02 .introduce{width:517px;position: relative;}
-.product02 .introduce::after{content: "";display: block;width: 604px;height: 629px;background:url(/images/smb/product/product02_bg.png) no-repeat center center;position: absolute;left: -70px;top: -47px;}
+.product02 .introduce::after{content: "";display: block;width: 604px;height: 629px;background:url(/images/smb/product/product02_bg.png) no-repeat center center;position: absolute;left: -470px;top: -185px;}
 .product02 .introduce .title{color:#b0e1d0}
 .product02 .introduce .subtitle{color:#67d5af}
 .product02 .introduce ul{border-top:1px solid #2e5055}
@@ -867,7 +867,7 @@ text-align: left; }
 .howtoWrap .howto1{width:339.99px;height:72px; margin-right:20px;}
 .howtoWrap .howto2{width:243px;height:72px;}
 
-.modalContainer{top:0;left:0;bottom:0;right:0;position:fixed;background:rgba(0, 0, 0, 0.8);z-index:99;display:none;}
+.modalContainer{top:0;left:0;bottom:0;right:0;position:fixed;background:rgba(0, 0, 0, 0.8);z-index:99;display:none; overflow-x: auto;}
 .modalWrap1, .modalWrap2{display:none;}
 .modalContainer .modalWrap1, .modalContainer .modalWrap2 {width:798px;height:828px;background:#fff;margin:0 auto;margin-top:60px;position:relative;}
 .modalContainer .modalWrap2{height:788px;}
