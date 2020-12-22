@@ -97,15 +97,11 @@
 						</div>
 						<div class="QandA">
 							<dl>
-								<dt>
-									<p>Q. 직접 써보니 어떠셨어요?</p>
-								</dt>
+								<dt>Q. 직접 써보니 어떠셨어요?</dt>
 								<dd>
-									<p>
-										제일 좋았던 건 시큐리티 센터를 통해서 쉽게 보안프로그램을 배포하고 관리하는 부분이었어요.<br>
-										한 눈에 관리할 수 있다는 게 중소기업 입장에서는 메리트더라구요.<br>
-										V3가 워낙 익숙하고 쉽다 보니 보안 관리자도 사용자도 편리하고 좋았습니다.
-									</p>
+									제일 좋았던 건 시큐리티 센터를 통해서 쉽게 보안프로그램을 배포하고 관리하는 부분이었어요.<br>
+									한 눈에 관리할 수 있다는 게 중소기업 입장에서는 메리트더라구요.<br>
+									V3가 워낙 익숙하고 쉽다 보니 보안 관리자도 사용자도 편리하고 좋았습니다.
 								</dd>
 							</dl>
 						</div>
@@ -600,7 +596,7 @@
 	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 	<script src="/js/smb/common.js"></script>
 	<script>	
-			new Swiper('.swiperVideo', {
+			var videoSlide = new Swiper('.swiperVideo', {
 				direction: 'horizontal',
 				autoplay: {
 					delay: 4000,
@@ -621,7 +617,7 @@
 		new Swiper('.swiperCard', {
 				direction: 'horizontal',
 				autoplay: {
-					delay: 3500,
+					delay: 8000,
 					disableOnInteraction: false,
 				},
 				slidesPerView: 3,
@@ -649,6 +645,14 @@
 					}
 				}
 
+				$('.swiper-slide').hover(
+					function(){
+						videoSlide.autoplay.stop();
+					},function(){
+						videoSlide.autoplay.start();
+					}
+				)
+				
 
 	</script>
 </body>
