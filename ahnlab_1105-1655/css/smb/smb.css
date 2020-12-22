@@ -507,7 +507,7 @@ select{vertical-align:middle;background:#e7f3fb;border:1px solid #b3d3e9;color:#
 .videoTab .tabBtn.videoBtn02{left:597px;}
 .videoContent{position:relative;width:100%;height:671px;padding:0;background:#ababab;}
 .videoContent .playBtn{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);background:transparent;border:0;}
-.videoWrap iframe {display:block;max-width:1194px;width:100%;height:671px;margin:75px auto 0;}
+.videoWrap iframe {display:block;max-width:1194px;max-height:671px;margin:0 auto;}
 
 .serverVideo .tabBtn.on button{color:#7db7ff}
 .asessmentVideo .tabBtn.on button{color:#3ee1a9}
@@ -985,7 +985,7 @@ text-align: left; }
 .store .emailWrap > .applyPartner ul li::before{content: "*"; color:#777777; font-size: 20px; position: absolute; left: 0; top: 4px;}
 .store .emailWrap > .applyPartner ul li span{padding-left: 15px; display: flex;}
 /* inlterview */
-
+/* .interview.container{margin: 0 auto; width: 1194px;} */
 .interview .subVisual{background: url(/images/smb/ahnlabSMB/Interview_title_bg.png)no-repeat center center;width: 100%;height: 540px;}
 .interview .subVisual h3{color:#fff; padding-top: 100px;}
 .interview .subVisual h3 p:nth-child(1){font-size: 46px;}
@@ -1004,7 +1004,7 @@ text-align: left; }
 .questionVideoBox .questionTitle .quotation dd strong,
 .questionVideoBox .questionTitle .QandA dt{font-weight: bold; color: #333333;}
 
-.swiperVideo .swiper-wrapper{height: 760px; width: 100%;}
+.swiperVideo .swiper-slide{height: 741px; width: 100%;}
 .swiper-slide iframe {top: 0;left: 0;width: 100%;height: 100%;}
 
 
@@ -1052,5 +1052,4 @@ text-align: left; }
 
 .layer-open{overflow:hidden;}
   
-  
-  
+
