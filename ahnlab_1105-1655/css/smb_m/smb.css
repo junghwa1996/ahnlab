@@ -1501,10 +1501,10 @@ text-align: left;}
 .interview .answerCard .answerCardTitle{margin-bottom: 50px;}
 .interview .answerCard .answerCardTitle p{font-size: 38px;text-align: center;}
 .interview .answerCard .boxWrap{width: 720px;margin: 0 auto;}
-.interview .answerCard .boxWrap > div{height: 535px;}
+.interview .answerCard .boxWrap > div{height: 536px;}
 .interview .answerCard .boxWrap .swiper-slide{width: 100%;}
 .interview .cardWrap{height: 431px;padding: 60px 0 0 50px;border-radius: 26px;width: 600px;margin: 0 auto;}
-.interview .cardWrap::after{content: "";width: 0px;height: 0px;border-bottom: 94px solid transparent;border-left: 94px solid #00aff0;position: absolute;left: 0;bottom: -45px;}
+.interview .cardWrap::after{content: "";width: 0px;height: 0px;border-bottom: 94px solid transparent;border-left: 94px solid #00aff0;position: absolute;left: 0;bottom: -44px;}
 .interview .cardWrap dt{overflow: hidden;width: 514px;height: 160px;font-size: 28px;line-height: 42px; margin-bottom: 15px;}
 .interview .cardWrap dd>p{font-size: 26px;color: #333;}
 .interview .cardWrap dd>p>strong{font-weight: bolder;}

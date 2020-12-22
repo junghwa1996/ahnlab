@@ -999,12 +999,13 @@ text-align: left; }
 .questionVideoBox .questionTitle .quotation dt::after{content: '';background: url(/images/smb/store/text_quotation_right.png)no-repeat;width: 19px;height: 16px;position: absolute;right: -25px;top: 10px;}
 .questionVideoBox .questionTitle .quotation dd{ margin-bottom:15px;}
 .questionVideoBox .questionTitle .quotation dd,
-.questionVideoBox .questionTitle .QandA p{font-size: 22px; color: #666666;line-height: 35px;}
+.questionVideoBox .questionTitle .QandA dt,.questionVideoBox .questionTitle .QandA dd{font-size: 22px; color: #666666;line-height: 35px;}
 .questionVideoBox .questionTitle .QandA dt{margin-bottom:25px;}
 .questionVideoBox .questionTitle .quotation dd strong,
-.questionVideoBox .questionTitle .QandA dt p{font-weight: bold; color: #333333;}
+.questionVideoBox .questionTitle .QandA dt{font-weight: bold; color: #333333;}
 
 .swiperVideo .swiper-wrapper{height: 760px; width: 100%;}
+.swiper-slide iframe {top: 0;left: 0;width: 100%;height: 100%;}
 
 
 .answerCard{margin:140px 0;}
@@ -1015,7 +1016,7 @@ text-align: left; }
 .swiperCard .swiper-wrapper .swiper-slide{position: relative; height: 625px;}
 .cardWrap{background-color: #00aff0;width: 300px; height: 515px; border-radius: 20px; padding: 60px 0 0 60px;position: relative;}
 .cardWrap::after{content: "";width: 0px;height: 0px;border-bottom: 125px solid transparent;border-left: 165px solid #00aff0;position: absolute;left: 0;bottom: -72px;}
-.cardWrap dl{margin-bottom: 50px;}
+.cardWrap dl{width: 100%; margin-bottom: 50px;}
 .cardWrap dl dt{height: 210px;overflow: hidden; font-size: 24px; color: #fff;margin-bottom: 37px; line-height: 35px; font-weight: 400;}
 .cardWrap dl dd p{font-size: 22px; color:#333333;}
 .cardWrap dl dd span{font-size: 18px; color:#4affff; line-height: 50px;}
@@ -1029,8 +1030,8 @@ text-align: left; }
 .interviewPopup{background: rgba(0, 0, 0, 0.8);width: 100%;position: fixed;left: 0;top: 51px;z-index: 9999;display: none;}
 .interviewPopup.active{display: block;}
 .popupWrap.active{display: block;}
-.popupWrap{height: 100vh; overflow: scroll; display: none;}
-.popupWrap > div{background: #fff;max-width: 904.99px;border-radius: 26px;padding: 40px 72px 40px 60px;margin: 100px auto; height: auto;}
+.popupWrap{height: 100vh; width: 100vw; overflow-x: scroll; display: none;}
+.popupWrap > div{background: #fff;width: 904.99px;border-radius: 26px;padding: 40px 72px 40px 60px;margin: 100px auto; height: auto;}
 .popupWrap .popupCloseBtn{float: right; cursor: pointer;}
 .popupWrap > div > p{font-size: 36px;text-align: center;margin: 65px 0 100px;font-weight: bold;}
 .popupWrap .qaWrap{margin-top: 40px;}
