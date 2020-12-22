@@ -4346,14 +4346,6 @@ footer .onlineLink a::after {
     background: url(/images/smb/event/vi_bg_v2.png) no-repeat center center;
 }
 
-<<<<<<< HEAD
-.eventWrap {
-    width: 886px;
-    margin: 0 auto;
-    padding-top: 90px;
-    text-align: center;
-}
-=======
 /* officeWrap */
 .officeWrap{width:908px;margin:0 auto;padding-bottom:130px;}
 .officeWrap .title{text-align:center;font-size:32px;color:#2b2b2b;}
@@ -4426,7 +4418,6 @@ footer .onlineLink a::after {
 .asessmentTab .tabContent02 .tabItem02 .tabImage::after{background-position:-562px -125px;width:99px;height:98px;}
 .asessmentTab .tabContent02 .tabItem03 .tabImage::after{background-position:-697px -125px;width:106px;height:112px;}
 .asessmentTab .tabContent02 .tabItem04 .tabImage::after{background-position:-697px -250px;width:99px;height:102px;}
->>>>>>> b720fdcc3e8c5d081623577bf6a1edac40f79983
 
 .eventWrap .viSubTit {
     text-align: left;
@@ -4975,304 +4966,6 @@ footer .onlineLink a::after {
 
 /* 1202 add */
 
-<<<<<<< HEAD
-.howtosection {
-    background: url(/images/smb/product/howto_bg.png) no-repeat center center;
-    width: 100%;
-    height: 378px;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    min-width: 1440px;
-}
-
-.howtoWrap {
-    min-width: 1440px;
-    margin: 0 auto;
-}
-
-.howtoWrap>.title {
-    font-size: 32px;
-}
-
-.howtoWrap .title span {
-    font-weight: 900;
-}
-
-.howtoWrap .btnWrap {
-    display: flex;
-    margin-top: 40px;
-}
-
-.howtoWrap .howto1,
-.howtoWrap .howto2 {
-    height: 72px;
-    line-height: 72px;
-    color: #fff;
-    font-size: 22px;
-    border-radius: 50px;
-    cursor: pointer;
-}
-
-.product01 .howtoWrap .howto1,
-.product01 .howtoWrap .howto2 {
-    background: #2baeea;
-}
-
-.product02 .howtoWrap .howto1,
-.product02 .howtoWrap .howto2 {
-    background: #57c29d;
-}
-
-.product02 .howtoWrap .howto1 {
-    width: 176px;
-}
-
-.product03 .howtoWrap .howto1,
-.product03 .howtoWrap .howto2 {
-    background: #4f6cb1;
-}
-
-.howtoWrap .howto1 {
-    width: 339.99px;
-    height: 72px;
-    margin-right: 20px;
-}
-
-.howtoWrap .howto2 {
-    width: 243px;
-    height: 72px;
-}
-
-.modalContainer {
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: fixed;
-    background: rgba(0, 0, 0, 0.8);
-    z-index: 99;
-    display: none;
-}
-
-.modalWrap1,
-.modalWrap2 {
-    display: none;
-}
-
-.modalContainer .modalWrap1,
-.modalContainer .modalWrap2 {
-    width: 798px;
-    height: 828px;
-    background: #fff;
-    margin: 0 auto;
-    margin-top: 60px;
-    position: relative;
-}
-
-.modalContainer .modalWrap2 {
-    height: 788px;
-}
-
-.modalContainer .title {
-    background: #232222;
-    height: 60px;
-    line-height: 60px;
-    padding: 0 27px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between
-}
-
-.modalContainer .title p {
-    color: #fff;
-    font-size: 20px;
-}
-
-.modalContainer .title .modal-close {
-    background: url(/images/smb_m/product/close.png) no-repeat center center;
-    width: 21px;
-    height: 21px;
-    display: block;
-    cursor: pointer;
-}
-
-.modalContainer .btnWrap {
-    margin-top: 7.6389vw;
-    margin-bottom: 8.3333vw;
-}
-
-.modalContainer .modalWrap1 .visualSwiper {
-    width: 734px;
-    height: 530px;
-    margin: 24px 30px;
-    display: flex;
-    overflow: hidden;
-}
-
-.modalContainer .swiperWrapper {
-    display: flex;
-}
-
-.modalContainer .modalWrap2 .visualSwiper {
-    width: 734px;
-    height: 530px;
-    margin: 54px 30px;
-    display: flex;
-    overflow: hidden;
-}
-
-.modalContainer .swiperSlide {
-    width: 100%;
-    height: 100%;
-    ;
-    background-size: contain;
-}
-
-.modalContainer .swiperSlide img {
-    width: 100%;
-    height: 100%;
-}
-
-.modalContainer .btnWrap3 {
-    position: relative;
-    display: flex;
-    justify-content: center;
-}
-
-.modalContainer .btnWrap3 div {
-    cursor: pointer;
-}
-
-.modalContainer .btnWrap3 div:nth-child(1) {
-    width: 196.512px;
-    height: 46.788px;
-    margin-right: 12px;
-}
-
-.modalContainer .btnWrap3 div img {
-    width: 100%;
-    height: 100%;
-}
-
-.modalContainer .btnWrap3 div:nth-child(2) {
-    width: 171.612px;
-    height: 46.788px;
-}
-
-.modalContainer .btnWrap4 {
-    background: #e9e9e9;
-    width: 100%;
-    height: 79.8px;
-    position: relative;
-    margin-top: 24px;
-}
-
-.modalContainer .modalWrap .btnWrap4 {
-    height: 111.8px;
-}
-
-.modalContainer .swiperButtonNext,
-.modalContainer .swiperButtonPrev {
-    width: 30px;
-    height: 58.2px;
-    background: url(/images/smb/product/btn_arrow01.png) no-repeat center center;
-    background-size: contain;
-    right: 0;
-}
-
-.modalContainer .swiperButtonNext {
-    transform: rotateY(180deg)
-}
-
-.modalContainer .slideNumber {
-    font-size: 18px;
-    margin: 0 25px;
-    width: 70px;
-    text-align: center;
-    line-height: 45px;
-    font-family: 'DM Sans';
-}
-
-.modalContainer .btnWrap4 {
-    display: flex;
-    position: relative;
-    padding-top: 40px;
-}
-
-.modalContainer .btnWrap4 .swiperButtonNext,
-.modalContainer .btnWrap4 .swiperButtonPrev {
-    top: 0;
-    background: url(/images/smb/product/btn_arrow02.png) no-repeat center center;
-    background-size: contain;
-    width: 45px;
-    height: 45px;
-    position: relative;
-}
-
-.modalContainer .btnWrap4 .btnLast,
-.modalContainer .btnWrap4 .btnFirst {
-    top: 0;
-    left: 0;
-    background: url(/images/smb/product/btn_arrow03.png) no-repeat center center;
-    background-size: contain;
-    width: 45px;
-    height: 45px;
-    cursor: pointer;
-}
-
-.modalContainer .btnWrap4 .btnLast {
-    transform: rotateY(180deg)
-}
-
-.modalContainer .btnWrap4 .btnLeft {
-    margin-left: 222px;
-}
-
-.modalContainer .btnWrap4 .btnLeft,
-.modalContainer .btnWrap4 .btnRight {
-    width: 108px;
-    height: 45px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.on {
-    display: block;
-}
-
-.modalContainer .Prev01 {
-    left: -10%;
-    top: 45%;
-}
-
-.modalContainer .Next01 {
-    right: -10%;
-    top: 45%;
-}
-
-.modalContainer .modalWrap1.product02 {
-    height: 828px;
-}
-
-.modalContainer .modalWrap1.product02 .visualSwiper {
-    height: 582px;
-    margin: 37.5px 30px;
-}
-
-.modalContainer .swiperSlide.imgResize img {
-    width: 552px;
-    height: 582px;
-    display: block;
-    margin: 0 auto;
-}
-
-.swiperButtonPrev.Prev01.swiper-button-disabled,
-.swiperButtonNext.Next01.swiper-button-disabled {
-    opacity: 0;
-}
-
-=======
 .howtosection{background:url(/images/smb/product/howto_bg.png) no-repeat center center;width:100%;height:378px;color:#fff;display: flex;align-items: center;min-width: 1440px;}
 .howtoWrap{min-width: 1440px;margin: 0 auto;}
 .howtoWrap > .title{font-size:32px;}
@@ -5322,7 +5015,6 @@ footer .onlineLink a::after {
 .modalContainer .modalWrap1.product02 .visualSwiper{height:582px;margin:37.5px 30px;}
 .modalContainer .swiperSlide.imgResize img{width:552px;height:582px;display:block;margin:0 auto;}
 .swiperButtonPrev.Prev01.swiper-button-disabled, .swiperButtonNext.Next01.swiper-button-disabled{opacity: 0;}
->>>>>>> b720fdcc3e8c5d081623577bf6a1edac40f79983
 
 /* about */
 
@@ -6074,17 +5766,8 @@ footer .onlineLink a::after {
     background: url(/images/smb/ahnlabSMB/btn_prev.png) no-repeat center center/contain;
 }
 
-<<<<<<< HEAD
-.swiperVideo .swiper-button-prev:after {
-    content: '';
-    width: 80px;
-    height: 80px;
-    background: url(/images/smb/ahnlabSMB/btn_next.png) no-repeat center center/contain;
-}
-=======
 
 .layer-open{overflow:hidden;}
   
   
   
->>>>>>> b720fdcc3e8c5d081623577bf6a1edac40f79983
