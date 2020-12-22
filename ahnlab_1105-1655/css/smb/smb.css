@@ -978,11 +978,11 @@ text-align: left; }
 .store .subContent > .contentMain{padding:130px 85px;}
 .store .subContent > .contentMain h3{font-size:30px; text-align: center;}
 .store .subContent > .contentMain ul{margin: 70px 0; display: flex; justify-content: space-between;}
-.store .subContent > .contentMain ul li{width: 320px; height:320px; background-color: #3ec9ee; border-radius: 30px; padding:50px 0 0 50px; box-sizing: border-box; overflow: hidden;}
+.store .subContent > .contentMain ul li{width: 320px; height:320px; background-color: #3ec9ee; border-radius: 30px; padding:50px 0 0 50px; box-sizing: border-box; overflow: hidden; position: relative;}
 .store .subContent > .contentMain ul li p{font-size:24px; color:#fff; font-weight: bold; line-height: 30px;}
-.store .subContent > .contentMain ul .box01 div{background: url(/images/smb/store/icon_cloud.png)no-repeat right -20px bottom -2px;height:100%;}
-.store .subContent > .contentMain ul .box02 div{background: url(/images/smb/store/icon_threePeople.png)no-repeat right -2px bottom -15px;height:100%;}
-.store .subContent > .contentMain ul .box03 div{background: url(/images/smb/store/icon_hands.png)no-repeat right -20px bottom -10px;height:100%;}
+.store .subContent > .contentMain ul .box01 div.bgimg1{width: 223px; height: 156px; background: url(/images/smb/store/css_sprites.png)no-repeat 8px -4px; position: absolute; right: 0;bottom: 0;}
+.store .subContent > .contentMain ul .box02 div.bgimg2{width: 181px; height: 168px; background: url(/images/smb/store/css_sprites.png)no-repeat -253px -7px; position: absolute; right: 0;bottom: 0;}
+.store .subContent > .contentMain ul .box03 div.bgimg3{width: 195px; height: 172px; background: url(/images/smb/store/css_sprites.png)no-repeat 9px -170px; position: absolute; right: 0;bottom: 0;}
 .store .subContent > .contentMain ol li {font-size: 20px; line-height: 30px; background: url(/images/smb/store/icon_checkList.png) no-repeat left 9px / 13px 12px; padding-left: 25px;}
 .store .subContent > .contentMain ol li span{font-size: 18px; color:#777777; font-weight: 300;}
 .store .email{background-color: #fcfcfc;}
