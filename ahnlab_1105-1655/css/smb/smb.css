@@ -973,8 +973,8 @@ text-align: left; }
 .store .subContent > .contentMain ul .box01 div{background: url(/images/smb/store/icon_cloud.png)no-repeat right -20px bottom -2px;height:100%;}
 .store .subContent > .contentMain ul .box02 div{background: url(/images/smb/store/icon_threePeople.png)no-repeat right -2px bottom -15px;height:100%;}
 .store .subContent > .contentMain ul .box03 div{background: url(/images/smb/store/icon_hands.png)no-repeat right -20px bottom -10px;height:100%;}
-.store .subContent > .contentMain ol li p{font-size: 20px; line-height: 30px; background: url(/images/smb/store/icon_checkList.png) no-repeat left center / 13px 12px; padding-left: 25px;}
-.store .subContent > .contentMain ol li span{font-size: 18px; color:#777777; font-weight: 300; padding-left:25px;}
+.store .subContent > .contentMain ol li {font-size: 20px; line-height: 30px; background: url(/images/smb/store/icon_checkList.png) no-repeat left 9px / 13px 12px; padding-left: 25px;}
+.store .subContent > .contentMain ol li span{font-size: 18px; color:#777777; font-weight: 300;}
 .store .email{background-color: #fcfcfc;}
 .store .emailWrap{padding:100px 85px; display: flex;justify-content: space-between; align-items: center;}
 .store .emailWrap > .applyPartner > h3{font-size: 28px; font-weight: bold; margin-bottom: 10px;}
@@ -982,6 +982,7 @@ text-align: left; }
 .store .emailWrap > .emailCopy button{width:230px; height:56px; border:1px solid #0bb3e0; border-radius: 30px; background-color: #fff; font-size: 18px; color: #0bb3e0; font-weight: bold;}
 .store .emailWrap{width: 1194px;margin: 0 auto;}
 #copytxt{position: absolute; top:-9999px; left:-9999px;}
+
 
 /* inlterview */
 
