@@ -1402,7 +1402,7 @@ text-align: left;}
 .about .btnWrap>a{ padding-left: 57px; font-size: 28px;line-height: 100px; width: 450px;height:100px;border-radius: 50px;}
 .about .btnWrap>a::after{right: 40px;width:49px;height:18px;}
 }
-@media (min-width:320px){
+@media (min-width:320px) and (max-width:719px){
   .about .LongTitle>ul>li{font-size: 12px;letter-spacing: -0.2px;}
   .accordian .list .listWrap .lisrWrapTitle p{font-size: 12px;}
 }
