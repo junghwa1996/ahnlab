@@ -57,8 +57,8 @@
   animation-delay: var(--animate-delay);
 }
 .move.d-2s {
-  -webkit-animation-delay: calc(1s * 2);
-  animation-delay: calc(1s * 2);
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
   -webkit-animation-delay: calc(var(--animate-delay) * 2);
   animation-delay: calc(var(--animate-delay) * 2);
 }
