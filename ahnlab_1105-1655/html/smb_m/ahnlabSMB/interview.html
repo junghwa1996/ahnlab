@@ -122,12 +122,6 @@
                 <div class="swiper-slide video01">
                   <iframe width="1280" height="720" src="https://www.youtube.com/embed/6iWya2rJiCk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <div class="swiper-slide video02">
-                  <iframe width="1280" height="720" src="https://www.youtube.com/embed/V692aRFbl4I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="swiper-slide video03">
-                  <iframe width="1280" height="720" src="https://www.youtube.com/embed/6iWya2rJiCk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
               </div>
               <!-- Add Pagination -->
               <div class="swiper-pagination"></div>
@@ -234,8 +228,6 @@
                 </div>
               </div>
               <div class="swiper-pagination"></div>
-              <div class="swiper_start_btn"></div>
-						  <div class="swiper_stop_btn"></div>
             </div>
           </div>
         </section>
@@ -595,16 +587,23 @@
 				navigation: {
 					nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
-          
 				},
       });
 
-      var interviewSlide = new Swiper('.swiperCard', {
+      $('.swiper_start_btn').click(function(){
+        videoSlide.autoplay.start();
+        return false;
+      });
+      $('.swiper_stop_btn').click(function(){
+        videoSlide.autoplay.stop();
+        return false;
+      });
+
+      new Swiper('.swiperCard', {
             direction: 'vertical',
             mousewheel: false,
             autoplay: {
-              delay: 4000,
-              disableOnInteraction: false,
+              delay: 6000,
             },
             // slidesPerView: 3,
             // spaceBetween: 200,
