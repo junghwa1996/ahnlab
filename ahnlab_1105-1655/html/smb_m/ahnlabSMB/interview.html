@@ -581,7 +581,7 @@
 	  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 		<script src="/js/smb_m/common.js"></script>
 		<script>
-      	new Swiper('.swiperVideo', {
+      	var videoSlide = new Swiper('.swiperVideo', {
 				direction: 'horizontal',
 				autoplay: {
 					delay: 4000,
@@ -599,7 +599,7 @@
 				},
       });
 
-      new Swiper('.swiperCard', {
+      var interviewSlide = new Swiper('.swiperCard', {
             direction: 'vertical',
             mousewheel: false,
             autoplay: {
@@ -631,6 +631,27 @@
           modalContent[i].classList.remove("active");
         }
       }
+
+      $('.swiperVideo .swiper_start_btn').click(
+					function(){
+						videoSlide.autoplay.start();
+					}
+				);
+      $('.swiperVideo .swiper_stop_btn').click(
+        function(){
+          videoSlide.autoplay.stop();
+        }
+      );
+      $('.swiperCard .swiper_start_btn').click(
+					function(){
+						interviewSlide.autoplay.start();
+					}
+				);
+      $('.swiperCard .swiper_stop_btn').click(
+        function(){
+          interviewSlide.autoplay.stop();
+        }
+      );
       
 		</script>
 	</section><!--//moContainer-->

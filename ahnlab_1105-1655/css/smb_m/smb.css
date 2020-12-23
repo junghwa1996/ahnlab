@@ -1490,6 +1490,14 @@ text-align: left;}
 .swiperVideo .swiper-button-next:after{content:'';width: 8.3333vw;height: 8.3333vw;background: url(/images/smb/ahnlabSMB/btn_prev.png) no-repeat center center/contain; margin-bottom: 6.9444vw;}
 .swiperVideo .swiper-button-prev:after{content:'';width: 8.3333vw;height: 8.3333vw;background: url(/images/smb/ahnlabSMB/btn_next.png) no-repeat center center/contain; margin-bottom: 6.9444vw;}
 .swiperVideo .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets{bottom:0;}
+.boxWrap .swiperCard .swiper-pagination{display: flex;width: 33.3333vw;justify-content: space-between;position: absolute;right: 33%;top: 85.1389vw;transform: translateY(-50%);}
+.interview .swiperVideo{height: 75vw;}
+.interview .boxWrap>.swiperVideo .swiper-pagination{bottom: 3.6111vw;}
+.interview .swiperVideo .swiper_start_btn{bottom: 0;}
+.interview .swiperVideo .swiper_stop_btn{bottom: 0;}
+
+.interview .swiper_start_btn{background: url(/images/smb_m/ahnlabSMB/btn_start_stop.png)no-repeat left top;width: 11.9444vw;height: 11.9444vw;background-size: cover; position: absolute;bottom:2.1111vw;left: 18.0556vw;cursor: pointer;z-index: 11;}
+.interview .swiper_stop_btn{background: url(/images/smb_m/ahnlabSMB/btn_start_stop.png)no-repeat right top;width: 11.9444vw;height: 11.9444vw;background-size: cover; position: absolute;bottom:2.1111vw;right: 18.0556vw;cursor: pointer;z-index: 11;}
 @media (min-width: 720px){
 .interview .moVisual{width:100%;height:680px;}
 .interview .moVisual .location{padding: 200px 0 120px;}
@@ -1533,7 +1541,7 @@ text-align: left;}
 .interview .cardWrap .star{font-size: 20px;color:#4affff;line-height: 36px;}
 .interview .cardWrap .btnWrap a{margin-top: 25px;width: 246px;height: 100px;padding-right: 72px;border-radius: 50px;border: 1px solid #fff;font-size: 28px;line-height: 100px;color: #fff;cursor: pointer;position: relative;float: left;}
 .interview .cardWrap .btnWrap a:after{content: '';display: block;position: absolute;top: 50%;right: 60px;transform: translateY(-50%); width: 49px;height: 19px;background: url(/images/smb_m/ahnlabSMB/arr_img01.png) no-repeat right center;}
-.interview .faceImage{width: 167px;height: 167px;position: absolute;right: 53px;bottom: 25px;}
+.interview .faceImage{width: 167px;height: 167px;position: absolute;right: 53px;bottom: 155px;}
 
 .interviewPopup{background: rgba(0, 0, 0, 0.8);width: 100%;position: fixed;left: 0;top: 0;z-index: 9999;display: none;}
 .interviewPopup.active{display: block;}
@@ -1560,6 +1568,16 @@ text-align: left;}
 .swiperVideo .swiper-button-prev:after{content:'';width: 60px;height: 60px;background: url(/images/smb/ahnlabSMB/btn_next.png) no-repeat center center/contain; margin-bottom: 50px;}
 .swiperVideo .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets{bottom:0;}
 
+.boxWrap .swiperCard .swiper-pagination{display: flex;width: 240px;justify-content: space-between;position: absolute;right: 33%;top: 613px;transform: translateY(-50%);}
+.interview .swiperVideo{height: 540px;}
+.interview .boxWrap>.swiperVideo .swiper-pagination{bottom: 26px;}
+.interview .swiperVideo .swiper_start_btn{bottom: 0;}
+.interview .swiperVideo .swiper_stop_btn{bottom: 0;}
+.interview .answerCard .boxWrap > div{height: 670px;}
+.interview .answerCard .boxWrap .swiper-slide{height: 535px;}
+
+.interview .swiper_start_btn{background: url(/images/smb_m/ahnlabSMB/btn_start_stop.png)no-repeat left top;width: 87px;height: 87px;background-size: cover; position: absolute;bottom:15px;left: 130px;cursor: pointer;z-index: 11;}
+.interview .swiper_stop_btn{background: url(/images/smb_m/ahnlabSMB/btn_start_stop.png)no-repeat right top;width: 87px;height: 87px;background-size: cover; position: absolute;bottom:15px;right: 130px;cursor: pointer;z-index: 11;}
 }
 
 @media ( max-width: 320px ) {
@@ -1572,6 +1590,4 @@ text-align: left;}
   .interview .cardWrap dd>p{font-size: 12px;}
   .popupWrap .qaWrap p{font-size: 12px;}
 }
-.boxWrap .swiperCard .swiper-pagination{display: flex;width: 33.3333vw;justify-content: space-between;position: absolute;right: 33%;top: 85.1389vw;transform: translateY(-50%);}
-.interview .swiper_start_btn{background: url(/images/smb_m/ahnlabSMB/btn_start_stop.png)no-repeat left top;width: 11.9444vw;height: 11.9444vw;background-size: cover; position: absolute;bottom:0;left: 18.0556vw;cursor: pointer;z-index: 11;}
-.interview .swiper_stop_btn{background: url(/images/smb_m/ahnlabSMB/btn_start_stop.png)no-repeat right top;width: 11.9444vw;height: 11.9444vw;background-size: cover; position: absolute;bottom:0;right: 18.0556vw;cursor: pointer;z-index: 11;}
+
