@@ -1028,7 +1028,7 @@ text-align: left; }
 .interview .swiperCard .swiper-wrapper{display: flex;}
 .interview .swiperCard .swiper-wrapper .swiper-slide{position: relative; height: 625px;}
 .interview .cardWrap{background-color: #00aff0;width: 330px; height: 515px; border-radius: 20px; padding: 60px 0 0 50px;position: relative;}
-.interview .cardWrap::after{content: "";width: 0px;height: 0px;border-bottom: 125px solid transparent;border-left: 165px solid #00aff0;position: absolute;left: 0;bottom: -72px;}
+.interview .cardWrap::after{content: "";width: 0px;height: 0px;border-bottom: 125px solid transparent;border-left: 165px solid #00aff0;position: absolute;left: 0;bottom: -72px;z-index: -1;}
 .interview .cardWrap dl{width: 100%; margin-bottom: 50px;}
 .interview .cardWrap dl dt{height: 210px;overflow: hidden; font-size: 24px; color: #fff;margin-bottom: 37px; line-height: 35px; font-weight: 400;}
 .interview .cardWrap dl dd p{font-size: 22px; color:#333333;}
@@ -1036,7 +1036,6 @@ text-align: left; }
 .interview .cardWrap dl dd .writer{font-weight: bold;}
 .interview .cardWrap .btnWrap{display: inline-block;}
 .interview .cardWrap .btnWrap a{width: 160px;height: 55px;line-height: 55px;border-radius: 40px;padding-right: 25px;font-size: 18px;border: 1px solid #fff;color: #fff;position: relative;cursor: pointer;}
-.interview .cardWrap .btnWrap a:after{content: '';display: block;position: absolute;top: 21px;right: 18px;width: 36px;height: 12px;background: url(/images/smb/common/common_bg.png) no-repeat -13px -48px;}
 .interview .faceImage{width: 150px; height: 150px; overflow: hidden; position: absolute; right: 0px; bottom:0;}
 .interview .faceImage img{width: 100%;}
 
@@ -1063,8 +1062,9 @@ text-align: left; }
 .interview .swiperVideo .swiper-button-next.swiper-button-disabled, .swiperVideo .swiper-button-prev.swiper-button-disabled{opacity: 0;}
 .interview .swiperVideo .swiper-button-next:after{content:'';width: 80px;height: 80px;background: url(/images/smb/ahnlabSMB/btn_prev.png) no-repeat center center/contain;}
 .interview .swiperVideo .swiper-button-prev:after{content:'';width: 80px;height: 80px;background: url(/images/smb/ahnlabSMB/btn_next.png) no-repeat center center/contain;}
-
-
+.interview{position: relative;}
+.interview::before{content: "Q";font-size: 600px;font-weight: bold;color: #00aff0;position: absolute;top: 45%;left: 21%;opacity: 0.1;z-index: -1;}
+.interview::after{content: "A";font-size: 600px;font-weight: bold;color: #00aff0;position: absolute;top: 61%;right: 22%;opacity: 0.1;z-index: -1;}
 .layer-open{overflow:hidden;}
   
 
