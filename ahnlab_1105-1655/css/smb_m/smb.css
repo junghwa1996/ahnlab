@@ -1567,7 +1567,6 @@ text-align: left;}
 .interview .swiper_stop_btn{width: 86px;height: 86px; bottom:0;right: 130px;}
 
 .boxWrap .swiperCard .swiper-pagination{display: flex;width: 240px;justify-content: space-between;position: absolute;right: 33%;top: 613px;transform: translateY(-50%);}
-.interview .swiperVideo{height: 540px;}
 .interview .boxWrap>.swiperVideo .swiper-pagination{bottom: 26px;}
 .interview .swiperVideo .swiper_start_btn{bottom: 0;}
 .interview .swiperVideo .swiper_stop_btn{bottom: 0;}
