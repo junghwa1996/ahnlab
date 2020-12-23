@@ -1457,7 +1457,7 @@ text-align: left;}
 .popupWrap.active{display: block;}
 .popupWrap{height: 100vh; overflow: scroll;display: none;}
 .popupWrap > div{background: #fff;width: 75.0000vw;border-radius: 3.4722vw;padding: 5.2778vw 5.2778vw 15.8333vw 6.5278vw;margin: 13.8889vw auto; height: auto;}
-.popupWrap .popupCloseBtn{float: right; cursor: pointer;}
+.popupWrap .popupCloseBtn{float: right;width: 3.0556vw; cursor: pointer;}
 .popupWrap > div > p{font-size:4.7222vw;text-align: center;margin: 10.5556vw 0 9.8611vw;font-weight: bold;}
 .popupWrap .qaWrap{margin-top: 5.2778vw;}
 .popupWrap .questions{display: flex;align-items: center;}
@@ -1466,7 +1466,8 @@ text-align: left;}
 .popupWrap .qaWrap p{font-size: 3.1944vw;line-height: 5.0000vw;display: inline-block;}
 .popupWrap .qaWrap>p:nth-child(1){background: #e5f7fd;border-radius:3.8889vw;}
 .popupWrap .qaWrap>p:nth-child(2){margin-top: 5.2778vw; background: #e5f7fd;padding: 3.8889vw;border-radius:3.8889vw;position: relative;}
-.popupWrap .qaWrap>p:nth-child(2)::after{content: '';display: block;background: url(/images/smb_m/ahnlabSMB/bg_interview_ballon.png)no-repeat center center;width: 5.9722vw;height: 2.6389vw;position: absolute;left: 23.7500vw;top: -2.6389vw;}
+.popupWrap .qaWrap>p:nth-child(2)::after{content: '';display: block;background: url(/images/smb_m/ahnlabSMB/bg_interview_ballon.png)no-repeat center center;background-size: cover;width: 5.9722vw;height: 2.6389vw;position: absolute;left: 23.7500vw;top: -2.6389vw;}
+.popupWrap .btnWrap{width: 55.5556vw; height: 13.8889vw;border-radius: 6.9444vw;background-color: #00aae8;font-size: 3.8889vw;color: #fff;line-height: 13.8889vw;margin-top: 9.7222vw;}
 
 .interview .questionTitle>.quotation>dl>dt{display: flex;align-items: flex-start;}
 .interview .questionTitle>.quotation>dl>dt>span{width:2.6389vw;height: 2.2222vw; display: block;line-height: 3.6111vw;}
@@ -1544,7 +1545,6 @@ text-align: left;}
 .popupWrap .qaWrap>p:nth-child(2){margin-top: 38px; background: #e5f7fd;padding: 28px;border-radius:28px;position: relative;}
 .popupWrap .qaWrap>p:nth-child(2)::after{content: '';display: block;background: url(/images/smb_m/ahnlabSMB/bg_interview_ballon.png)no-repeat center center;width: 43px;height: 19px;position: absolute;left: 171px;top: -19px;}
 
-
 .swiper-button-next,
 .swiper-button-prev{background-image: none;}
 .swiperVideo .swiper-button-next,
@@ -1560,16 +1560,9 @@ text-align: left;}
   .contactNumber .time {padding-right:23.1667vw;}
   .footerMenu p {padding-left: 5.3333vw;}
   .footerMenu p::after {left: 2.1667vw; top: 51%;}
-  /* .footerInfo{font-size:3.7500vw;}
-  .about .LongTitle>ul>li{font-size:3.7500vw;}
-  .location span{font-size:3.7500vw;}
-  .interview .quotation dd{font-size:3.7500vw;}
-  .subVisual .subTitle{font-size:3.7500vw;}
-  .advantages > div .infoText{font-size:3.7500vw;}
-  .productIntroduce .btnWrap a, .productIntroduce .btnWrap button{font-size:3.7500vw;}
-  .experienceWrap .experience .btnWrap a{font-size:3.7500vw;}
-  .officeList .officeName {font-size:3.7500vw;}
-  .tabItem .itemInfo .text{font-size:3.7500vw;}
-  .store .emailWrap > div:nth-child(1) ul li,.store .subContent ol>li>p{font-size:3.7500vw;} */
+  .interview .quotation dd{font-size: 12px;}
+  .interview .QandA p{font-size: 12px;}
+  .interview .cardWrap dd>p{font-size: 12px;}
+  .popupWrap .qaWrap p{font-size: 12px;}
 
 }
