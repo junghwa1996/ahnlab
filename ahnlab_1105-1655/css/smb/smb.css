@@ -1014,50 +1014,55 @@ text-align: left; }
 .questionVideoBox .questionTitle .quotation dd strong,
 .questionVideoBox .questionTitle .QandA dt{font-weight: bold; color: #333333;}
 
-.swiperVideo .swiper-slide{height: 741px; width: 100%;}
-.swiper-slide iframe {top: 0;left: 0;width: 100%;height: 100%;}
+.interview .swiperVideo {height: 749px;}
+.interview .swiperVideo .swiper-slide{height: 673px; width: 100%;}
+.interview .swiper_start_btn{background: url(/images/smb/ahnlabSMB/btn_start_stop.png)no-repeat left top;width: 36px;height: 36px;position: absolute;bottom:0;left: 479px;cursor: pointer;z-index: 11;}
+.interview .swiper_stop_btn{background: url(/images/smb/ahnlabSMB/btn_start_stop.png)no-repeat right top;width: 36px;height: 36px;position: absolute;bottom:0;right: 479px;cursor: pointer;z-index: 11;}
+.interview .swiper-slide iframe {top: 0;left: 0;width: 100%;height: 100%;}
+.interview .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{margin: 0 15px;}
 
+.interview .answerCard{margin:140px 0;}
+.interview .answerCard .answerCardTitle{margin-bottom: 40px;;}
+.interview .answerCard .answerCardTitle p{font-size: 44px; text-align: center;}
+.interview .swiperCard{height: 695px;}
+.interview .swiperCard .swiper-wrapper{display: flex;}
+.interview .swiperCard .swiper-wrapper .swiper-slide{position: relative; height: 625px;}
+.interview .cardWrap{background-color: #00aff0;width: 330px; height: 515px; border-radius: 20px; padding: 60px 0 0 50px;position: relative;}
+.interview .cardWrap::after{content: "";width: 0px;height: 0px;border-bottom: 125px solid transparent;border-left: 165px solid #00aff0;position: absolute;left: 0;bottom: -72px;}
+.interview .cardWrap dl{width: 100%; margin-bottom: 50px;}
+.interview .cardWrap dl dt{height: 210px;overflow: hidden; font-size: 24px; color: #fff;margin-bottom: 37px; line-height: 35px; font-weight: 400;}
+.interview .cardWrap dl dd p{font-size: 22px; color:#333333;}
+.interview .cardWrap dl dd span{font-size: 18px; color:#4affff; line-height: 50px;}
+.interview .cardWrap dl dd .writer{font-weight: bold;}
+.interview .cardWrap .btnWrap{display: inline-block;}
+.interview .cardWrap .btnWrap a{width: 160px;height: 55px;line-height: 55px;border-radius: 40px;padding-right: 25px;font-size: 18px;border: 1px solid #fff;color: #fff;position: relative;cursor: pointer;}
+.interview .cardWrap .btnWrap a:after{content: '';display: block;position: absolute;top: 21px;right: 18px;width: 36px;height: 12px;background: url(/images/smb/common/common_bg.png) no-repeat -13px -48px;}
+.interview .faceImage{width: 150px; height: 150px; overflow: hidden; position: absolute; right: 0px; bottom:0;}
+.interview .faceImage img{width: 100%;}
 
-.answerCard{margin:140px 0;}
-.answerCard .answerCardTitle{margin-bottom: 80px;;}
-.answerCard .answerCardTitle p{font-size: 44px; text-align: center;}
-.swiperCard{height: 655px;}
-.swiperCard .swiper-wrapper{display: flex;}
-.swiperCard .swiper-wrapper .swiper-slide{position: relative; height: 625px;}
-.cardWrap{background-color: #00aff0;width: 300px; height: 515px; border-radius: 20px; padding: 60px 0 0 60px;position: relative;}
-.cardWrap::after{content: "";width: 0px;height: 0px;border-bottom: 125px solid transparent;border-left: 165px solid #00aff0;position: absolute;left: 0;bottom: -72px;}
-.cardWrap dl{width: 100%; margin-bottom: 50px;}
-.cardWrap dl dt{height: 210px;overflow: hidden; font-size: 24px; color: #fff;margin-bottom: 37px; line-height: 35px; font-weight: 400;}
-.cardWrap dl dd p{font-size: 22px; color:#333333;}
-.cardWrap dl dd span{font-size: 18px; color:#4affff; line-height: 50px;}
-.cardWrap dl dd .writer{font-weight: bold;}
-.cardWrap .btnWrap{display: inline-block;}
-.cardWrap .btnWrap a{width: 190px;height: 55px;line-height: 55px;border-radius: 40px;padding-right: 30px;font-size: 18px;border: 1px solid #fff;color: #fff;position: relative;cursor: pointer;}
-.cardWrap .btnWrap a:after{content: '';display: block;position: absolute;top: 23px;right: 35px;width: 36px;height: 12px;background: url(/images/smb/common/common_bg.png) no-repeat -13px -48px;}
-.faceImage{width: 150px; height: 150px; overflow: hidden; position: absolute; right: 0px; bottom:0;}
-.faceImage img{width: 100%;}
 
 .interviewPopup{background: rgba(0, 0, 0, 0.8);width: 100%;position: fixed;left: 0;top: 51px;z-index: 9999;display: none;}
 .interviewPopup.active{display: block;}
-.popupWrap.active{display: block;}
-.popupWrap{height: 100vh; width: 100vw; overflow-x: scroll; display: none;}
-.popupWrap > div{background: #fff;width: 904.99px;border-radius: 26px;padding: 40px 72px 40px 60px;margin: 100px auto; height: auto;}
-.popupWrap .popupCloseBtn{float: right; cursor: pointer;}
-.popupWrap > div > p{font-size: 36px;text-align: center;margin: 65px 0 100px;font-weight: bold;}
-.popupWrap .qaWrap{margin-top: 40px;}
-.popupWrap .questions{display: flex;align-items: center;}
-.popupWrap .questions>span{margin:0 20px 0 50px; font-size: 46px;font-weight: bold;text-align: center;line-height: 72px;color: #fff; width: 72px;height: 72px;border-radius: 50%; background-color: #00aae8;}
-.popupWrap .qaWrap p{font-size: 22px;line-height: 34px;display: inline-block;}
-.popupWrap .qaWrap>p:nth-child(1){background: #e5f7fd;border-radius:30px;}
-.popupWrap .qaWrap>p:nth-child(2){margin-top: 40px; background: #e5f7fd;padding: 30px 60px 30px 50px;border-radius:30px;position: relative;}
-.popupWrap .qaWrap>p:nth-child(2)::after{content: '';display: block;background: url(/images/smb/ahnlabSMB/bg_interview.png);width: 44px;height: 20px;position: absolute;left: 180px;top: -20px;}
+.interviewPopup .popupWrap.active{display: block;}
+.interviewPopup .popupWrap{height: 100vh; width: 100vw; overflow-x: scroll; display: none;}
+.interviewPopup .popupWrap > div{background: #fff;max-width: 904.99px;border-radius: 26px;padding: 40px 72px 40px 60px;margin: 100px auto; height: auto;}
+.interviewPopup .popupWrap .popupCloseBtn{float: right; cursor: pointer;}
+.interviewPopup .popupWrap > div > p{font-size: 36px;text-align: center;margin: 65px 0 100px;font-weight: bold;}
+.interviewPopup .popupWrap .qaWrap{margin-top: 40px;}
+.interviewPopup .popupWrap .questions{display: flex;align-items: center;}
+.interviewPopup .popupWrap .questions>span{margin-right:20px; font-size: 46px;font-weight: bold;text-align: center;line-height: 72px;color: #fff; padding: 10px 25px; border-radius: 50%; background-color: #00aae8;}
+.interviewPopup .popupWrap .questions>p{width: 800px;}
+.interviewPopup .popupWrap .qaWrap p{font-size: 22px;line-height: 34px;display: inline-block;}
+.interviewPopup .popupWrap .qaWrap>p:nth-child(1){background: #e5f7fd;border-radius:30px;}
+.interviewPopup .popupWrap .qaWrap>p:nth-child(2){margin-top: 40px; background: #e5f7fd;padding: 30px 60px 30px 50px;border-radius:30px;position: relative;}
+.interviewPopup .popupWrap .qaWrap>p:nth-child(2)::after{content: '';display: block;background: url(/images/smb/ahnlabSMB/bg_interview.png);width: 44px;height: 20px;position: absolute;left: 180px;top: -20px;}
 
 
-.swiperVideo .swiper-button-next,
-.swiperVideo .swiper-button-prev{width: 80px; height: 80px;}
-.swiperVideo .swiper-button-next.swiper-button-disabled, .swiperVideo .swiper-button-prev.swiper-button-disabled{opacity: 0;}
-.swiperVideo .swiper-button-next:after{content:'';width: 80px;height: 80px;background: url(/images/smb/ahnlabSMB/btn_prev.png) no-repeat center center/contain;}
-.swiperVideo .swiper-button-prev:after{content:'';width: 80px;height: 80px;background: url(/images/smb/ahnlabSMB/btn_next.png) no-repeat center center/contain;}
+.interview .swiperVideo .swiper-button-next,
+.interview .swiperVideo .swiper-button-prev{width: 80px; height: 80px;}
+.interview .swiperVideo .swiper-button-next.swiper-button-disabled, .swiperVideo .swiper-button-prev.swiper-button-disabled{opacity: 0;}
+.interview .swiperVideo .swiper-button-next:after{content:'';width: 80px;height: 80px;background: url(/images/smb/ahnlabSMB/btn_prev.png) no-repeat center center/contain;}
+.interview .swiperVideo .swiper-button-prev:after{content:'';width: 80px;height: 80px;background: url(/images/smb/ahnlabSMB/btn_next.png) no-repeat center center/contain;}
 
 
 .layer-open{overflow:hidden;}

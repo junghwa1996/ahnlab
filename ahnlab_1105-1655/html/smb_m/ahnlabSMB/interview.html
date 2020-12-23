@@ -42,7 +42,7 @@
 						<p><button type="button">AhnLab SMB</button></p>
 						<div class="depthTwo">
 							<p><a href="/html/smb_m/ahnlabSMB/about.html">SMB 소개</a></p>
-							<p><a href="/html/smb_m/ahnlabSMB/Interview.html">인터뷰 &#38; 도입사례</a></p>
+							<p><a href="/html/smb_m/ahnlabSMB/interview.html">인터뷰 &#38; 도입사례</a></p>
 						</div>
 					</div>
 					<div class="menuItem">
@@ -130,8 +130,6 @@
                 </div>
               </div>
               <!-- Add Pagination -->
-              <div class="swiper-button-next"></div>
-              <div class="swiper-button-prev"></div>
               <div class="swiper-pagination"></div>
               <!-- Add Arrows -->
             </div>
@@ -303,6 +301,7 @@
             </div>
             <p>AhnLab Office Security, 절대 후회하지 않으실 겁니다.</p>
           </div>
+  				<div class="btnWrap" onclick="modalClose()">닫기</div>
         </div>
       </div>
       <!-- pop02 -->
@@ -359,6 +358,7 @@
             </div>
             <p>현재 진행 중인 이벤트로 V3 프로그램을 1년이라도 가벼운 가격으로 도입해보십시오. 신세계를 만난 느낌이 드실 겁니다. 일하기 딱 좋은 분위기, 느껴보시면 좋겠습니다.</p>
           </div>
+  				<div class="btnWrap" onclick="modalClose()">닫기</div>
         </div>
       </div>
       <!-- pop03 -->
@@ -415,6 +415,7 @@
             </div>
             <p>설치 부분에서 메일로 액티베이션 코드가 발급되는 프로세스는, 각 계정마다 따로 관리해야 하기 때문에 포맷이 잦은 기업에서는 약간 귀찮을 수 있어 일부 개선이 필요하다고 생각합니다. 그러나 Ahnlab Office Security Center의 대쉬보드는 정말 너무나 마음에 드네요! 이후 해당 제품을 도입하는 것을 적극 검토 중입니다.</p>
           </div>
+  				<div class="btnWrap" onclick="modalClose()">닫기</div>
         </div>
       </div>
       <!-- pop04 -->
@@ -478,6 +479,7 @@
             </div>
             <p>앞으로도 안랩이 이렇게 좋은 제품으로 국내 보안시장을 잘 이끌어 주길 바랍니다. 감사합니다.</p>
           </div>
+  				<div class="btnWrap" onclick="modalClose()">닫기</div>
         </div>
       </div>
         <!-- pop05 -->
@@ -541,6 +543,7 @@
             </div>
             <p>현재 체험을 진행하고 있습니다. 50일 다 채워서 사용해 본 후, 도입을 적극적으로 고려할 예정입니다. 다음에도 이런 행사가 있다면 또 참여하고 싶습니다!</p>
           </div>
+  				<div class="btnWrap" onclick="modalClose()">닫기</div>
         </div>
       </div>
     </div>		
@@ -615,15 +618,16 @@
             document.querySelector(modal).classList.add("active");
           }
 
-          function modalClose(){
-            document.getElementsByTagName('body')[0].style.overflow = 'unset';
-            document.querySelector(".interviewPopup").classList.remove("active");
-            let modalContent = document.querySelectorAll(".interviewPopup > div");
+      function modalClose(){
+        document.getElementsByTagName('body')[0].style.overflow = 'unset';
+        document.querySelector(".interviewPopup").classList.remove("active");
+        let modalContent = document.querySelectorAll(".interviewPopup > div");
 
-            for(let i=0; i<modalContent.length; i++){
-              modalContent[i].classList.remove("active");
-            }
-          }
+        for(let i=0; i<modalContent.length; i++){
+          modalContent[i].classList.remove("active");
+        }
+      }
+      
 		</script>
 	</section><!--//moContainer-->
 </body>
