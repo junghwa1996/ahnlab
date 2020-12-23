@@ -598,16 +598,12 @@
         videoSlide.autoplay.stop();
         return false;
       });
-      $('iframe').play(function(){
-        videoSlide.autoplay.stop();
-        return false;
-      });
 
       new Swiper('.swiperCard', {
             direction: 'vertical',
             mousewheel: false,
             autoplay: {
-              delay: 8000,
+              delay: 6000,
             },
             // slidesPerView: 3,
             // spaceBetween: 200,
