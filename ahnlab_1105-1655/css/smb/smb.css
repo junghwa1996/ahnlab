@@ -989,7 +989,7 @@ text-align: left; }
 .store .emailWrap{padding:100px 85px; display: flex;justify-content: space-between; align-items: center;}
 .store .emailWrap > .applyPartner > h3{font-size: 28px; font-weight: bold; margin-bottom: 10px;}
 .store .emailWrap > .applyPartner ul li{font-size: 20px; color:#777777; line-height: 30px; position: relative;}
-.store .emailWrap > .emailCopy button{width:230px; height:56px; border:1px solid #0bb3e0; border-radius: 30px; background-color: #fff; font-size: 18px; color: #0bb3e0; font-weight: bold;}
+.store .emailWrap > .emailCopy button{width:230px; height:56px; border:1px solid #0bb3e0; border-radius: 30px; background-color: #fff; font-size: 18px; color: #0bb3e0; font-weight: bold;font-family: 'DM Sans','NanumBarunGothic', sans-serif;}
 .store .emailWrap{width: 1194px;margin: 0 auto;}
 #copytxt{position: absolute; top:-9999px; left:-9999px;}
 .store .emailWrap > .applyPartner ul li::before{content: "*"; color:#777777; font-size: 20px; position: absolute; left: 0; top: 4px;}
@@ -1016,8 +1016,8 @@ text-align: left; }
 
 .interview .swiperVideo {height: 749px;}
 .interview .swiperVideo .swiper-slide{height: 673px; width: 100%;}
-.interview .swiper_start_btn{background: url(/images/smb/ahnlabSMB/btn_start_stop.png)no-repeat left top;width: 36px;height: 36px;position: absolute;bottom:0;left: 479px;cursor: pointer;z-index: 11;}
-.interview .swiper_stop_btn{background: url(/images/smb/ahnlabSMB/btn_start_stop.png)no-repeat right top;width: 36px;height: 36px;position: absolute;bottom:0;right: 479px;cursor: pointer;z-index: 11;}
+.interview .swiper_start_btn{background: url(/images/smb/ahnlabSMB/btn_start_stop.png)no-repeat left top;width: 36px;height: 36px;position: absolute;bottom:0;left: 440px;cursor: pointer;z-index: 11;}
+.interview .swiper_stop_btn{background: url(/images/smb/ahnlabSMB/btn_start_stop.png)no-repeat right top;width: 36px;height: 36px;position: absolute;bottom:0;right: 445px;cursor: pointer;z-index: 11;}
 .interview .swiper-slide iframe {top: 0;left: 0;width: 100%;height: 100%;}
 .interview .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{margin: 0 15px;}
 
