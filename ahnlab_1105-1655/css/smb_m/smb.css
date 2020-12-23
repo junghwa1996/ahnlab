@@ -1328,7 +1328,7 @@ text-align: left;}
 .store .emailWrap > .emailText ul li{position: relative;font-size:3.6111vw;color:#777777;line-height:5.0667vw;padding:4.1667vw 0 0 2.0833vw;letter-spacing: -0.2vw;}
 .store .emailWrap > .emailText ul li::before{content: "*";position:absolute;left:0;}
 .store .emailWrap > .emailBtn{display: inline-block; overflow: hidden;}
-.store .emailWrap > .emailBtn button{height:13.8889vw;border:1px solid #0bb3e0;border-radius:9.1667vw;background-color:#fff;font-size: 3.8889vw;color:#0bb3e0;font-weight:bold;margin:8.3333vw 0 0;letter-spacing: -0.2vw;padding: 0 6.9444vw;}
+.store .emailWrap > .emailBtn button{height:13.8889vw;border:1px solid #0bb3e0;border-radius:9.1667vw;background-color:#fff;font-size: 3.8889vw;color:#0bb3e0;font-weight:bold;margin:8.3333vw 0 0;letter-spacing: -0.2vw;padding: 0 6.9444vw;  font-family: 'DM Sans','NanumBarunGothic', sans-serif;}
 #copytxt{position: absolute;top:-9999px;left:-9999px;}
 @media ( min-width: 720px ){
 .store .subVisual{padding:120px 0 0; height: 560px;}
