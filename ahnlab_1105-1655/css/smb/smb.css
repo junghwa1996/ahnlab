@@ -1062,9 +1062,9 @@ text-align: left; }
 .interview .swiperVideo .swiper-button-next.swiper-button-disabled, .swiperVideo .swiper-button-prev.swiper-button-disabled{opacity: 0;}
 .interview .swiperVideo .swiper-button-next:after{content:'';width: 80px;height: 80px;background: url(/images/smb/ahnlabSMB/btn_prev.png) no-repeat center center/contain;}
 .interview .swiperVideo .swiper-button-prev:after{content:'';width: 80px;height: 80px;background: url(/images/smb/ahnlabSMB/btn_next.png) no-repeat center center/contain;}
-.interview{position: relative;}
-.interview::before{content: "Q";font-size: 600px;font-weight: bold;color: #00aff0;position: absolute;top: 45%;left: 21%;opacity: 0.1;z-index: -1;}
-.interview::after{content: "A";font-size: 600px;font-weight: bold;color: #00aff0;position: absolute;top: 61%;right: 22%;opacity: 0.1;z-index: -1;}
+.interview .subContent{position: relative;}
+.interview .subContent::before{content: "Q";font-size: 600px;font-weight: bold;color: #00aff0;position: absolute;top: 31%;left: -8%;opacity: 0.1;z-index: -1;}
+.interview .subContent::after{content: "A";font-size: 600px;font-weight: bold;color: #00aff0;position: absolute;top: 52%;right: -5%;opacity: 0.1;z-index: -1;}
 .layer-open{overflow:hidden;}
   
 
