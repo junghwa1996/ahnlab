@@ -1036,6 +1036,7 @@ text-align: left; }
 .interview .cardWrap dl dd .writer{font-weight: bold;}
 .interview .cardWrap .btnWrap{display: inline-block;}
 .interview .cardWrap .btnWrap a{width: 160px;height: 55px;line-height: 55px;border-radius: 40px;padding-right: 25px;font-size: 18px;border: 1px solid #fff;color: #fff;position: relative;cursor: pointer;}
+.interview .cardWrap .btnWrap a:after{content: '';display: block;position: absolute;top: 50%;right: 25px;transform: translateY(-50%); width: 30px;height: 10px;background: url(/images/smb_m/ahnlabSMB/arr_img01.png) no-repeat right center;}
 .interview .faceImage{width: 150px; height: 150px; overflow: hidden; position: absolute; right: 0px; bottom:0;}
 .interview .faceImage img{width: 100%;}
 

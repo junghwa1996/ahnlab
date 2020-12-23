@@ -1475,6 +1475,7 @@ text-align: left;}
 .popupWrap .qaWrap>p:nth-child(2)::after{content: '';display: block;background: url(/images/smb_m/ahnlabSMB/bg_interview_ballon.png)no-repeat center center;background-size: cover;width: 5.9722vw;height: 2.6389vw;position: absolute;left: 23.7500vw;top: -2.6389vw;}
 .popupWrap .btnWrap{width: 55.5556vw; height: 13.8889vw;border-radius: 6.9444vw;background-color: #00aae8;font-size: 3.8889vw;color: #fff;line-height: 13.8889vw;margin-top: 9.7222vw;}
 
+.boxWrap .swiperCard .swiper-pagination{display: flex;width: 33.3333vw;justify-content: space-between;margin: 30%;}
 .interview .questionTitle>.quotation>dl>dt{display: flex;align-items: flex-start;}
 .interview .questionTitle>.quotation>dl>dt>span{width:2.6389vw;height: 2.2222vw; display: block;line-height: 3.6111vw;}
 .interview .questionTitle>.quotation>dl>dt>span:nth-child(1){padding-right: 1.0889vw;}
@@ -1567,7 +1568,7 @@ text-align: left;}
 .interview .swiper_start_btn{width: 86px;height: 86px; bottom:0;left: 130px;}
 .interview .swiper_stop_btn{width: 86px;height: 86px; bottom:0;right: 130px;}
 
-.boxWrap .swiperCard .swiper-pagination{display: flex;width: 240px;justify-content: space-between;position: absolute;right: 33%;top: 613px;transform: translateY(-50%);}
+.boxWrap .swiperCard .swiper-pagination{display: flex;width: 240px;justify-content: space-between;}
 .interview .boxWrap>.swiperVideo .swiper-pagination{bottom: 26px;}
 .interview .swiperVideo .swiper_start_btn{bottom: 0;}
 .interview .swiperVideo .swiper_stop_btn{bottom: 0;}
@@ -1588,4 +1589,3 @@ text-align: left;}
   .interview .cardWrap dd>p{font-size: 12px;}
   .popupWrap .qaWrap p{font-size: 12px;}
 }
-.boxWrap .swiperCard .swiper-pagination{display: flex;width: 33.3333vw;justify-content: space-between;position: absolute;right: 33%;top: 85.1389vw;transform: translateY(-50%);}
