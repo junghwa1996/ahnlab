@@ -1316,7 +1316,7 @@ text-align: left;}
 .store .subContent ul li:nth-child(3) img{width:27.0833vw;height:23.7500vw;position:absolute;right:-15px;bottom:-25px;}
 .store .subContent ol{padding:11.1111vw 0 19.4444vw;}
 .store .subContent ol>li{position: relative;padding:0 4.1667vw 4.1667vw;}
-.store .subContent ol>li::after{content:'';background:url(/images/smb/store/icon_checkList.png)no-repeat;width:2.6389vw;height:2.2222vw;position:absolute;left:0;top:0.6944vw;}
+.store .subContent ol>li::after{content:'';background:url(/images/smb/store/icon_checkList.png)no-repeat;width:3.6389vw;height:4.2222vw;position:absolute;left:0;top:0.6944vw;}
 .store .subContent ol>li>p{font-size:3.6111vw;line-height: 5.2vw;}
 .store .subContent ol>li>span{font-size:2.7778vw;color:#777;}
 .store .email{background-color:#fcfcfc;}
