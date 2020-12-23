@@ -1554,6 +1554,7 @@ text-align: left;}
 .popupWrap .qaWrap>p:nth-child(1){background: #e5f7fd;border-radius:28px;}
 .popupWrap .qaWrap>p:nth-child(2){margin-top: 38px; background: #e5f7fd;padding: 28px;border-radius:28px;position: relative;}
 .popupWrap .qaWrap>p:nth-child(2)::after{content: '';display: block;background: url(/images/smb_m/ahnlabSMB/bg_interview_ballon.png)no-repeat center center;width: 43px;height: 19px;position: absolute;left: 171px;top: -19px;}
+.popupWrap .btnWrap{width: 400px; height: 100px;border-radius: 50px;font-size: 28px;line-height: 100px;margin-top: 70px;}
 
 .swiper-button-next,
 .swiper-button-prev{background-image: none;}
