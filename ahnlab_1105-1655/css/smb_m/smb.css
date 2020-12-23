@@ -1440,15 +1440,15 @@ text-align: left;}
 .swiperVideo .swiper-wrapper{height: 51.5278vw; width: 100%;}
 .swiperVideo .swiper-wrapper .swiper-slide{position: relative;}
 .swiperVideo .swiper-wrapper .swiper-slide iframe {position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
-.interview .swiperVideo{height: 55.5556vw;}
+.interview .swiperVideo{height: 66.6667vw;}
 
 .interview .answerCard{padding-bottom: 1.25vw;}
 .interview .answerCard .answerCardTitle{margin-bottom: 6.9444vw;}
 .interview .answerCard .answerCardTitle p{font-size: 5.3111vw;text-align: center;color: #333;}
 .interview .answerCard .boxWrap{width: 100.0000vw;margin: 0 auto;}
-.interview .answerCard .boxWrap > div{height: 93.0556vw;}
+.interview .answerCard .boxWrap > div{height: 74.4444vw;}
 .interview .answerCard .boxWrap .swiper-slide{width: 100%;height: 74.3056vw;}
-.interview .cardWrap{height: 59.8611vw;padding: 8.3333vw 0 0 6.9444vw; background-color: #00aff0;border-radius: 3.6111vw;position: relative;width: 83.3333vw;margin: 0 auto;}
+.interview .cardWrap{height: 57.6389vw;padding: 8.3333vw 0 0 6.9444vw; background-color: #00aff0;border-radius: 3.6111vw;position: relative;width: 83.3333vw;margin: 1.3889vw auto;}
 .interview .cardWrap::after{content: "";width: 0.0000vw;height: 0.0000vw;border-bottom: 13.0556vw solid transparent;border-left: 13.0556vw solid #00aff0;position: absolute;left: 0;bottom: -6.2500vw;}
 .interview .cardWrap dt{overflow: hidden;width: 71.3889vw;height: 22.2222vw;font-size: 3.8889vw;line-height: 5.8333vw; color: #fff;margin-bottom: 2.0833vw;}
 .interview .cardWrap dd>p{font-size: 3.6111vw;color: #333;}
@@ -1489,7 +1489,9 @@ text-align: left;}
 .swiperVideo .swiper-button-next.swiper-button-disabled, .swiperVideo .swiper-button-prev.swiper-button-disabled{opacity: 0;}
 .swiperVideo .swiper-button-next:after{content:'';width: 8.3333vw;height: 8.3333vw;background: url(/images/smb/ahnlabSMB/btn_prev.png) no-repeat center center/contain; margin-bottom: 6.9444vw;}
 .swiperVideo .swiper-button-prev:after{content:'';width: 8.3333vw;height: 8.3333vw;background: url(/images/smb/ahnlabSMB/btn_next.png) no-repeat center center/contain; margin-bottom: 6.9444vw;}
-.swiperVideo .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets{bottom:0;}
+.swiperVideo .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets{bottom:4.1667vw;}
+.interview .swiper_start_btn{background: url(/images/smb_m/ahnlabSMB/btn_start_stop.png)no-repeat left top;width: 11.9444vw;height: 11.9444vw;background-size: cover; position: absolute;bottom:0;left: 18.0556vw;cursor: pointer;z-index: 11;}
+.interview .swiper_stop_btn{background: url(/images/smb_m/ahnlabSMB/btn_start_stop.png)no-repeat right top;width: 11.9444vw;height: 11.9444vw;background-size: cover; position: absolute;bottom:0;right: 18.0556vw;cursor: pointer;z-index: 11;}
 @media (min-width: 720px){
 .interview .moVisual{width:100%;height:680px;}
 .interview .moVisual .location{padding: 200px 0 120px;}
@@ -1515,9 +1517,11 @@ text-align: left;}
 .interview .questionTitle>.quotation>dl>dt>span>img{width: 100%;}
 .interview .questionTitle>.quotation dd{padding-left: 30px;}
 
+
 .swiperVideo .swiper-wrapper{height: 371px; width: 100%;}
 .swiperVideo .swiper-wrapper .swiper-slide iframe {top: 0;left: 0;width: 100%;height: 100%;}
-.interview .swiperVideo{height: 400px;}
+.interview .swiperVideo{height: 480px;}
+.interview .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{margin: 0 16px;}
 
 .interview .answerCard{padding-bottom: 8px;}
 .interview .answerCard .answerCardTitle{margin-bottom: 50px;}
@@ -1525,7 +1529,7 @@ text-align: left;}
 .interview .answerCard .boxWrap{width: 720px;height: 672px; margin: 0 auto;}
 .interview .answerCard .boxWrap > div{height: 536px;}
 .interview .answerCard .boxWrap .swiper-slide{width: 100%; height: 100%;}
-.interview .cardWrap{height: 431px;padding: 60px 0 0 50px;border-radius: 26px;width: 600px;margin: 0 auto;}
+.interview .cardWrap{height: 415px;padding: 60px 0 0 50px;border-radius: 26px;width: 600px;margin: 10px auto;}
 .interview .cardWrap::after{content: "";width: 0px;height: 0px;border-bottom: 94px solid transparent;border-left: 94px solid #00aff0;position: absolute;left: 0;bottom: -44px;}
 .interview .cardWrap dt{overflow: hidden;width: 514px;height: 160px;font-size: 28px;line-height: 42px; margin-bottom: 15px;}
 .interview .cardWrap dd>p{font-size: 26px;color: #333;}
@@ -1558,7 +1562,9 @@ text-align: left;}
 .swiperVideo .swiper-button-next.swiper-button-disabled, .swiperVideo .swiper-button-prev.swiper-button-disabled{opacity: 0;}
 .swiperVideo .swiper-button-next:after{content:'';width: 60px;height: 60px;background: url(/images/smb/ahnlabSMB/btn_prev.png) no-repeat center center/contain; margin-bottom: 50px;}
 .swiperVideo .swiper-button-prev:after{content:'';width: 60px;height: 60px;background: url(/images/smb/ahnlabSMB/btn_next.png) no-repeat center center/contain; margin-bottom: 50px;}
-.swiperVideo .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets{bottom:0;}
+.swiperVideo .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets{bottom:30px;}
+.interview .swiper_start_btn{width: 86px;height: 86px; bottom:0;left: 130px;}
+.interview .swiper_stop_btn{width: 86px;height: 86px; bottom:0;right: 130px;}
 
 }
 
@@ -1573,5 +1579,3 @@ text-align: left;}
   .popupWrap .qaWrap p{font-size: 12px;}
 }
 .boxWrap .swiperCard .swiper-pagination{display: flex;width: 33.3333vw;justify-content: space-between;position: absolute;right: 33%;top: 85.1389vw;transform: translateY(-50%);}
-.interview .swiper_start_btn{background: url(/images/smb_m/ahnlabSMB/btn_start_stop.png)no-repeat left top;width: 11.9444vw;height: 11.9444vw;background-size: cover; position: absolute;bottom:0;left: 18.0556vw;cursor: pointer;z-index: 11;}
-.interview .swiper_stop_btn{background: url(/images/smb_m/ahnlabSMB/btn_start_stop.png)no-repeat right top;width: 11.9444vw;height: 11.9444vw;background-size: cover; position: absolute;bottom:0;right: 18.0556vw;cursor: pointer;z-index: 11;}
