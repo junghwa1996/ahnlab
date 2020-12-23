@@ -122,6 +122,8 @@
 						<div class="swiper-button-next"></div>
 						<div class="swiper-button-prev"></div>
 						<div class="swiper-pagination"></div>
+						<div class="swiper_start_btn"></div>
+						<div class="swiper_stop_btn"></div>
 						<!-- Add Arrows -->
 					</div>
 				</div>
@@ -258,6 +260,8 @@
 							</div>
 						</div>
 						<div class="swiper-pagination"></div>
+						<div class="swiper_start_btn"></div>
+						<div class="swiper_stop_btn"></div>
 					</div>
 				</div>
 			</section>
@@ -652,7 +656,12 @@
 						videoSlide.autoplay.start();
 					}
 				)
-				$('.swiper-slide').click(
+				$('.swiper_start_btn').click(
+					function(){
+						videoSlide.autoplay.start();
+					}
+				)
+				$('.swiper_stop_btn').click(
 					function(){
 						videoSlide.autoplay.stop();
 					}
